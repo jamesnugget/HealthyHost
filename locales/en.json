@@ -419,8 +419,41 @@
 		}
 	},
 	"Oral_Health": {
-		"Good_Hygiene": {},
 		"Facts": {},
+		"Good_Hygiene": {
+			"0": {
+				"Step": "Star children early",
+				"Info": "• One in four young children develop signs of tooth decay before they start school. \n• 50% of all children between ages 12 to 15 develop cavities. \n• 1/7 (13%) adolescents age 12 to 19 years have at least one untreated decay tooth. \n• Beginning oral hygiene routine within the first few days after birth."
+			},
+			"1": {
+				"Step": "Brush and Floss Properly",
+				"Info": "• Twice a day for at least 2 min. \n• Ideally, use a piece of floss up to 18 inches in length, allowing you to use a fresh area of floss every few teeth without reinserting bacteria you just removed."
+			},
+			"2": {
+				"Step": "Fluoride",
+				"Info": "• Fluoride varnish works by increasing the concentration of fluoride in the outer surface of teeth, thereby enhancing fluoride uptake during early stages of de-mineralization. \n• Fluoride products such as toothpaste, mouth rinse, and dental office topicals have been shown to reduce caries (cavities) between 30% and 70% compared with no fluoride therapy."
+			},
+			"3": {
+				"Step": "Know when to Replace the Toothbrush",
+				"Info": "• Change toothbrush three to four times a year - or sooner if the bristles become irregular or frayed. \n• Always rinse your toothbrush with water after brushing and store it in an upright position. \n• Try to keep your toothbrush separate from the other toothbrush in the same holder to prevent cross contamination."
+			},
+			"4": {
+				"Step": "Rinse or Chew Gum After Meal",
+				"Info": "• The physical act of chewing increases salivary flow in the mouth; if chewed after eating, the increased salivary flow can help neutralize and wash away the acids that are produced when food is broken down by the bacteria in plaque on teeth. \n• Gum is an adjunct to brushing and flossing but chewing gum does not replace brushing and flossing. \n• Clinical studies have shown that chewing sugarless gum for 20 minutes following meals can help prevent tooth decay."
+			},
+			"5": {
+				"Step": "Don’t Smoke or Use Tobacco",
+				"Info": "• Losing your teeth before age 65 has also recently been associated with 50% increase in risk of death from all causes. \n• If you smoke or use tobacco, or regularly drink alcohol, you have an increased risk of developing lung or oral cancer as well as gum disease. \n• New tobacco users who use smokeless products are likely to experience bad breath, yellowish-brown stains on their teeth and mouth stores."
+			},
+			"6": {
+				"Step": "Avoid Sugary Foods/ Control the Amount of Sugar",
+				"Info": "• Avoid sugary foods that stay in your mouth for a long time, like hard, sticky or chewy varieties of candy. \n• Offer healthy snacks, such as cheese, fruits, yogurt, peanuts butter, chocolate milk and sugarless gum. \n• Save your sugary treats for the end of a meal before a tooth-brushing session, rather that throughout the day. \n• Substitute water for sugar-laden sodas and fruit juices. \n• Bacteria in your mouth digest the food you eat and specifically feed on the sugar, producing acids that can slowly dissolve tooth enamel and cause tooth decay."
+			},
+			"7": {
+				"Step": "See a Dentist",
+				"Info": "• Regular dental visits are important because they can help spot dental health problems early on when treatment is likely to be simpler and more affordable. \n• Even if you don’t have any symptoms, you can still have dental health problems that only a dentist can diagnose. Regularly dental visits will also help prevent problems from developing. \n• Some people need to visit the dentist once or twice a year, others may need more visits. You are a unique individual, with a unique smile and unique needs when it comes to keeping your smile healthy."
+			}
+		},
 		"Diseases": {
 			"0": {
 				"Name": "Tooth Decay (Cavities)",
