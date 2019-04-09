@@ -1,4 +1,4 @@
-#Mon Apr 01 15:51:04 PDT 2019
-base.0=/Users/1tbhd/Desktop/React Native Apps/HealthyHost/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Tue Apr 09 10:53:05 PDT 2019
+base.0=/Users/1tbhd/Documents/GitHub/HealthyHost/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

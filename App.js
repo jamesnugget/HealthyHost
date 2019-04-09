@@ -16,6 +16,7 @@ import ImproperUsageScreen from './Improper_Usage.js';
 import ProperUsageScreen from './Proper_Usage.js';
 import AntibioticsInfoScreen from './Antibiotics_Info.js';
 import IllnessesInfoScreen from './Illnesses_Info.js';
+import OralHealthScreen from './Oral_Health.js';
 
 //makes the stacknavigator which allows for buttons to navigate different screens based on function
 const AppNavigator = createStackNavigator(
@@ -33,12 +34,13 @@ const AppNavigator = createStackNavigator(
     "Improper_Usage": ImproperUsageScreen,
     "Proper_Usage": ProperUsageScreen,
     "Antibiotics_Info": AntibioticsInfoScreen,
-    "Illnesses_Info": IllnessesInfoScreen
+    "Illnesses_Info": IllnessesInfoScreen,
+    "Oral Health": OralHealthScreen
   },
   {
     //first screen to enter when opening the app
     initialRouteName: "Home"
   }
-  );
+);
 
 export default createAppContainer(AppNavigator);

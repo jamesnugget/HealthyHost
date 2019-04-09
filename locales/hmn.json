@@ -7,6 +7,8 @@
     "Treatment": "Kev kho",
     "FAQ": "FAQ",
     "Hours": "Caij nyoog",
+    "Cost_Treatment": "Tus nqi ntawm Kev Kho Mob",
+    "Causes": "Ua rau",
     "Add_Info": "Lus Qha Ntxiv",
     "Days": {
       "0": "Hnub Txhijcag",
@@ -21,10 +23,11 @@
       "0": "Tshuaj Tiv Thaiv Kab Mob",
       "1": "Kev Mob Kneeg",
       "2": "Lus nug rau koj tus kws kho mob",
-      "3": "Tej Chaw Kho Mob",
-      "4": "Kev Pab Lwm Yam",
-      "5": "Tom Qab",
-      "6": "Title VI (NQI 6)"
+      "3": "Txoj Kev Noj Qab Haus Huv",
+      "4": "Tej Chaw Kho Mob",
+      "5": "Kev Pab Lwm Yam",
+      "6": "Tom Qab",
+      "7": "Title VI (NQI 6)"
     },
     "Antibiotics_Menu_Choices": {
       "0": "Siv Tshuaj Tua Kab Mob",
@@ -40,6 +43,13 @@
       "10": "Ofloxacin",
       "11": "Penecillin G"
     },
+    "Diseases_Menu_Choices": {
+      "0": "Tooth Decay",
+      "1": "Gingivitis",
+      "2": "Periodontitis",
+      "3": "Tooth Loss",
+      "4": "Oral Cancer"
+    },
     "Illnesses_Menu_Choices": {
       "0": "Chlamydia",
       "1": "Ear Infection",
@@ -54,6 +64,12 @@
       "10": "Type 2 Herpes",
       "11": "Urinary Tract Infection",
       "12": "Valley Fever"
+    },
+    "Oral_Menu_Choices": {
+      "0": "Cov kab mob",
+      "1": "Cov lus tseeb",
+      "2": "Cov Kauj Ruam rau Kev Tu Kom Zoo",
+      "3": "Cov Chaw Kho Hniav"
     }
   },
   "Antibiotics": {
@@ -401,6 +417,48 @@
         "6": "9 AM - 5:30 PM"
       }
     }
+  },
+  "Oral_Health": {
+    "Good_Hygiene": {},
+    "Facts": {},
+    "Diseases": {
+      "0": {
+        "Name": "Tooth Decay (Cavities)",
+        "Symptoms": "A toothache",
+        "Causes": "Dental plaque can lead to tooth decay and cavities. Cavities caused by breakdown of tooth enamel by acids produced by bacteria located in plaque on teeth, along gum-line and in crevices on chewing surface of teeth. Consuming foods high in carbohydrates cause the bacteria to produce acids responsible for causing outer coating of tooth enamel or root surface to decay.",
+        "Treatment": "Daily brushing, flossing teeth, and rinsing with fluoride. Fluoride treatment can help restore tooth’s enamel and potentially reverse cavity in early stages. Fillings common when decay has progressed beyond earliest stages. Crowns are for extensive decay or weakened teeth, intended to replace tooth’s natural crown. Root canals repair and save badly damaged or infected tooth for when decay has reached inner material of tooth. Tooth extractions for teeth that have become so severely decayed they can't be restored or removed.",
+        "Cost_Treatment": "With fillings, the cost is between $50 to $150 depending if you want silver or white fillings."
+      },
+      "1": {
+        "Name": "Gingivitis",
+        "Symptoms": "Red/swollen gums, gums blead easily",
+        "Causes": "It is a mild form of gum disease. The bacteria cause inflammation of the gums. The longer plaque and tartar are on the teeth the more harmful they become. Result of infections and inflammation of the gums and bone that surround the teeth. Specific chronic conditions including, diabetes, weak immune system, and poor oral hygiene increases the individual’s risk of suffering from periodontal disease.",
+        "Treatment": "Daily brushing and flossing, and regular cleaning by a dentist. If treatment is refused, bone that supports teeth can be lost, and gums can be infected. Eventually leading to teeth loss because of the lack of bone support.",
+        "Cost_Treatment": "The cost of a toothbrush, toothpaste, floss and/or possible routine cleaning range from $4-$75."
+      },
+      "2": {
+        "Name": "Periodontitis",
+        "Symptoms": "Swollen gums, bleeding gums, loss of tooth",
+        "Causes": "When gingivitis is not treated, it can advance to periodontitis (which means inflammation around the tooth). Gums pull away from the teeth and form spaces called “pockets” that become infected. These are infections that harm the gum and bone that hold teeth in place. If not treated, the bones, gums, and tissue that support the teeth can be destroyed. The teeth may eventually become loose and have to be removed.",
+        "Treatment": "Must go to and be perform by a professional. They will decide what measures to take, either a nonsurgical treatment or a surgical treatment.",
+        "Cost_Treatment": "The cost to treat Gingivitis varies with the severity of the disease it can start from $75 – $3,600."
+      },
+      "3": {
+        "Name": "Tooth Loss",
+        "Symptoms": "Swollen gums, bleeding gums, loss of tooth",
+        "Causes": "Usually caused by cavities and periodontal diseases which it affects the ages of 65–74.",
+        "Treatment": "Keep brushing your teeth, flossing teeth, and rinse with a fluoride and antiseptic mouthwash daily.",
+        "Cost_Treatment": "The cost of treating tooth loss varies with the complexity of where the tooth starts at $300 - $1,000."
+      },
+      "4": {
+        "Name": "Oral Cancer",
+        "Symptoms": "Painful swallowing, pain in the mouth or ear",
+        "Causes": "High risk behaviors like, tobacco, alcohol use of any kind.",
+        "Treatment": "Early detection, surgery in the mouth and radiation therapy.",
+        "Cost_Treatment": "Depends on what stage the cancer is; it could go for around $60,000 and chemo drugs would be between $15,000–$20,000 dollars per cycle."
+      }
+    },
+    "Dentist_Locations": {}
   },
   "Settings": {
     "0": {

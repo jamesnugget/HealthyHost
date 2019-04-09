@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import {Platform, StyleSheet, View, Text, AppRegistry, Image, Linking, ScrollView, Dimensions } from 'react-native';
-import {Container, Header, Content, Button} from 'native-base';
+import React, { Component } from 'react';
+import { Platform, StyleSheet, View, Text, AppRegistry, Image, Linking, ScrollView, Dimensions } from 'react-native';
+import { Container, Header, Content, Button } from 'native-base';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 import I18n from './locales/i18n.js';
@@ -35,14 +35,14 @@ export default class ClinicsScreen extends React.PureComponent {
   };
 
   makeListOfHours = () => {
-  Hours = []
+    Hours = []
 
-  var objectSize = Object.keys(object.Clinics).length;
+    var objectSize = Object.keys(object.Clinics).length;
 
     //For loop to insert arrays of hours into the Hours[]
-    for(i = 0; i < objectSize; i++){
+    for (i = 0; i < objectSize; i++) {
       var temp = []
-      for(j = 0; j < 7; j++){
+      for (j = 0; j < 7; j++) {
         temp.push(<Text key={j} style={{ textAlign: "left", fontSize: 15, color: "black" }}>{I18n.t('Text.Days.' + j)}: {I18n.t('Clinics.' + i + '.Hours.' + j)}</Text>);
       }
       Hours.push(temp);
@@ -58,75 +58,75 @@ export default class ClinicsScreen extends React.PureComponent {
 
   //changes window of screen to size of content if and only if the content size is bigger than
   onContentSizeChange = (contentWidth, contentHeight) => {
-  this.setState({ screenHeight: contentHeight });
-};
+    this.setState({ screenHeight: contentHeight });
+  };
 
-render() {
+  render() {
 
-  return (
+    return (
       //calls the scrollview to keep content from going off screen and not being able to scroll down
       <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
-      <View style={styles.content}>
+        <View style={styles.content}>
 
-      <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>1. {I18n.t('Clinics.0.Name')}</Text>
-      <Text onPress={ () => {this.handleAddresses(I18n.t('Clinics.0.Address'))}} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.0.Address')}</Text>
-      <Text onPress={ () => {this.handlePhones(I18n.t('Clinics.0.Phone'))}} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.0.Phone')}</Text>
-      <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
-      {this.makeListOfHours()[0]}
+          <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>1. {I18n.t('Clinics.0.Name')}</Text>
+          <Text onPress={() => { this.handleAddresses(I18n.t('Clinics.0.Address')) }} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.0.Address')}</Text>
+          <Text onPress={() => { this.handlePhones(I18n.t('Clinics.0.Phone')) }} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.0.Phone')}</Text>
+          <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
+          {this.makeListOfHours()[0]}
 
-      <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>2. {I18n.t('Clinics.1.Name')}</Text>
-      <Text onPress={ () => {this.handleAddresses(I18n.t('Clinics.1.Address'))}} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.1.Address')}</Text>
-      <Text onPress={ () => {this.handlePhones(I18n.t('Clinics.1.Phone'))}} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.1.Phone')}</Text>
-      <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
-      {this.makeListOfHours()[1]}
+          <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>2. {I18n.t('Clinics.1.Name')}</Text>
+          <Text onPress={() => { this.handleAddresses(I18n.t('Clinics.1.Address')) }} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.1.Address')}</Text>
+          <Text onPress={() => { this.handlePhones(I18n.t('Clinics.1.Phone')) }} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.1.Phone')}</Text>
+          <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
+          {this.makeListOfHours()[1]}
 
-      <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>3. {I18n.t('Clinics.2.Name')}</Text>
-      <Text onPress={ () => {this.handleAddresses(I18n.t('Clinics.2.Address'))}} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.2.Address')}</Text>
-      <Text onPress={ () => {this.handlePhones(I18n.t('Clinics.2.Phone'))}} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.2.Phone')}</Text>
-      <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
-      {this.makeListOfHours()[2]}
+          <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>3. {I18n.t('Clinics.2.Name')}</Text>
+          <Text onPress={() => { this.handleAddresses(I18n.t('Clinics.2.Address')) }} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.2.Address')}</Text>
+          <Text onPress={() => { this.handlePhones(I18n.t('Clinics.2.Phone')) }} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.2.Phone')}</Text>
+          <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
+          {this.makeListOfHours()[2]}
 
-      <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>4. {I18n.t('Clinics.3.Name')}</Text>
-      <Text onPress={ () => {this.handleAddresses(I18n.t('Clinics.3.Address'))}} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.3.Address')}</Text>
-      <Text onPress={ () => {this.handlePhones(I18n.t('Clinics.3.Phone'))}} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.3.Phone')}</Text>
-      <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
-      {this.makeListOfHours()[3]}
+          <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>4. {I18n.t('Clinics.3.Name')}</Text>
+          <Text onPress={() => { this.handleAddresses(I18n.t('Clinics.3.Address')) }} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.3.Address')}</Text>
+          <Text onPress={() => { this.handlePhones(I18n.t('Clinics.3.Phone')) }} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.3.Phone')}</Text>
+          <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
+          {this.makeListOfHours()[3]}
 
-      <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>5. {I18n.t('Clinics.4.Name')}</Text>
-      <Text onPress={ () => {this.handleAddresses(I18n.t('Clinics.4.Address'))}} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.4.Address')}</Text>
-      <Text onPress={ () => {this.handlePhones(I18n.t('Clinics.4.Phone'))}} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.4.Phone')}</Text>
-      <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
-      {this.makeListOfHours()[4]}
+          <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>5. {I18n.t('Clinics.4.Name')}</Text>
+          <Text onPress={() => { this.handleAddresses(I18n.t('Clinics.4.Address')) }} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.4.Address')}</Text>
+          <Text onPress={() => { this.handlePhones(I18n.t('Clinics.4.Phone')) }} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.4.Phone')}</Text>
+          <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
+          {this.makeListOfHours()[4]}
 
-      <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>6. {I18n.t('Clinics.5.Name')}</Text>
-      <Text onPress={ () => {this.handleAddresses(I18n.t('Clinics.5.Address'))}} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.5.Address')}</Text>
-      <Text onPress={ () => {this.handlePhones(I18n.t('Clinics.5.Phone'))}} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.5.Phone')}</Text>
-      <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
-      {this.makeListOfHours()[5]}
+          <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>6. {I18n.t('Clinics.5.Name')}</Text>
+          <Text onPress={() => { this.handleAddresses(I18n.t('Clinics.5.Address')) }} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.5.Address')}</Text>
+          <Text onPress={() => { this.handlePhones(I18n.t('Clinics.5.Phone')) }} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.5.Phone')}</Text>
+          <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
+          {this.makeListOfHours()[5]}
 
-      <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>7. {I18n.t('Clinics.6.Name')}</Text>
-      <Text onPress={ () => {this.handleAddresses(I18n.t('Clinics.6.Address'))}} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.6.Address')}</Text>
-      <Text onPress={ () => {this.handlePhones(I18n.t('Clinics.6.Phone'))}} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.6.Phone')}</Text>
-      <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
-      {this.makeListOfHours()[6]}
+          <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>7. {I18n.t('Clinics.6.Name')}</Text>
+          <Text onPress={() => { this.handleAddresses(I18n.t('Clinics.6.Address')) }} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.6.Address')}</Text>
+          <Text onPress={() => { this.handlePhones(I18n.t('Clinics.6.Phone')) }} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.6.Phone')}</Text>
+          <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
+          {this.makeListOfHours()[6]}
 
-      <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>8. {I18n.t('Clinics.7.Name')}</Text>
-      <Text onPress={ () => {this.handleAddresses(I18n.t('Clinics.7.Address'))}} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.7.Address')}</Text>
-      <Text onPress={ () => {this.handlePhones(I18n.t('Clinics.7.Phone'))}} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.7.Phone')}</Text>
-      <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
-      {this.makeListOfHours()[7]}
+          <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>8. {I18n.t('Clinics.7.Name')}</Text>
+          <Text onPress={() => { this.handleAddresses(I18n.t('Clinics.7.Address')) }} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.7.Address')}</Text>
+          <Text onPress={() => { this.handlePhones(I18n.t('Clinics.7.Phone')) }} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.7.Phone')}</Text>
+          <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
+          {this.makeListOfHours()[7]}
 
-      <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>9. {I18n.t('Clinics.8.Name')}</Text>
-      <Text onPress={ () => {this.handleAddresses(I18n.t('Clinics.8.Address'))}} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.8.Address')}</Text>
-      <Text onPress={ () => {this.handlePhones(I18n.t('Clinics.8.Phone'))}} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.8.Phone')}</Text>
-      <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
-      {this.makeListOfHours()[8]}
+          <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>9. {I18n.t('Clinics.8.Name')}</Text>
+          <Text onPress={() => { this.handleAddresses(I18n.t('Clinics.8.Address')) }} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.8.Address')}</Text>
+          <Text onPress={() => { this.handlePhones(I18n.t('Clinics.8.Phone')) }} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.8.Phone')}</Text>
+          <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>
+          {this.makeListOfHours()[8]}
 
-      </View>
+        </View>
       </ScrollView>
-      
-      );
-}
+
+    );
+  }
 }
 
 //styles the outer scroll view to see the rest of the content that goes off screen
