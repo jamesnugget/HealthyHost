@@ -17,6 +17,8 @@ import ProperUsageScreen from './Proper_Usage.js';
 import AntibioticsInfoScreen from './Antibiotics_Info.js';
 import IllnessesInfoScreen from './Illnesses_Info.js';
 import OralHealthScreen from './Oral_Health.js';
+import DiseasesScreen from './Diseases.js';
+import DiseasesInfoScreen from './Diseases_Info.js';
 
 //makes the stacknavigator which allows for buttons to navigate different screens based on function
 const AppNavigator = createStackNavigator(
@@ -35,7 +37,9 @@ const AppNavigator = createStackNavigator(
     "Proper_Usage": ProperUsageScreen,
     "Antibiotics_Info": AntibioticsInfoScreen,
     "Illnesses_Info": IllnessesInfoScreen,
-    "Oral Health": OralHealthScreen
+    "Oral Health": OralHealthScreen,
+    "Diseases": DiseasesScreen,
+    "Diseases_Info": DiseasesInfoScreen
   },
   {
     //first screen to enter when opening the app

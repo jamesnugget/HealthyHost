@@ -32,7 +32,6 @@ export default class OralHealthScreen extends React.PureComponent {
   }
 }
 
-//default styling for home screen
 const styles = StyleSheet.create({
   container: {
     flex: 1,
