@@ -1,0 +1,421 @@
+{
+  "Text": {
+    "Intro": "Zoo Siab Tos Txais Cov Neeg Noj Qab Nyob Zoo!",
+    "Description": "Kev pav qha",
+    "Uses": "Siv",
+    "Symptoms": "Muaj tsos mob xws li",
+    "Treatment": "Kev kho",
+    "FAQ": "FAQ",
+    "Hours": "Caij nyoog",
+    "Add_Info": "Lus Qha Ntxiv",
+    "Days": {
+      "0": "Hnub Txhijcag",
+      "1": "Hnub Tuamkeeb",
+      "2": "Hnub Lwmkwm",
+      "3": "Hnub Xabcaij",
+      "4": "Hnub Xwmnyoog",
+      "5": "Hnub Vwssij",
+      "6": "Hnub Lwjhawm"
+    },
+    "Main_Menu_Choices": {
+      "0": "Tshuaj Tiv Thaiv Kab Mob",
+      "1": "Kev Mob Kneeg",
+      "2": "Lus nug rau koj tus kws kho mob",
+      "3": "Tej Chaw Kho Mob",
+      "4": "Kev Pab Lwm Yam",
+      "5": "Tom Qab",
+      "6": "Title VI (NQI 6)"
+    },
+    "Antibiotics_Menu_Choices": {
+      "0": "Siv Tshuaj Tua Kab Mob",
+      "1": "Amoxicillin",
+      "2": "Azithromycin",
+      "3": "Ceftriaxone",
+      "4": "Cephalexin",
+      "5": "Doxycycline",
+      "6": "Erythromycin",
+      "7": "Flucloxacillin",
+      "8": "Levaquin",
+      "9": "Metronidazole",
+      "10": "Ofloxacin",
+      "11": "Penecillin G"
+    },
+    "Illnesses_Menu_Choices": {
+      "0": "Chlamydia",
+      "1": "Ear Infection",
+      "2": "H. Pylori",
+      "3": "Impetigo",
+      "4": "Lyme Disease",
+      "5": "Mastitis",
+      "6": "Mononucleosis",
+      "7": "Necrotizing Fasciitis",
+      "8": "Respiratory Syncytial Virus (RSV)",
+      "9": "Strep Throat",
+      "10": "Type 2 Herpes",
+      "11": "Urinary Tract Infection",
+      "12": "Valley Fever"
+    }
+  },
+  "Antibiotics": {
+    "0": {
+      "Name": "Siv Tshuaj Tua Kab Mob",
+      "Description": "Tej Yaam Tsis Txhob Ua Hais Txug Ntawm Cov Tshuaj Tiv thaiv Kab Mob",
+      "Usage": {
+        "0": "Yog thaum koj siv tsis haum",
+        "1": "Yuav siv li cas"
+      },
+      "DO": {
+        "0": "Nug koj tug kws khu mob seb tshuaj tiv thaiv kaab mob puas zoo (paab) koj los sis koj tsev neeg tej kev mob.",
+        "1": "Nug koj tug kws khu mob txug cov kaab mob bacteria kws muaj yeej rua cov tshuaj tiv thaiv kab mob thiab seb koj tuaj yeem ua li cas thiaj li pab tiv thaiv kua nwg tsi txhob tso tshwm si ntxiv.",
+        "2": "Nug koj tug kws khu mob sib puas yog nwg muab cov tshuaj kws koj yuav tsum tau ntawd rau koj xwb.",
+        "3": "Nug koj tug kws khu mob seb tej tshuaj tiv thaiv nwg muab ntawv puas yog tej muaj zug kuas khu tau yug tug mob tsaws le has xwb.",
+        "4": "Noj tshuaj tiv thaiv kab mob rua tej kaab mob bacterial infection kws yaam kaab mob ntawd yeej tshuaj ntxuam xyuas zoo zoo hab paub meej lawm hos tej  tshuaj tiv thaiv kaab mob ntawv yuav tsum yog kws khu mob sau ntawv yuav tshuaj raun yug xwb.",
+        "5": "Siv tej tshuaj kom raws le kws khu mob has (qha). Noj tshuaj kom raws le qha hab raws caij xyoo le hais. Yuav tsum noj tshuaj kom pub sij hawm raws le kws koj tug kws khu-mob teev ntseg. Tsi ua raws le has lo ssis tseg tsi noj raws le has yuav thiv thaiv tsi tau kaab mob raws le kws khu-mob tau has. Txawm tas koj xis neeg me ntsis lawm los noj kuam koj cov tshuaj taag!"
+      },
+      "DONT": {
+        "0": "TSI XOB quab yuam, los sis, nug  koj tug kws khu mob kom nug muab tshuaj tiv thaiv rua koj",
+        "1": "TSI XOB noj tshuaj tiv thaiv kab mob thaum koj ua kub/ua no (ua npaws).",
+        "2": "TSI XOB siv tshuaj tiv thaiv kab mob thaum muaj viral infection nwg tsi muaj kuab (pab tsis tau).",
+        "3": "TSI XOB siv tshuaj tiv thaiv kab mob yog tas tsi tau tso cai lug ntawm tug kws khu mob.",
+        "4": "TSI XOB faib tshuaj tiv thaiv kab mob nrug lwm twg tuab neeg los sis muab tej tshuaj ntawd lwm qho lug  kws tsis tau txo cai muag lug siv.",
+        "5": "TSI XOB siv tshuaj tivb thaiv kaab mob vim yog koj nyob ze rua tug tuab neeg kws muaj mob."
+      }
+    },
+    "1": {
+      "Name": "Amoxicillin",
+      "Description": "Tshuaj siv lug khu kaab mob kws nwg yog bacterial infection kws muaj rua ntawm pob ntseg, qhov ntswg, tawv qaj, hab plaws zig. Nwg yuav tiv thaiv xws le mob ntxws (bronchitis), mob ntsws muaj dlej (pneumonia), mob tug nru hab mob kaab si kis lug ntawv kev sib dee (gonorrhea).",
+      "Uses": "Muaj mob plaab los sis mob hauv sab, thoj plaab, mob qhov ncauj los sis tej tawv nqaj, mob - zoo le ua npaws hab ua paa nyuaj.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/16.1.html#Js5406e.16.1"
+    },
+    "2": {
+      "Name": "Azithromycin",
+      "Description": "Yaam tshuaj nuav siv lug dlaw tivthaiv mob pob tseg, tawv nqaj hab kev ua paa (respiratory bacterial infections).",
+      "Uses": "Thoj plaab, txob, nqajtawv tshwm pob lab hab ua npaws.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/9.4.html#Js2215e.9.4"
+    },
+    "3": {
+      "Name": "Ceftriaxone",
+      "Description": "Yaam tshuaj siv lug d tiv thaiv kom kaab mob bacteria tsi xob luj taus, nwg siv lug khu tug kab mob kis lug ntawm kev sib deev, gonorrhea, mob raws daim npluag hlwb tau hau (meningitis), mob pob ntseg, mob ntsws hab mob ntawm dlaim tawv nqaj.",
+      "Uses": "Thoj plaab, mob taub hau, kiv taub hau hab tawm fws heev.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/9.7.html#Js2215e.9.7"
+    },
+    "4": {
+      "Name": "Cephalexin",
+      "Description": "Yaam tshuaj siv lug khu, bacterial infection, kaab mob pob ntseg, mob hlaab sab ntsws hlaab ua paa, respiratory system, nqaj tawv, hab hlaab zig.",
+      "Uses": "Yaam tsi zoo (teeb meem): Thoj plaab, mob plaab, ib ce no ntxiag hab ua npaws.",
+      "Add_Info": "https://medlineplus.gov/druginfo/meds/a682733.html"
+    },
+    "5": {
+      "Name": "Doxycycline",
+      "Description": "Yaam tshuaj kws lug khu yam kaab mob, bacteria, kws ua pob ntxhau, mob nyuav, mob qhov muag, mob txeeb zig hab ua pob.",
+      "Uses": "Nqu, tho jplaab, zig dlaaj (nro), mob tej pob qhi txhaa/tej leeg, mob taub hau hab kiv tau hau.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2922e/2.5.8.html"
+    },
+    "6": {
+      "Name": "Erythromycin",
+      "Description": "Yaam tshuaj nuav siv lug paab kuam tej kaab mob, becteria, txhob luj ntxiv los sis tua kom tsi xob muaj kaab mob ntxiv le lawm.",
+      "Uses": "Yaam tsi zoo (teeb meem): Ua npaws, tawv nqaj muaj pob lab, muaj mob plaab hab ntuav.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2918e/23.4.html#Jh2918e.23.4"
+    },
+    "7": {
+      "Name": "Flucloxacillin",
+      "Description": "Yaam tshuaj siv lug khu mob pob tseg, taub ntswg , hab qaa. Nwg tseeg siv rau mob tug nru ha mob hlab sia hlab ntsws xws le ntsws muaj dlej.",
+      "Uses": "Nqajtawv xoo pob lab, mob leeg/mob pob qhi txhaa, muaj teeb meem ntawm lub sab hab ua npaws.",
+      "Add_Info": "https://drugs.webmd.boots.com/drugs/drug-200-Flucloxacillin.aspx"
+    },
+    "8": {
+      "Name": "Levaquin",
+      "Description": "Tshuaj siv lugku kaab mob (bacterial infection) nyob ntawm tawv nqaj, zaigzig, tsaum, hab lub tau kua xoo  (prostate), nwg kuj lug ntaus kaab mob xws le mob ntsws muaj dlej (pneumonia) hab mob ntsws (bronchitis).",
+      "Uses": "Yuav mob heev, tej qhi txhaa txhaav, ndloog, xaab, hab teeb meem thau yug mus ke (txaav los sis ua zug)",
+      "Add_Info": "https://www.webmd.com/drugs/2/drug-14492-8235/levaquin-oral/levofloxacin-oral/details"
+    },
+    "9": {
+      "Name": "Metronidazole",
+      "Description": "Yaam tshuaj nuav yuav siv lug tua, khu,  thaum muaj kaab mob nyob ntawm dlaim tawv nqaj, los sis nyob ntawm plaab, yaag teg yaag taws (tej pob qi txhaa), quas puj chaw mos (vagina) hab hlaab sab ntxws ua paa.",
+      "Uses": "Tsi pum kev zoo (plooj qhov muag), tem pig toob, ua npaws, mob taub hau hab ntuav.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/16.21.html#Js5406e.16.21"
+    },
+    "10": {
+      "Name": "Ofloxacin",
+      "Description": "Yaam tshuaj siv lug khu kaab mob (bacterial infection) xws le mob ntsws (bronchitis), kas cees (chlamydia, gonorrhea), nqaj tawv hab mob txeeb zig.",
+      "Uses": "Thoj laab, kiv taub hau, nyob nyob ca le mob, qaub dlab peg, hab ua npaws.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2988e/14.4.html#Jh2988e.14.4"
+    },
+    "11": {
+      "Name": "Penecillin G",
+      "Description": "Yaam tshuaj siv lug pab (khu) yaag kaab mob xws le mob npluag paaj hlwb (meningitis), mob kis lug ntawm kev sib deev (gonorrhea), hab syphilis.",
+      "Uses": "Nqaj tawv xoo pob lab, tho jplaab, mob plaab, mob taub hau hab ua npaws.",
+      "Add_Info": "http://www.drugs.com/alpha/a1.html"
+    }
+  },
+  "Illnesses": {
+    "0": {
+      "Name": "Chlamydia",
+      "Description": "Tshwm sim los ntawm kev sib deev tsis hais chaw mos los yog ntawm chaw tawm rooj. Tej thaum kuj yog kis los ntawm kev sib yaim thaum muaj kev ua niam txiv los yog muab tes kov qhov muag. Qee zaum cov pojniam uas xeeb menyuam, kuj kis tau mus rau nws tug menyuam rau lub caij uas nws los yug tug menyuam ntawd. Feem coob cov pojniam tsis paub yog lawv tau txais tug kab mob no lawm.",
+      "Symptoms": "Mob plab; mob plaws zis; tshwm paj (pom muaj ntshav) ua ntej lub sijhawm coj khaub ncaws; ua npaws; hnov mob thaum muaj kev ua niam txiv; mob thaum tso zis thiab hnov mob kub lug; hauv tej chaw mos o lossis o rau ntawm qhov quav; hnov dim zis tshaj li txhua zaus, los yog zis tsw phem. Yog txiv neej muaj tug mob no lawm, kuj ua rau lawv mob plaws zis, ua paug los yog txia kua yig hauv txivneej qhov chaw mos los, noob qau o los yog qhov quav o. Nyob rau ntawm pojniam thiab txivneej, chlamydia yuav ua tau rau tej qhov quav khaus los yog los ntshav. Nwg kuj ua tau rau tib neeg thoj plab thiab tawm kua yig lossis ua paug. Thaum cov chlamydia kis tau rau qhov muag lawm, nws yuav liab, khaus, thiab liab muag. Thaum chlamydia kis tau rau yus lub caj pas lawm, nws yuav hnov mob. Chlamydia tsuas tshwm thaum sawv ntxov xwb, dhau ntawv lawm nws yuav mob me ntsi lawm xwb. Yog koj los yog koj tug txij nkawm muaj tej xwm xheej li hais no, yuav tsum tau mus cuag neb tug kws kho mob. Yog koj cev xeeb tub, nws yog ib yam tseem ceeb heev rau koj, koj thiaj paub pab koj tug kheej.",
+      "Treatment": "Tsis tas yuav siv tshuaj antibiotics dabtsi.",
+      "Add_Info": "https://www.cdc.gov/std/chlamydia/stdfact-chlamydia.htm"
+    },
+    "1": {
+      "Name": "Ear Infection",
+      "Description": "Yam mob no nws tshwm sim los ntawm kab mob bacteria lossis tej viruses uas thaum xub pib yog ua khaub thuas. Yuav muaj dej teev rau hauv qhov ntsej.",
+      "Symptoms": "Nuws yuav muaj tsos mob xws li ua npaws, mob taub hau, los yog yuav mob ntau hnub. Yuav tsum tau noj los yog txhaj tshuaj antibiotics los pab.",
+      "Treatment": "Feem ntau mas yuav zoo zuj zus li ntawm ib ob lub lim piam.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/ear-infections/symptoms-causes/syc-20351616"
+    },
+    "2": {
+      "Name": "H. Pylori",
+      "Description": "Yog ib yam kab mob uas ua rau tej kis plab lossis nre plab.",
+      "Symptoms": "Nyob sab hauv yus lub plab mob los yog o.",
+      "Treatment": "Qhov mob no yuav kho tau yog tua kom tag cov kab mob ces nus mam li zoo nus zuj zus. Thiab siv cov tshuaj tua kab lus tswj cov kab mob no.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/h-pylori/symptoms-causes/syc-20356171"
+    },
+    "3": {
+      "Name": "Impetigo",
+      "Description": "Impetigo yog ib yam kab mob ntawm daim tawv nqaj uas feem ntau pib thaum muaj kab mob bacteria. Feem ntau mas tshwm sim nyob ntawm tej daim tawv nqaij, nkag los ntawm tej tawv nqaj to lossis kos.",
+      "Symptoms": "Tawm tej lub hlwv ua kaub puab daj nrog kua yig nyob ntawm tib neeg lub cev. Yog tias muab khawb lawm, yuav kis tau mus rau lwm qhov chaw ntawm yus lub cev. Muaj kis mus tau rau me nyuam yaus dua tej laus.",
+      "Treatment": "Siv tshuaj antibiotics los pab.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/9.2.html#Js5406e.9.2"
+    },
+    "4": {
+      "Name": "Lyme Disease",
+      "Description": "Yam kab mob no yog kis los ntawm cov tuv tom mos lwj lossis cov kauv uas muaj mob. Thaum muaj ib tug tuv tom tug mos lwj uas muaj mob es ho lo tau rau tus tib neeg lawm, qhov kab mob ntawd yuav kis rau tib neeg.",
+      "Symptoms": "Mob lub mis, hnov no, nkees, ua kub ua no, xoo pob liab, txiv mis tawm kua yig, ua paug, los yog o.",
+      "Treatment": "Siv tshuaj tiv thaiv kab mob antibiotics. Noj tej tshuaj tsis muaj kuab pes tsawg los pab kom nyob taus.",
+      "Add_Info": "https://www.cdc.gov/lyme/toolkit/index.html"
+    },
+    "5": {
+      "Name": "Mastitis",
+      "Description": "Yam mob hu ua mastitis no tshwm sim tau rau ntawm pojniam lub mis rau lub caij uas nws pub mis rau nws tug menyuam noj thawj thawj 6 lub lim piam ntawd. Kev pab tau yog nqus cov kua mis tawm thiab siv tshuaj antibiotics los tiv thaiv.",
+      "Symptoms": "Mob lub mis, hnov no, nkees, ua kub ua no, xoo pob liab, txiv mis tawm kua yig, ua paug, los yog o.",
+      "Treatment": "Kev pab tau yog nqus cov kua mis tawm thiab siv tshuaj antibiotics los tiv thaiv.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/mastitis/symptoms-causes/syc-20374829"
+    },
+    "6": {
+      "Name": "Mononucleosis",
+      "Description": "Muaj lub npe hias tias mono lossis kab mob sib hnia.",
+      "Symptoms": "Yam mob no yog kis los ntawm tej qaub ncaug.",
+      "Treatment": "Nws yuav muaj tsos mob xws li ua npaws, mob tug nrhu qa, mob taub hau, thiab mob caj pas.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/mononucleosis/symptoms-causes/syc-20350328"
+    },
+    "7": {
+      "Name": "Necrotizing Fasciitis",
+      "Description": "Ib yam kab mob uas yog Bacterial Infections, kis rau ntawm tej daim tawv nqaj, tej nqaij rog, thiab tej leeg yam sai heev.",
+      "Symptoms": "Nkees, tsis muaj zog, ua npaws thiab ua daus no, tawm hws, xeev siab, xeev ntuav, kiv taub hau, los yog tso zis heev heev",
+      "Treatment": "Nkaug tshuaj tiv thaiv muaj zog antibiotics mus rau ntawm tej leeg, txiav tes taw tawm kom tsis txob kis tau mus rau lwm qhov chaw",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/9.2.html#Js5406e.9.2"
+    },
+    "8": {
+      "Name": "Respiratory Syncytial Virus (RSV)",
+      "Description": "Yam kab mob no kis rau huav lub ntsws thiab ntawm txoj hlab ua pa.",
+      "Symptoms": "RSV yuav ua rau cov laus muaj khaub thuas me ntsis, tabsis yuav ua tau rau cov menyuam mos thiab cov neeg laus laus muaj mob nyhav.",
+      "Treatment": "Nwg tsi muaj ib yam tshuaj los pab cuam tau, tabsis feem ntau tsuas yog mob li ib ob lub lim piam xwb.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/respiratory-syncytial-virus/symptoms-causes/syc-2035309"
+    },
+    "9": {
+      "Name": "Strep Throat",
+      "Description": "Strep throat yog ib yam kab mob bacterial infection nyob ntawm caj pas thiab tug nrhu",
+      "Symptoms": "Mob qa, tej qhog caj dab o, mob thaum nqos quab ncaug, tug nrhu o, ua npaw, no ib ce, lossis tsis xis neej",
+      "Treatment": "Siv antibiotics los pab.",
+      "Add_Info": "https://medlineplus.gov/streptococcalinfections.html#summary"
+    },
+    "10": {
+      "Name": "Type 2 Herpes",
+      "Description": "Yog ib yam mob uas tawm hlwv rau ntawv qhov quav",
+      "Symptoms": "Yam mob no yus yuav kis tau los ntawm tug neeg uas muaj HSV-2 yog koj tau nrog nws sib deev.",
+      "Treatment": "Txawm hais tias tsis muaj kev daws tau yam mob no los, nws kuj muaj kev pab cuam kom tsis txob huam mob loj ntxiv.",
+      "Add_Info": "https://www.cdc.gov/groupAstrep/index.html"
+    },
+    "11": {
+      "Name": "Urinary Tract Infection",
+      "Description": "Txoj hlab zis uas cov zis los rau ntawm lub zais zis tawm ntawm lub cev-nws nyob ze ntawm qhov quav (anus). Cov kab mob uas nyob ntawm txoj nyhuv loj, xws le E. coli, yuav nkag tau yooj yim rau ntawm lub qhov quav mus rau ntawm txoj hlab zis. Dlau ntawd lawm, nws yuav nkag mus rau ntawm lub zais zis, yog hais tias tsis kho tug mob no, nws yuav ua mob mus rau ntaum ob lub raum. Poj niam yog cov uas muaj tau yam mob no zoo yim dua vim lawv txoj hlab zis luv dua. Vim li no, tug kab mob thiaj li mus rau lub zais zis sai. Kev ua niam txiv lossis sib deev, los yeej ua tau muaj kab mob bacteria no rau ntawm txoj hlab zis thiab.",
+      "Symptoms": "Yog xav paub seb puas yog UTI, yuav tau saib tej kev mob tswm sim raws li ntawm no: thaum tso zis, hnov kub lug, txawm tso zis tag lawm los yeej tseem zoo li yuav rov tso zis dua, hnov raub qaum thiab plab mog mob; cov zis dub dub thiab tsw pheem lossis tsw tau tug ntxhiab txawv txawv; hnov nkees lossis ib ce tshee tshee; ua npaws lossis hnov ib ce no no (Qhov no qhia tau hais tias tej kab mob kis mus txog koj ob lub raum lawm).",
+      "Treatment": "N/A",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/urinary-tract-infection/symptoms-causes/syc-20353447"
+    },
+    "12": {
+      "Name": "Valley Fever",
+      "Description": "Hom kab mob no tshwm sim los ntawm tej pwm uas nyob xyaw av, Coccidioides immitis. Cua yuav ntsawj tej noob lossis tej paj, thaum yus nqus tau rau hauv tej ntsws ces yuav rais mus ua ib tug mob",
+      "Symptoms": "Yuav hnov mob rau ntawm hauv siab, ib ce no, nkees, ua npaws, ua qoob lossis ua pob liab, yuav mlogg zoo li ua pa tsis nto thiab poob pound.",
+      "Treatment": "Muaj tshuaj pab cheem los yog tiv thaiv tug mob no. Tsis tas yuav siv tshuaj antibiotics dabtsi.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/3.3.html#Js2215e.3.3"
+    }
+  },
+  "FAQ": {
+    "0": "Qhov tsawv ntawm bacterial hab viral infections yog dlaab tsi?",
+    "1": "Yaam kws qha tau tas yog bacterial infections tsawv ntawm viral infections le caag?",
+    "2": "Kev khu bacterial hab viral infection yog sib tsaws le caag?",
+    "3": "Thaus twg kuv le siv tshuaj lug tiv thaiv kaab mob?  Puas muaj lwm yaam kws yug siv es tsis muaj teeb meem , lwm txuj kev paab (khu) tug mob tau?",
+    "4": "Tej txhuaj tiv thaiv kaab mob yuav tsim teeb meem rua yug cov kab mob nyeg (cov bacteria ib txwm muaj) huv yug lub ceb li caag?",
+    "5": "Kev siv tshuaj tiv thaiv kaab mob nwg puas muaj kev cuam txhuam txug lwm yaam tshuaj xws le tshuaj tsi xob pub muaj miv nyuas?",
+    "6": "Yaam kaab mob twg kws twv cov  tshuaj  tiv thaiv kaab mob? Yog pheej siv tshuaj tib thaiv kaab mob puas ua tsua muaj teeb meem rov yaav pem suab txog kev kho tug mob bacterial infection? Yuav tiv thaiv tej nuav le caag?",
+    "7": "Yuav noj peg tsawg ntsav (lub) thaus noj tshuaj tiv thaiv kaab mob? Nwg yuav siv ntev npaum le caag?",
+    "8": "Puas ua le caag yog  kuv yuav tej tshuaj tiv thaiv kaab mob nuav qhov twg lov? Yog ua nuav, vim le caag?",
+    "9": "Nwg puas txhum ntsuaj yog has tas kuv noj tshuaj nrug zaub mov los sis siv nrug dlej cawv?",
+    "10": {
+      "Multi_Part_Question": {
+        "0": "Thaum noj tshuaj tiv thaiv kaab mob nrug lwm yam tshuaj...",
+        "1": "Thaum siv tshuaj tiv thaiv kaab mob..."
+      },
+      "Parts": {
+        "0": {
+          "A": "Yaam tshuaj dlaab tsi kws  kuv yuav tsum cev  faaj thaum siv tshuaj tiv thaiv kaab mob?",
+          "B": "Nwg puas muaj tej yaam tshuaj kws siv tsis tau thaus siv tshuaj tiv thaiv kaab mob?",
+          "C": "Thaum peb noj ntau yaam tshuam lawm puas muaj tej yaam twv los sis ua mob rua yug tug kheej kws yuav tau faj seeb xyuas hab?"
+        },
+        "1": {
+          "A": "Kuv puas yuav tsum noj mov ua ntej yuav noj tshuaj tiv thaiv kaab mob?",
+          "B": "Kev siv tshuaj tiv thaiv kaab mob nuav yuav noj/siv  ntev npaum le caag?",
+          "C": "Thaum twg tej tshuaj maam le ua hauj lwm? Ua caag es kuv txhaj le paub tas nwg ua hauj lwm?",
+          "D": "Yog thaum paub tas zoo zog lawm, kuv puas tseem noj kom taag raws le teev tseg?",
+          "E": "Nwg puas ua le caag yog tas kuv tsi noj raws le has (tseg tsis noj)?",
+          "F": "Thaum kuv siv cov tshuaj tiv thaiv kaab mob lawm puas  muaj lwm yam kev mob tshwm sim kws kuv yuav tau ceev faaj/tsum kwm txug?"
+        }
+      }
+    }
+  },
+  "Clinics": {
+    "0": {
+      "Name": "Merced Medical Clinic",
+      "Address": "650 W. Olive Ave Site A, Merced, CA 95348",
+      "Phone": "(209) 722-8047",
+      "Hours": {
+        "0": "Kaw",
+        "1": "11 AM - 5 PM",
+        "2": "Kaw",
+        "3": "11 AM - 5 PM",
+        "4": "11 AM - 5 PM",
+        "5": "Kaw",
+        "6": "9 AM - 12 PM"
+      }
+    },
+    "1": {
+      "Name": "Golden Valley Health Center",
+      "Address": "127 W El Portal Drive Site B, Merced, CA 95348",
+      "Phone": "(209) 381-4104",
+      "Hours": {
+        "0": "Kaw",
+        "1": "8 AM - 5:30PM",
+        "2": "8 AM - 5:30PM",
+        "3": "8 AM - 5:30PM",
+        "4": "8 AM - 5:30PM",
+        "5": "8 AM - 5:30PM",
+        "6": "Kaw"
+      }
+    },
+    "2": {
+      "Name": "A Castle Medical Clinic",
+      "Address": "340 E Yosemite Ave, Merced, CA 95340",
+      "Phone": "(209) 381-0105",
+      "Hours": {
+        "0": "Kaw",
+        "1": "8 AM - 5:30PM",
+        "2": "8 AM - 5:30PM",
+        "3": "8 AM - 5:30PM",
+        "4": "8 AM - 5:30PM",
+        "5": "8 AM - 5:30PM",
+        "6": "8 AM - 5:30PM"
+      }
+    },
+    "3": {
+      "Name": "Planned Parenthood",
+      "Address": "3166 Collins Drive, Merced, CA 95348",
+      "Phone": "(209) 723-7751",
+      "Hours": {
+        "0": "9 AM - 5 PM",
+        "1": "8 AM - 8 PM",
+        "2": "8 AM - 8 PM",
+        "3": "8 AM - 8 PM",
+        "4": "8 AM - 8 PM",
+        "5": "8 AM - 8 PM",
+        "6": "Kaw"
+      }
+    },
+    "4": {
+      "Name": "Patients First Medical Center",
+      "Address": "394 E Yosemite Ave, Merced, CA 95340",
+      "Phone": "(209) 383-3990",
+      "Hours": {
+        "0": "9 AM - 5 PM",
+        "1": "9 AM - 5 PM",
+        "2": "9 AM - 5 PM",
+        "3": "9 AM - 5 PM",
+        "4": "9 AM - 5 PM",
+        "5": "9 AM - 5 PM",
+        "6": "9 AM - 5 PM"
+      }
+    },
+    "5": {
+      "Name": "Bloss Clinic Merced",
+      "Address": "1251 Grove Ave Site A, Atwater, CA 95301",
+      "Phone": "(209) 358-8425",
+      "Hours": {
+        "0": "Kaw",
+        "1": "8 AM - 6 PM",
+        "2": "8 AM - 6 PM",
+        "3": "8 AM - 6 PM",
+        "4": "8 AM - 6 PM",
+        "5": "8 AM - 6 PM",
+        "6": "Kaw"
+      }
+    },
+    "6": {
+      "Name": "A Family's Urgent Care",
+      "Address": "2644 M Street, Merced, CA 95340",
+      "Phone": "(209) 722-5308",
+      "Hours": {
+        "0": "Kaw",
+        "1": "10 AM - 5:30 PM",
+        "2": "10 AM - 5:30 PM",
+        "3": "10 AM - 5:30 PM",
+        "4": "10 AM - 5:30 PM",
+        "5": "10 AM - 5:30 PM",
+        "6": "Kaw"
+      }
+    },
+    "7": {
+      "Name": "Children and Family Medical Care",
+      "Address": "1190 W Olive Ave, Unit L, Merced, CA 95340",
+      "Phone": "(209) 722-0831",
+      "Hours": {
+        "0": "Kaw",
+        "1": "8 AM - 5 PM",
+        "2": "8 AM - 5 PM",
+        "3": "8 AM - 5 PM",
+        "4": "8 AM - 5 PM",
+        "5": "8 AM - 5 PM",
+        "6": "8 AM - 5 PM"
+      }
+    },
+    "8": {
+      "Name": "Fountain View Urgent Care",
+      "Address": "374 W Olive Ave Site A, Merced CA 95348",
+      "Phone": "(209) 384-5766",
+      "Hours": {
+        "0": "9 AM - 5:30 PM",
+        "1": "8 AM - 8:30 PM",
+        "2": "8 AM - 8:30 PM",
+        "3": "8 AM - 8:30 PM",
+        "4": "8 AM - 8:30 PM",
+        "5": "8 AM - 8:30 PM",
+        "6": "9 AM - 5:30 PM"
+      }
+    }
+  },
+  "Settings": {
+    "0": {
+      "0": "http://www.bpac.org.nz/Supplement/2013/July/antibiotics-guide.aspx#ear-nose-throat-sec",
+      "1": "http://www.emedicinehealth.com/antibiotics/page2_em.htm",
+      "2": "http://health.mo.gov/safety/antibioticresistance/",
+      "3": "https://www.webmd.com/a-to-z-guides/bacterial-and-viral-infections",
+      "4": "http://www.livestrong.com/article/84796-bacteria-infect/",
+      "5": "http://www.emedicinehealth.com/drug-ofloxacin/article_em.htm#whatis",
+      "6": "https://www.nlm.nih.gov/medlineplus/druginfo/meds/a685032.html",
+      "7": "http://www.drugs.com/alpha/a1.html",
+      "8": "http://www.cdc.gov/non-polio-enterovirus/about/EV-D68.html#",
+      "9": "http://www.cdc.gov/non-polio-enterovirus/about/ev68-infographic.html#text"
+    },
+    "1": "Koom HuTsev Nyaab Xeeb (Healthy House), ib lub koomhum kws lug qha txug kev txais lug rua saab healthcare, yog lug paab cuam rua kev no jqaab haus huv ntawm lub zej zog huv lub Loom taj California, nwg yog ib lub nroog kws muaj ntau hom tuab neeg tshaaj plawg ntawm lub teb chaw nuav. \n\nNwg yog lub tswv cuab, nrug rua UC Engineering hab Project Protect student groups , kws tsim tau muaj ib qho kev qha (application) lug nthuav txug tej teeb meem kev siv tshuaj yuam kev hab siv tsis raw le has. \n\nTej sawv dlhawg siv tshuaj tiv thaiv kab mob tsis raws le has (siv ntau dlau lawm) rau thaum muaj mob ua yog viral infection, kws tej tshuaj paab tsis tau. Qhov nuav yuav tau siv tej tshuaj kom muaj zug dlua los si siv ntau dlua lug khu tej mob thaum muaj cov (bacteria infection). Qhov nuav yog ua kom haaj yaam muaj teeb meem ntxiv.  Tsis taag le ntawd, tej kev siv tshuaj tivthaiv kab mob (antibiotics) naj nub nua siv tsi raws le has. Pev txwv le, Yog tug tuab neeg mob ntawd tsi noj tshuaj raws le has tseg tes yuav ua rua tej kev mob nkeeg tsi xaam, nwg tug mob yuav tsis zoo tu qaab. Dlhau le ntawd, tej tshuaj kws suav dlawg naj nub yuav yaas tsi muaj ntaub ntawv, tsis raug cai,los yog ib qho teeb meem quas qeeg. Tej tshuaj ntawd ib qho nwg muaj zug dlhau los sis nwg tsi yog siv lug rua qhov kws nwg mob ntawd. \n\nYog le ntawd, vaam hab ca-sab tas qhov ‘app’ nuav yuav paab dlaw tau tej teeb meem kev siv tshuaj tiv thaiv kab mob (antibiotic) hab yuav ua le caag txhaj le paub cuam tau."
+  },
+  "Title_VI": "Muaj ntau yam cai tsis hais Federal los yog State yuav kom muaj kev koom tes rau sab kev hais lus kom muaj kev sib to taub. Yam tshwj xeeb tshaj, U.S. Department of Health and Human Services Office for Civil Rights (OCR) xav kom tag nrho cov neeg ua tau txais nyiaj txiag ua kom raws txoj cai los the Nai 6 (Title VI) uas yog the Civil Rights Act nyob rau xyoo 1964. Kev koom tes no yog txwv tsis pub muaj kev saib tsis taus lwm haiv neeg, xws li tsis muaj kev ncaj ncees rau sab kev hais lus rau cov neeg uas tsis paub lus Askiv lossis Limited English Proficiency (LEP). Yog xav tau neeg txhais lus, hu rau Healthy House: (209) 724-0102. Yog xav paub txog tsab cai Nqi 6 (Title VI) hu tau rau (800) 242-2752 lossis hu tau mus rau lawv qhov chaw uas yog Office of Civil Rights (415) 437-8310"
+}

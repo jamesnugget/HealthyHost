@@ -1,0 +1,421 @@
+{
+	"Text": {
+		"Intro": "Welcome to Healthy Host!",
+		"Description": "Description",
+		"Uses": "Uses",
+		"Symptoms": "Symptoms",
+		"Treatment": "Treatment",
+		"FAQ": "FAQ",
+		"Hours": "Hours",
+		"Add_Info": "Additional Information",
+		"Days": {
+			"0": "Sunday",
+			"1": "Monday",
+			"2": "Tuesday",
+			"3": "Wednesday",
+			"4": "Thursday",
+			"5": "Friday",
+			"6": "Saturday"
+		},
+		"Main_Menu_Choices": {
+			"0": "Antibiotics",
+			"1": "Illnesses",
+			"2": "Questions for your Doctor",
+			"3": "Medical Clinics",
+			"4": "Resources",
+			"5": "Background",
+			"6": "Title VI"
+		},
+		"Antibiotics_Menu_Choices": {
+			"0": "Antibiotic Usage",
+			"1": "Amoxicillin",
+			"2": "Azithromycin",
+			"3": "Ceftriaxone",
+			"4": "Cephalexin",
+			"5": "Doxycycline",
+			"6": "Erythromycin",
+			"7": "Flucloxacillin",
+			"8": "Levaquin",
+			"9": "Metronidazole",
+			"10": "Ofloxacin",
+			"11": "Penecillin G"
+		},
+		"Illnesses_Menu_Choices": {
+			"0": "Chlamydia",
+			"1": "Ear Infection",
+			"2": "H. Pylori",
+			"3": "Impetigo",
+			"4": "Lyme Disease",
+			"5": "Mastitis",
+			"6": "Mononucleosis",
+			"7": "Necrotizing Fasciitis",
+			"8": "Respiratory Syncytial Virus (RSV)",
+			"9": "Strep Throat",
+			"10": "Type 2 Herpes",
+			"11": "Urinary Tract Infection",
+			"12": "Valley Fever"
+		}
+	},
+	"Antibiotics": {
+		"0": {
+			"Name": "Antibiotic Usage",
+			"Description": "This page is meant for you to learn how to take care of your medicines. Select one of the two following options to learn more about drug care.",
+			"Usage": {
+				"0": "Improper Usage",
+				"1": "Proper Usage"
+			},
+			"DO": {
+				"0": "DO ask your doctor whether your or your family member's infection will respond to antibiotics.  (If necessary, ask if a lab test is indicated to verify the type of infection.)",
+				"1": "DO ask your doctor about antibiotic-resistant bacteria and what you can do to help prevent its occurrence.",
+				"2": "DO ask your doctor if you are being given only medicine that is needed.",
+				"3": "DO ask your doctor if the strength of the antibiotic being given is only what is necessary to get a clinical result.",
+				"4": "DO take antibiotics for bacterial infections if the infection is properly diagnosed and the antibiotics are prescribed by a doctor.",
+				"5": "DO follow the exact instructions for taking your antibiotic.  Take the exact amount specified at the time that is specified.  Be sure to take the medicine for the entire time period that your doctor has prescribed.  Stopping too soon could allow the bacteria to become resistant by not killing them completely. Even if you feel better, take all of the medicine!"
+			},
+			"DONT": {
+				"0": "DON’T pressure your doctor to prescribe an antibiotic.",
+				"1": "DON’T take antibiotics for the common cold. Colds are caused by viruses, not bacteria. The treatment is generally to rest, drink plenty of fluids, and take medicine for fevers or headaches.",
+				"2": "DON’T take antibiotics for viral infections as they have no effect.",
+				"3": "DON’T take antibiotics unless they have been prescribed by a doctor for a current illness.",
+				"4": "DON’T share antibiotics with other people or get them from unregulated sources. Others’ illnesses are probably different from yours, and the wrong antibiotic may actually hurt rather than help.",
+				"5": "DON’T take antibiotics simply because you were exposed to someone who was sick.  This could increase your chances of picking up a resistant infection."
+			}
+		},
+		"1": {
+			"Name": "Amoxicillin",
+			"Description": "Used to treat bacterial infections found in the ears, nose, skin, and urinary tract, it fights infections such as bronchitis, pneumonia, tonsillitis and gonorrhea.",
+			"Uses": "Stomach, leg or chest pain, diarrhea, mouth or skin sores, cold-like symptoms, and difficulty breathing.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/16.1.html#Js5406e.16.1"
+		},
+		"2": {
+			"Name": "Azithromycin",
+			"Description": "This is used to treat, ear, skin and respiratory bacterial infections.",
+			"Uses": "Diarrhea, itchy and reddening skin, and fever.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/9.4.html#Js2215e.9.4"
+		},
+		"3": {
+			"Name": "Ceftriaxone",
+			"Description": "An antibiotic used to stop the growth of bacteria, it is used to treat gonorrhea, meningitis, as well as ear, lung and skin infections.",
+			"Uses": "Diarrhea, headaches, dizziness and sweating.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/9.7.html#Js2215e.9.7"
+		},
+		"4": {
+			"Name": "Cephalexin",
+			"Description": "This is used to treat bacterial infections of the ear, respiratory system, skin, and urinary tract.",
+			"Uses": "Diarrhea, abdominal pain, chills and fever.",
+			"Add_Info": "https://medlineplus.gov/druginfo/meds/a682733.html"
+		},
+		"5": {
+			"Name": "Doxycycline",
+			"Description": "This treats bacteria that causes acne, intestinal infections, eye infections, urinary tract infections, and bumps.",
+			"Uses": "Coughing, diarrhea, dark urine, joint/muscle pain, headaches and dizziness.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2922e/2.5.8.html"
+		},
+		"6": {
+			"Name": "Erythromycin",
+			"Description": "This antibiotic is used to slow the growth of bacteria or completely exterminate sensitive bacteria.",
+			"Uses": "Fever, skin rashes, severe stomach pain and vomiting.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2918e/23.4.html#Jh2918e.23.4"
+		},
+		"7": {
+			"Name": "Flucloxacillin",
+			"Description": "Used to treat ear, nose and throat infections, it also is used for tonsillitis and respiratory infections such as pneumonia.",
+			"Uses": "Skin rash, muscle/joint pain, liver problems and fever.",
+			"Add_Info": "https://drugs.webmd.boots.com/drugs/drug-200-Flucloxacillin.aspx"
+		},
+		"8": {
+			"Name": "Levaquin",
+			"Description": "Used to treat bacterial infections of the skin, bladder, kidney and prostate, it is also used to fight bacteria that cause pneumonia and bronchitis.",
+			"Uses": "Immense pain, joint stiffness, bruising, swelling, problems that affect movement.",
+			"Add_Info": "https://www.webmd.com/drugs/2/drug-14492-8235/levaquin-oral/levofloxacin-oral/detail"
+		},
+		"9": {
+			"Name": "Metronidazole",
+			"Description": "This antibiotic fights bacterial infections found on the skin, or in the stomach, joints, vagina and respiratory tract.",
+			"Uses": "Blurred vision, confusion, fever, headaches and vomiting.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/16.21.html#Js5406e.16.21"
+		},
+		"10": {
+			"Name": "Ofloxacin",
+			"Description": "This is used to treat bacterial infections that cause bronchitis, chlamydia, gonorrhea, skin and urinary tract infections.",
+			"Uses": "Diarrhea, dizziness, sudden pain, seizures and fever.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2988e/14.4.html#Jh2988e.14.4"
+		},
+		"11": {
+			"Name": "Penicillin G",
+			"Description": "This is used to fight a variety of bacterial infections such as meningitis, gonorrhea, and syphilis.",
+			"Uses": "List of skin rashes, diarrhea, stomach aches, headaches, and fevers.",
+			"Add_Info": "http://www.drugs.com/alpha/a1.html"
+		}
+	},
+	"Illnesses": {
+		"0": {
+			"Name": "Chlamydia",
+			"Description": "Chlamydia is spread by vaginal and anal intercourse. Rarely, it is spread during oral sex or by touching your eye with your hand. It can also spread from a woman to her fetus during birth. Chlamydia is not passed through casual contact and usually has no symptoms. People, mostly women, are not aware if they have the infection.",
+			"Symptoms": "Abdominal pain; abnormal vaginal discharge; bleeding between menstrual periods; low-grade fever; painful intercourse; pain or a burning feeling while urinatin; swelling inside the vagina or around the anus; the urge to urinate more than usual; vaginal bleeding after intercourse; and/or a yellowish discharge from the cervix that may have a strong smell. When men have symptoms, they may experience pain or a burning feeling while urinating, pus or watery or milky discharge from the penis, swollen or tender testicles, and/or swelling around the anus. In both women and men, chlamydia may cause the anus to itch and bleed. It can also result in a discharge and diarrhea. If chlamydia infects the eyes, it may cause redness, itching, and a discharge. If chlamydia infects the throat, it may cause soreness. Chlamydia symptoms may only appear in the morning and may be mild, especially for men. If you or your partner has any of the symptoms listed above, get checked by a health care provider. This is especially important if you are pregnant.",
+			"Treatment": "Chlamydia can be easily cured with antibiotics.",
+			"Add_Info": "https://www.cdc.gov/std/chlamydia/stdfact-chlamydia.htm"
+		},
+		"1": {
+			"Name": "Ear Infection",
+			"Description": "These infections can be caused by bacteria or viruses and start with a cold or flu, causing fluid to build up in the ear.",
+			"Symptoms": "Fever and pain, lasting several days.",
+			"Treatment": "Antibiotics can reduce symptoms, but most heal in a couple of weeks.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/ear-infections/symptoms-causes/syc-20351616"
+		},
+		"2": {
+			"Name": "H. Pylori",
+			"Description": "A bacterium that causes chronic inflammation of the inner lining of the stomach,this infection is treated is by eradicating the bacterium and letting it self-heal.",
+			"Symptoms": "The most common ulcer symptom is gnawing or burning pain in the epigastrium. This pain typically occurs when the stomach is empty, between meals and in the early morning hours, but it can also occur at other times. It may last from minutes to hours and may be relieved by eating or by taking antacids.",
+			"Treatment": "Antacids can also be used to control the bacterium.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/h-pylori/symptoms-causes/syc-20356171"
+		},
+		"3": {
+			"Name": "Impetigo",
+			"Description": "Impetigo is a skin infection which often begins when bacteria, normally present on the skin, enters through a small cut or scratch.",
+			"Symptoms": "Yellow crusty oozing blisters or sores which can appear anywhere on the body. Scratching these may spread impetigo to other parts of the body. It is more common in children than adults.",
+			"Treatment": "Antibiotics can be used to treat this.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/9.2.html#Js5406e.9.2"
+		},
+		"4": {
+			"Name": "Lyme Disease",
+			"Description": "This systemic illness caused by bacteria is typically transmitted by infected deer ticks. When a tick bites a person, the bacteria spreads.",
+			"Symptoms": "Infection can result in malaise, fever, headache, fatigue, muscle pain, as well as something called the bull's eye rash. If untreated, the disease may cause arthritis and affect the heart and central nervous system.",
+			"Treatment": "It is treated with antibiotics.",
+			"Add_Info": "https://www.cdc.gov/lyme/toolkit/index.html"
+		},
+		"5": {
+			"Name": "Mastitis",
+			"Description": "This infection in the breast is typically acquired during the first six weeks of breast feeding. It can be treated by regularly pumping breast milk and using antibiotics.",
+			"Symptoms": "Breast pain, chills, fatigue, fever, malaise, redness, nipple discharge, pus, swelling.",
+			"Treatment": "Antibiotics are required. Mild pain relievers can help with discomfort.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/mastitis/symptoms-causes/syc-20374829"
+		},
+		"6": {
+			"Name": "Mononucleosis",
+			"Description": "Often called mono. or the kissing disease, this viral infection is transmitted through saliva.",
+			"Symptoms": "Fever, swollen tonsils, headache, and strep throat.",
+			"Treatment": "Antibiotics cannot treat mononucleosis, but can treat symptoms such as strep throat.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/mononucleosis/symptoms-causes/syc-20350328"
+		},
+		"7": {
+			"Name": "Necrotizing Fasciitis",
+			"Description": "An infection caused by bacteria that can destroy skin, fat, and tissue covering muscles within a very short time.",
+			"Symptoms": "Fatigue, weakness, fever with chills and sweats, nausea,vomiting, dizziness, infrequent urination.",
+			"Treatment": "Strong antibiotics delivered straight to veins, amputation of limbs may be necessary to prevent spread of the infection.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/9.2.html#Js5406e.9.2"
+		},
+		"8": {
+			"Name": "Respiratory Syncytial Virus (RSV)",
+			"Description": "This virus infects the lungs and breathing passages.",
+			"Symptoms": "RSV can be like a mild cold in healthy adults, but can lead to serious infections in babies and the elderly.",
+			"Treatment": "There is no specific treatment, but most cases resolve in a week or two.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/respiratory-syncytial-virus/symptoms-causes/syc-20353098"
+		},
+		"9": {
+			"Name": "Strep Throat",
+			"Description": "Strep throat is a bacterial infection affecting the throat and the tonsils.",
+			"Symptoms": "Sore throat, enlarged lymph nodes, pain while swallowing, swollen tonsils, fever, chills, malaise.",
+			"Treatment": "Antibiotics can be used to treat it.",
+			"Add_Info": "https://medlineplus.gov/streptococcalinfections.html#summary"
+		},
+		"10": {
+			"Name": "Type 2 Herpes",
+			"Description": "Genital herpes, is transmitted through sexual contact with someone who has HSV-2.",
+			"Symptoms": "Sores around the genital or anal area.",
+			"Treatment": "Even though there is no cure for this disease, there are treatments which will reduce the pain during outbreaks.",
+			"Add_Info": "https://www.cdc.gov/std/herpes/stdfact-herpes-detailed.htm"
+		},
+		"11": {
+			"Name": "Urinary Tract Infection",
+			"Description": "The urethra the tube that transports urine from the bladder to the outside of the body -- is located close to the anus. Bacteria from the large intestine, such as E. coli, are in the perfect position to escape the anus and invade the urethra. From there, they can travel up to the bladder, and if the infection isn't treated, continue on to infect the kidneys. Women may be especially prone to UTIs because they have shorter urethras, which allow bacteria quick access to the bladder. Having sex can introduce bacteria into the urinary tract, too.",
+			"Symptoms": "To identify a UTI, keep an eye out for the following symptoms: a burning feeling when you urinate; frequent or intense urge to urinate, even though little comes out; pain or pressure in your back or lower abdomen; cloudy, dark, bloody, or strange-smelling urine; feeling tired or shaky; and fever or chills (a sign the infection may have reached your kidneys).",
+			"Treatment": "Antibiotics can be used to treat it.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/urinary-tract-infection/symptoms-causes/syc-20353447"
+		},
+		"12": {
+			"Name": "Valley Fever",
+			"Description": "An illness caused by the soil-dwelling fungus, Coccidioides immitis. The tiny seeds, or spores, become wind-borne and are inhaled into the lungs, where the infection starts.",
+			"Symptoms": "People may expierence pain area in the chest, chills, fatigue, fever, lumps or rashes, shortness of breath and weight loss.",
+			"Treatment": "Antifungal medication, No antibiotics needed.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/3.3.html#Js2215e.3.3"
+		}
+	},
+	"FAQ": {
+		"0": "What is the difference between bacterial and viral infections?",
+		"1": "How do symptoms of bacterial infections differ from that of viral infections?",
+		"2": "What is the difference between bacterial and viral infection treatments?",
+		"3": "When do I need antibiotics? Are there other safe, alternative treatment plan(s)?",
+		"4": "How will antibiotics affect natural bacteria in the body?",
+		"5": "Does the antibiotic interfere with the effectiveness of other medications such as birth control pills?",
+		"6": "What is antibiotic resistance? Does taking an antibiotic decrease its future effectiveness in treating bacterial infections? How can this be prevented?",
+		"7": "What is the proper dosage when taking the antibiotic? For how long should the antibiotic be continued?",
+		"8": "Does it matter where or from what source I get the antibiotics?  If so, why?",
+		"9": "Are there possible adverse reactions if the antibiotic is taken with food(s) or alcohol?",
+		"10": {
+			"Multi_Part_Question": {
+				"0": "When taking the antibiotic with other medications...",
+				"1": "When taking antibiotics..."
+			},
+			"Parts": {
+				"0": {
+					"A": "What medication(s) do I need to be careful about when taking antibiotics?",
+					"B": "Are there common medication(s) that cannot be taken when on antibiotics?",
+					"C": "Are there any harmful side effects I should look for once the dual/multiple medications process begins?"
+				},
+				"1": {
+					"A": "Do I have to eat before taking the antibiotic?",
+					"B": "How long does the antibiotic process last?",
+					"C": "When will the medication start working? How do I know when it’s working?",
+					"D": "If feel better, do I still need to finish the complete number/dosage prescribed?",
+					"E": "What will happen if I accidentally miss a dose?",
+					"F": "Are there any side effects should I look for once on the antibiotic?"
+				}
+			}
+		}
+	},
+	"Clinics": {
+		"0": {
+			"Name": "Merced Medical Clinic",
+			"Address": "650 W. Olive Ave Site A, Merced, CA 95348",
+			"Phone": "(209) 722-8047",
+			"Hours": {
+				"0": "Closed",
+				"1": "11 AM - 5 PM",
+				"2": "Closed",
+				"3": "11 AM - 5 PM",
+				"4": "11 AM - 5 PM",
+				"5": "Closed",
+				"6": "9 AM - 12 PM"
+			}
+		},
+		"1": {
+			"Name": "Golden Valley Health Center",
+			"Address": "127 W El Portal Drive Site B, Merced, CA 95348",
+			"Phone": "(209) 381-4104",
+			"Hours": {
+				"0": "Closed",
+				"1": "8 AM - 5:30PM",
+				"2": "8 AM - 5:30PM",
+				"3": "8 AM - 5:30PM",
+				"4": "8 AM - 5:30PM",
+				"5": "8 AM - 5:30PM",
+				"6": "Closed"
+			}
+		},
+		"2": {
+			"Name": "A Castle Medical Clinic",
+			"Address": "340 E Yosemite Ave, Merced, CA 95340",
+			"Phone": "(209) 381-0105",
+			"Hours": {
+				"0": "Closed",
+				"1": "8 AM - 5:30PM",
+				"2": "8 AM - 5:30PM",
+				"3": "8 AM - 5:30PM",
+				"4": "8 AM - 5:30PM",
+				"5": "8 AM - 5:30PM",
+				"6": "8 AM - 5:30PM"
+			}
+		},
+		"3": {
+			"Name": "Planned Parenthood",
+			"Address": "3166 Collins Drive, Merced, CA 95348",
+			"Phone": "(209) 723-7751",
+			"Hours": {
+				"0": "9 AM - 5 PM",
+				"1": "8 AM - 8 PM",
+				"2": "8 AM - 8 PM",
+				"3": "8 AM - 8 PM",
+				"4": "8 AM - 8 PM",
+				"5": "8 AM - 8 PM",
+				"6": "Closed"
+			}
+		},
+		"4": {
+			"Name": "Patients First Medical Center",
+			"Address": "394 E Yosemite Ave, Merced, CA 95340",
+			"Phone": "(209) 383-3990",
+			"Hours": {
+				"0": "9 AM - 5 PM",
+				"1": "9 AM - 5 PM",
+				"2": "9 AM - 5 PM",
+				"3": "9 AM - 5 PM",
+				"4": "9 AM - 5 PM",
+				"5": "9 AM - 5 PM",
+				"6": "9 AM - 5 PM"
+			}
+		},
+		"5": {
+			"Name": "Bloss Clinic Merced",
+			"Address": "1251 Grove Ave Site A, Atwater, CA 95301",
+			"Phone": "(209) 358-8425",
+			"Hours": {
+				"0": "Closed",
+				"1": "8 AM - 6 PM",
+				"2": "8 AM - 6 PM",
+				"3": "8 AM - 6 PM",
+				"4": "8 AM - 6 PM",
+				"5": "8 AM - 6 PM",
+				"6": "Closed"
+			}
+		},
+		"6": {
+			"Name": "A Family's Urgent Care",
+			"Address": "2644 M Street, Merced, CA 95340",
+			"Phone": "(209) 722-5308",
+			"Hours": {
+				"0": "Closed",
+				"1": "10 AM - 5:30 PM",
+				"2": "10 AM - 5:30 PM",
+				"3": "10 AM - 5:30 PM",
+				"4": "10 AM - 5:30 PM",
+				"5": "10 AM - 5:30 PM",
+				"6": "Closed"
+			}
+		},
+		"7": {
+			"Name": "Children and Family Medical Care",
+			"Address": "1190 W Olive Ave, Unit L, Merced, CA 95340",
+			"Phone": "(209) 722-0831",
+			"Hours": {
+				"0": "Closed",
+				"1": "8 AM - 5 PM",
+				"2": "8 AM - 5 PM",
+				"3": "8 AM - 5 PM",
+				"4": "8 AM - 5 PM",
+				"5": "8 AM - 5 PM",
+				"6": "8 AM - 5 PM"
+			}
+		},
+		"8": {
+			"Name": "Fountain View Urgent Care",
+			"Address": "374 W Olive Ave Site A, Merced, CA 95348",
+			"Phone": "(209) 384-5766",
+			"Hours": {
+				"0": "9 AM - 5:30 PM",
+				"1": "8 AM - 8:30 PM",
+				"2": "8 AM - 8:30 PM",
+				"3": "8 AM - 8:30 PM",
+				"4": "8 AM - 8:30 PM",
+				"5": "8 AM - 8:30 PM",
+				"6": "9 AM - 5:30 PM"
+			}
+		}
+	},
+	"Settings": {
+		"0": {
+			"0": "http://www.bpac.org.nz/Supplement/2013/July/antibiotics-guide.aspx#ear-nose-throat-sec",
+			"1": "http://www.emedicinehealth.com/antibiotics/page2_em.htm",
+			"2": "http://health.mo.gov/safety/antibioticresistance/",
+			"3": "https://www.webmd.com/a-to-z-guides/bacterial-and-viral-infections",
+			"4": "http://www.livestrong.com/article/84796-bacteria-infect/",
+			"5": "http://www.emedicinehealth.com/drug-ofloxacin/article_em.htm#whatis",
+			"6": "https://www.nlm.nih.gov/medlineplus/druginfo/meds/a685032.html",
+			"7": "http://www.drugs.com/alpha/a1.html",
+			"8": "http://www.cdc.gov/non-polio-enterovirus/about/EV-D68.html#",
+			"9": "http://www.cdc.gov/non-polio-enterovirus/about/ev68-infographic.html#text"
+		},
+		"1": "Healthy House, a non-profit which trains professional healthcare interpreters, is dedicated to addressing health disparities in the cultural communities of the Central Valley of California, one of the most diverse areas in the country. \n\nIts Healthy Host program, in collaboration with the UC engineering and Project Protect student groups, has developed this application to address the serious issue of the misuse and overuse of antibiotics. Since the discovery of these miracle drugs, doctors have been relying on antibiotics to treat many illnesses common to the public. \n\nHowever, the common overuse of antibiotics to treat viral infections, for which they are ineffective, has created a crisis of very resistant bacteria that exhibit limited or no response to antibiotics. This has led to the prescribing of stronger and larger amounts of antibiotics, further exacerbating the problem. Additionally, antibiotics are frequently misused. For example, when patients don’t complete their full course of treatment with antibiotics, the effectiveness of the medication is compromised. In addition, members of cultural communities often procure antibiotics through underground or unregulated sources. This contributes to the misuse of antibiotics that are too strong or not appropriate for the respective illnesses being targeted. \n\nIt is with high hopes that this ‘app’ helps promote understanding of the serious health crisis of antibiotic resistance and what can be done to prevent it."
+	},
+	"Title_VI": "Several Federal and State laws and regulations mandate linguistic competence. Primarily, the U.S. Department of Health and Human Services Office for Civil Rights (OCR) requires all recipients of federal funds to comply with Title VI of the Civil Rights Act of 1964. Compliance prohibits discrimination based on race or national origin, such as failing to provide effective methods of communication between English speaking providers and patients with Limited English Proficiency (LEP). For an interpreter call Healthy House: (209) 724-0102. For information on Title VI call: (800) 242-2752 or the Office of Civil Rights: (415) 437-8310."
+}

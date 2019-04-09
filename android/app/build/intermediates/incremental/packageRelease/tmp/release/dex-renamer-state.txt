@@ -1,0 +1,4 @@
+#Tue Apr 02 23:43:26 PDT 2019
+base.0=/Users/1tbhd/Desktop/React Native Apps/HealthyHost/android/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

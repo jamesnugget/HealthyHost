@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>81CC498E-2DF0-4088-B27A-AD30CDE86C34</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>81CC498E-2DF0-4088-B27A-AD30CDE86C34.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>HealthyHost project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HealthyHost</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project HealthyHost with scheme HealthyHost and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>574313245.59944105</real>
+			<key>timeStoppedRecording</key>
+			<real>574313246.92653799</real>
+			<key>title</key>
+			<string>Building project HealthyHost with scheme HealthyHost and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>81CC498E-2DF0-4088-B27A-AD30CDE86C34</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

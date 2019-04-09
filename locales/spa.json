@@ -1,0 +1,421 @@
+{
+  "Text": {
+    "Intro": "¡Bienvenidos a Healthy Host!",
+    "Description": "Descripción",
+    "Uses": "Usos",
+    "Symptoms": "Síntomas",
+    "Treatment": "Tratamiento",
+    "FAQ": "FAQ",
+    "Hours": "Horas",
+    "Add_Info": "Información Adicional",
+    "Days": {
+      "0": "Domingo",
+      "1": "Lunes",
+      "2": "Martes",
+      "3": "Miércoles",
+      "4": "Jueves",
+      "5": "Viernes",
+      "6": "Sábado"
+    },
+    "Main_Menu_Choices": {
+      "0": "Antibióticos",
+      "1": "Enfermedades",
+      "2": "Preguntas para su Doctor",
+      "3": "Clinicas Medicas",
+      "4": "Recursos",
+      "5": "Información de Fondo",
+      "6": "Título VI"
+    },
+    "Antibiotics_Menu_Choices": {
+      "0": "Uso de Antibióticos",
+      "1": "Amoxicilina",
+      "2": "Azitromicina",
+      "3": "Ceftriaxona",
+      "4": "Cefalexina",
+      "5": "Doxiciclina",
+      "6": "Eritromicina",
+      "7": "Flucloxacilina",
+      "8": "Levaquin",
+      "9": "Metronidazol",
+      "10": "Ofloxacino",
+      "11": "Penicilina G"
+    },
+    "Illnesses_Menu_Choices": {
+      "0": "Clamidia",
+      "1": "Infección en el Oído",
+      "2": "Helicobacter Pylori",
+      "3": "Impétigo",
+      "4": "Enfermedad de Lyme",
+      "5": "Mastitis",
+      "6": "Mononucleosis",
+      "7": "Fascitis Necrotizante",
+      "8": "Virus Sincicial Respiratorio (VSR)",
+      "9": "Faringitis Estreptocócica ",
+      "10": "Herpes Tipo 2",
+      "11": "Infección del Tracto Urinario",
+      "12": "Fiebre del Valle"
+    }
+  },
+  "Antibiotics": {
+    "0": {
+      "Name": "Uso de Antibióticos",
+      "Description": "Esta página contiene recomendaciones acerca del manejo apropiado de sus antibióticos. Seleccione una de las siguintes dos opciones para aprender más sobre el cuidado de sus antibióticos.",
+      "Usage": {
+        "0": "Uso Incorrecto",
+        "1": "Uso Correcto"
+      },
+      "DO": {
+        "0": "SI, pregúntele a su médico si su infección o la de un familiar van a responder al antibiótico. (Si es necesario, pregunte si necesita una prueba de laboratorio para verificar el tipo de infección.)",
+        "1": "SI, pregúntele a su médico sobre la bacteria resistente a los antibióticos y lo que Ud. puede hacer para ayudar a prevenir la incidencia.",
+        "2": "SI, pregúntele a su médico si le está recetando solamente la medicina necesaria.",
+        "3": "SI, pregúntele a su médico si la potencia del antibiótico recetado es solamente la necesaria para obtener los resultados clínicos.",
+        "4": "SI, tome antibióticos para infecciones bacterianas si la infección es apropiadamente diagnosticada y los antibióticos son recetados por un médico.",
+        "5": "SI, sigua las instrucciones exactas para tomar su antibiótico. Tome la cantidad exacta especificada a las horas especificadas. Asegúrese de tomar la medicina durante todo el periodo recetado por su médico. Dejarla de tomar muy temprano podría permitir que la bacteria se haga resistente al no matarla completamente. Aunque se sienta mejor, ¡tome toda la medicina!"
+      },
+      "DONT": {
+        "0": "NO presione a su médico para que le recete antibióticos.",
+        "1": "NO tome antibióticos para un resfriado común. Los resfriados son causados por un virus, no la bacteria. El tratamiento es típicamente descanso, muchos líquidos, y medicinas para la fiebre o dolor de cabeza.",
+        "2": "NO tome antibióticos para infecciones virales ya que no son efectivos.",
+        "3": "NO tome antibióticos al menos que hayan sido recetados por un médico para un enfermedad actual.",
+        "4": "NO comparta antibióticos con otras personas ni los obtenga de fuentes no reguladas. Las enfermedades de otros son probablemente diferentes a la suya y un antibiótico equivocado le podría hacer más mal que bien.",
+        "5": "NO tome antibióticos simplemente porque estuvo expuesto a un enfermo. Esto podría aumentar su probabilidad de contraer una infección resistente."
+      }
+    },
+    "1": {
+      "Name": "Amoxicilina",
+      "Description": "Utilizada para el tratamiento de infecciones bacterianas localizadas en los oídos, nariz, piel, y vías urinarias. Combate infecciones tales como la bronquitis, neumonía, tonsilitis y gonorrea.",
+      "Uses": "Dolor de estómago, piernas y pecho, diarrea, llagas en la boca o piel, síntomas de resfriados y dificultad para respirar.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/16.1.html#Js5406e.16.1\\"
+    },
+    "2": {
+      "Name": "Azitromicina",
+      "Description": "Esta se utiliza para el tratamiento de infecciones bacterianas en los oídos, piel, y vías respiratorias.",
+      "Uses": "Diarrea, picazón y piel roja, y fiebre.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/9.4.html#Js2215e.9.4"
+    },
+    "3": {
+      "Name": "Ceftriaxona",
+      "Description": "Utilizada para el tratamiento de infecciones bacterianas localizadas en los oídos, nariz, piel, y vías urinarias. Combate infecciones tales como la bronquitis, neumonía, tonsilitis y gonorrea.",
+      "Uses": "Dolor de estómago, piernas y pecho, diarrea, llagas en la boca o piel, síntomas de resfriados y dificultad para respirar.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/9.7.html#Js2215e.9.7"
+    },
+    "4": {
+      "Name": "Cefalexina",
+      "Description": "Esta es utilizada para tratar infecciones bacterianas del oído, sistema respiratorio, piel y vías urinarias.",
+      "Uses": "Diarrea, dolor abdominal, escalofríos y fiebre.",
+      "Add_Info": "https://medlineplus.gov/druginfo/meds/a682733.html"
+    },
+    "5": {
+      "Name": "Doxiciclina",
+      "Description": "Esta trata la bacteria que causa acné, infecciones intestinales, infecciones de los ojos, infecciones de las vías urinarias y baches/chichones.",
+      "Uses": "Tos, diarrea, orina oscura, dolor muscular/coyunturas, dolores de cabeza y mareos.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2922e/2.5.8.html"
+    },
+    "6": {
+      "Name": "Eritromicina",
+      "Description": "Este antibiótico se utiliza para retardar el crecimiento de bacteria o para completamente exterminar la bacteria sensitiva.",
+      "Uses": "Fiebre, sarpullido en la piel, dolor estomacal severo y vómitos.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2918e/23.4.html#Jh2918e.23.4"
+    },
+    "7": {
+      "Name": "Flucloxacilina",
+      "Description": "Utilizada para tratar las infecciones del oído, nariz y garganta. También se utiliza para la tonsilitis e infecciones respiratorias como la neumonía.",
+      "Uses": "Sarpullido de la piel, dolor muscular/coyunturas, problemas del hígado y fiebre.",
+      "Add_Info": "https://drugs.webmd.boots.com/drugs/drug-200-Flucloxacillin.aspx"
+    },
+    "8": {
+      "Name": "Levaquin",
+      "Description": "Utilizado para el tratamiento de infecciones bacterianas de la piel, la vejiga, los riñones y la próstata. Se utiliza también para combatir la bacteria que causa neumonía y bronquitis.",
+      "Uses": "Inmenso dolor, rigidez articular, magulladuras, inflamación, problemas que afectan el movimiento.",
+      "Add_Info": "https://www.webmd.com/drugs/2/drug-14492-8235/levaquin-oral/levofloxacin-oral/details"
+    },
+    "9": {
+      "Name": "Metronidazol",
+      "Description": "Este antibiótico combate infecciones bacterianas localizadas en la piel o en el estómago, coyunturas, vagina y las vías respiratorias.",
+      "Uses": "Visión borrosa, confusión, fiebre, dolores de cabeza y vómitos.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/16.21.html#Js5406e.16.21"
+    },
+    "10": {
+      "Name": "Ofloxacino",
+      "Description": "Este se utiliza para tratar infecciones bacterianas que causan bronquitis, clamidia, gonorrea, e infecciones de la piel y las vías urinarias.",
+      "Uses": "Diarrea, mareos, dolor repentino, convulsiones y fiebre.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2988e/14.4.html#Jh2988e.14.4"
+    },
+    "11": {
+      "Name": "Penicilina G",
+      "Description": "Esta se utiliza para combatir una variedad de infecciones bacterianas como la  meningitis, gonorrea y sífilis.",
+      "Uses": "Sarpullidos de la piel, diarrea, dolores estomacales, dolores de cabeza y fiebres.",
+      "Add_Info": "http://www.drugs.com/alpha/a1.html"
+    }
+  },
+  "Illnesses": {
+    "0": {
+      "Name": "Clamidia",
+      "Description": "La clamidia se trasmite por el sexo vaginal y anal. Raramente se trasmite durante el sexo oral o al tocarse los ojos con la mano. También se puede transmitir de la mujer a su feto durante el parto. La clamidia no se trasmite a través de un contacto casual y normalmente no hay síntomas. Las personas, en su mayoría mujeres, no están conscientes de tener la infección.",
+      "Symptoms": "Los síntomas para las mujeres podrían incluir: dolor abdominal, flujo vaginal anormal, sangrado entre periodos menstruales, fiebre baja, coito doloroso, dolor o sensación de ardor al orinar, inflamación dentro de la vagina o alrededor del ano, una urgencia de orinar más de lo normal, sangrado vaginal después del coito y/o una secreción amarillenta del cuello uterino que podría tener un olor fuerte. Cuando los hombres tienen síntomas, podrían sentir dolor o ardor al orinar, tener pus o un flujo acuoso o lechoso del pene, testículos inflamados o sensibles, y/o inflamación alrededor del ano. En mujeres y hombres, la clamidia puede causar que el ano tenga comezón o sangre. También puede resultar en un flujo y diarrea. Si la clamidia infecta  los ojos, podría causar enrojecimiento, comezón, y secreción. Si la clamidia infecta la garganta, podría causar dolor de garganta. Los síntomas de la clamidia podrían aparecer solo por la mañana y podrían ser leves, especialmente en los hombres. Si Ud. o su pareja tiene cualquier síntoma enumerado anteriormente, consulte a un profesional de salud. Esto es especialmente importante si está embarazada.",
+      "Treatment": "Se trata con antibióticos.",
+      "Add_Info": "https://www.cdc.gov/std/chlamydia/stdfact-chlamydia.htm"
+    },
+    "1": {
+      "Name": "Infección en el Oído",
+      "Description": "Estas infecciones pueden ser causadas por bacteria o virus y comenzar con un resfriado o gripe causando que líquidos se acumulen en los oídos.",
+      "Symptoms": "Fiebre y dolor que duran varios días.",
+      "Treatment": "Los antibióticos pueden reducir los síntomas, pero la mayoría sanan en un par de semanas.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/ear-infections/symptoms-causes/syc-20351616"
+    },
+    "2": {
+      "Name": "Helicobacter Pylori",
+      "Description": "Una bacteria que causa inflamación crónica del revestimiento del estómago.",
+      "Symptoms": "Eructos, distensión abdominal, náuseas, vómitos, pérdida de peso inexplicable",
+      "Treatment": "Esta infeccion se trata al erradicar la bacteria y dejar que se autocure. Los antiácidos también se pueden usar para controlar la bacteria.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/h-pylori/symptoms-causes/syc-20356171"
+    },
+    "3": {
+      "Name": "Impétigo",
+      "Description": "El impétigo es una infección de la piel la cual a menudo comienza cuando bacteria, que existe normalmente en la piel, entra a través de una pequeña cortadura o rasguño.",
+      "Symptoms": "Los síntomas incluyen ampollas o llagas amarillas, costrosas, que supuran las cuales pueden aparecer en cualquier parte del cuerpo. Al rascarlas el impétigo se puede propagar a otras partes del cuerpo. Es más común en niños que en adultos y muy a menudo es tratado con antibióticos.",
+      "Treatment": "Los antibióticos se pueden utilizar para tratar esto.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/9.2.html#Js5406e.9.2"
+    },
+    "4": {
+      "Name": "Enfermedad de Lyme",
+      "Description": "Esta enfermedad sistémica causada por la bacteria es típicamente transmitida por garrapatas infectadas. Cuando una garrapata muerde a una persona, la bacteria se propaga.",
+      "Symptoms": "La infeccion se puede resultar en malestar, fiebre, dolor de cabeza, fatiga, dolor muscular así como algo llamado el sarpullido “ojos de buey.” Si no se trata, la enfermedad puede causar artritis y afectar el corazón y el sistema nervioso central.",
+      "Treatment": "Se trata con antibióticos.",
+      "Add_Info": "https://www.cdc.gov/lyme/toolkit/index.html"
+    },
+    "5": {
+      "Name": "Mastitis",
+      "Description": "Esta infección en los senos se adquiere típicamente durante las primeras seis semanas de lactancia. Se puede tratar extrayendo regularmente la leche materna y tomando antibióticos.",
+      "Symptoms": "Dolor en los senos, escalofríos, fatiga, fiebre, malestar, enrojecimiento, secreción del pezón, pus, hinchazón.",
+      "Treatment": "Se requieren antibióticos. Los analgésicos leves pueden ayudar con la incomodidad.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/mastitis/symptoms-causes/syc-20374829"
+    },
+    "6": {
+      "Name": "Mononucleosis",
+      "Description": "También conocida como mono o la enfermedad del bezo.",
+      "Symptoms": "Esta infección viral se transmite por la saliva.",
+      "Treatment": "Aunque no hay cura para esta enfermedad, hay tratamientos que reducirán el dolor durante brotes.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/mononucleosis/symptoms-causes/syc-20350328"
+    },
+    "7": {
+      "Name": "Fascitis Necrotizante",
+      "Description": "Una infección causada por bacteria que destruye piel, grasa y tejidos cubriendo los músculos en muy poco tiempo. Es muy rara pero muy seria y el 25% de los infectados mueren.",
+      "Symptoms": "Fatiga, debilidad, fiebre con escalofríos y sudorosa, nausea, vomito, mareos, disminución de la orina.",
+      "Treatment": "Fuertes antibióticos aplicados directamente por las venas, en algunos caso se tendrá que amputar las áreas infectadas para prevenir el que se propague la infección.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/9.2.html#Js5406e.9.2"
+    },
+    "8": {
+      "Name": "Virus Sincicial Respiratorio (VSR)",
+      "Description": "Este virus infecta los pulmones y las vías respiratorias. El VSR se parece a un resfriado leve en adultos saludables, pero podría causar infecciones serias en bebes y ancianos.",
+      "Symptoms": "Secreción nasal, disminución del apetito, estornudos, fiebre.",
+      "Treatment": "No hay tratamiento específico. No se necesitan antibióticos.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/respiratory-syncytial-virus/symptoms-causes/syc-20353098"
+    },
+    "9": {
+      "Name": "Faringitis Estreptocócica ",
+      "Description": "La faringitis estreptocócica es una infección bacteriana que afecta la garganta y las amígdalas causando un dolor de garganta severo y puede causar fiebre.",
+      "Symptoms": "Dolor de garganta, agrandamiento de los ganglios linfáticos, dolor al pasar, hinchazón de las amígdalas, fiebre, escalofríos, malestar.",
+      "Treatment": "Se trata con antibióticos.",
+      "Add_Info": "https://medlineplus.gov/streptococcalinfections.html#summary"
+    },
+    "10": {
+      "Name": "Herpes Tipo 2",
+      "Description": "El herpes genital.",
+      "Symptoms": "Cuando existen llagas alrededor de los genitales o el ano.",
+      "Treatment": "Se transmite a través del contacto sexual con alguien que tiene HSV-2.",
+      "Add_Info": "https://www.cdc.gov/std/herpes/stdfact-herpes-detailed.htm"
+    },
+    "11": {
+      "Name": "Infección del Tracto Urinario",
+      "Description": "La uretra, el tubo que lleva la orina desde la vejiga hasta el exterior del cuerpo, se encuentra cerca del ano. La bacteria del intestino grueso, tal como E. coli, está en el lugar perfecto para escapar del ano e invadir la uretra. Desde allí, estas pueden propagarse hasta la vejiga, y si la infección no es curada, continuaran a infectar los riñones. Las mujeres pueden estar particularmente expuestas a las infecciones del tracto urinario porque tienen uretras más cortas, dándole a la bacteria acceso rápido a la vejiga. El sexo también puede introducir bacteria al tracto urinario.",
+      "Symptoms": "Sensación de ardor al orinar, una urgencia frecuente e intensa de orinar a pesar que poco sale, dolor o presión en la espalda o la parte inferior del abdomen, orina turbia, oscura, sangrienta, o con olor raro, cansancio o temblores, y fiebre o escalofríos (una señal de que la infección pueda haber llegado a los riñones)",
+      "Treatment": "Se trata con antibióticos.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/urinary-tract-infection/symptoms-causes/syc-20353447"
+    },
+    "12": {
+      "Name": "Fiebre del Valle",
+      "Description": "Una enfermedad causada por un hongo que habita en la tierra, Coccidioides immitis. Pequeñitas semillas, o esporas, son arrastradas por el viento y son  inhaladas en los pulmones en donde comienza la infección.",
+      "Symptoms": "Las personas pueden experimentar dolor en el pecho, escalofríos, fatiga, fiebre, bultos o erupciones cutáneas, dificultad para respirar y pérdida de peso.",
+      "Treatment": "Medicamentos antimicóticos, No se necesitan antibióticos.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/3.3.html#Js2215e.3.3"
+    }
+  },
+  "FAQ": {
+    "0": "¿Cuál es la diferencia entre las infecciones bacterianas y virales?",
+    "1": "¿Cómo se distinguen las síntomas de infecciones bacterianas a los de infecciones virales?",
+    "2": "¿Cuál es la diferencia entre los tratamientos para las infecciones bacterianas y las virales?",
+    "3": "¿Cuándo necesito antibióticos? ¿Existen otras alternativas de tratamientos seguros?",
+    "4": "¿Cómo afectaran los antibióticos las bacterias naturales en el cuerpo?",
+    "5": "¿Interfiere el antibiótico contra la efectividad de otras medicinas tales como las píldoras anticonceptivas?",
+    "6": "¿Que es la resistencia antibiótica? ¿Acaso el tomar un antibiótico reduce su efectividad para curar infecciones bacterianas en el futuro? ¿Cómo se puede prevenir esto?",
+    "7": "¿Cuál es la dosis apropiada para tomar antibióticos? ¿Por cuánto tiempo se deben tomar los antibióticos?",
+    "8": "¿Importa en donde o de qué lugar obtengo los antibióticos? ¿Por qué?",
+    "9": "¿Existen posibles reacciones adversas si los antibióticos se toman con comida(s) o alcohol?",
+    "10": {
+      "Multi_Part_Question": {
+        "0": "Cuando se toman antibióticos con otras medicinas...",
+        "1": "Cuando se toman los antibióticos..."
+      },
+      "Parts": {
+        "0": {
+          "A": "¿De cuáles medicinas debo tener cuidado al tomar antibióticos?",
+          "B": "¿Existen medicinas comunes que no se pueden tomar durante el consumo de antibióticos?",
+          "C": "¿Cuáles son los efectos secundarios dañinos que debo buscar al comenzar el proceso de medicinas dobles o múltiples?"
+        },
+        "1": {
+          "A": "¿Debo comer antes de tomar antibióticos?",
+          "B": "¿Cuánto dura el proceso del antibiótico?",
+          "C": "¿Cuándo empieza a funcionar la medicina? ¿Cómo sé que funciona?",
+          "D": "¿Si me siento mejor, debo terminar de tomar el número o dosis recetada?",
+          "E": "¿Qué sucede si accidentalmente me pierdo una dosis?",
+          "F": "¿Existen efectos secundarios que debo buscar al comenzar el antibiótico?"
+        }
+      }
+    }
+  },
+  "Clinics": {
+    "0": {
+      "Name": "Merced Medical Clinic",
+      "Address": "650 W. Olive Ave Site A, Merced, CA 95348",
+      "Phone": "(209) 722-8047",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "11 AM - 5 PM",
+        "2": "Cerrado",
+        "3": "11 AM - 5 PM",
+        "4": "11 AM - 5 PM",
+        "5": "Cerrado",
+        "6": "9 AM - 12 PM"
+      }
+    },
+    "1": {
+      "Name": "Golden Valley Health Center",
+      "Address": "127 W El Portal Drive Site B, Merced, CA 95348",
+      "Phone": "(209) 381-4104",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "8 AM - 5:30PM",
+        "2": "8 AM - 5:30PM",
+        "3": "8 AM - 5:30PM",
+        "4": "8 AM - 5:30PM",
+        "5": "8 AM - 5:30PM",
+        "6": "Cerrado"
+      }
+    },
+    "2": {
+      "Name": "A Castle Medical Clinic",
+      "Address": "340 E Yosemite Ave, Merced, CA 95340",
+      "Phone": "(209) 381-0105",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "8 AM - 5:30 PM",
+        "2": "8 AM - 5:30 PM",
+        "3": "8 AM - 5:30 PM",
+        "4": "8 AM - 5:30 PM",
+        "5": "8 AM - 5:30 PM",
+        "6": "8 AM - 5:30 PM"
+      }
+    },
+    "3": {
+      "Name": "Planned Parenthood",
+      "Address": "3166 Collins Drive, Merced, CA 95348",
+      "Phone": "(209) 723-7751",
+      "Hours": {
+        "0": "9 AM - 5 PM",
+        "1": "8 AM - 8 PM",
+        "2": "8 AM - 8 PM",
+        "3": "8 AM - 8 PM",
+        "4": "8 AM - 8 PM",
+        "5": "8 AM - 8 PM",
+        "6": "Cerrado"
+      }
+    },
+    "4": {
+      "Name": "Patients First Medical Center",
+      "Address": "394 E Yosemite Ave, Merced, CA 95340",
+      "Phone": "(209) 383-3990",
+      "Hours": {
+        "0": "9 AM - 5 PM",
+        "1": "9 AM - 5 PM",
+        "2": "9 AM - 5 PM",
+        "3": "9 AM - 5 PM",
+        "4": "9 AM - 5 PM",
+        "5": "9 AM - 5 PM",
+        "6": "9 AM - 5 PM"
+      }
+    },
+    "5": {
+      "Name": "Bloss Clinic Merced",
+      "Address": "1251 Grove Ave Site A, Atwater, CA 95301",
+      "Phone": "(209) 358-8425",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "8 AM - 6 PM",
+        "2": "8 AM - 6 PM",
+        "3": "8 AM - 6 PM",
+        "4": "8 AM - 6 PM",
+        "5": "8 AM - 6 PM",
+        "6": "Cerrado"
+      }
+    },
+    "6": {
+      "Name": "A Family's Urgent Care",
+      "Address": "2644 M Street, Merced, CA 95340",
+      "Phone": "(209) 722-5308",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "10 AM - 5:30 PM",
+        "2": "10 AM - 5:30 PM",
+        "3": "10 AM - 5:30 PM",
+        "4": "10 AM - 5:30 PM",
+        "5": "10 AM - 5:30 PM",
+        "6": "Cerrado"
+      }
+    },
+    "7": {
+      "Name": "Children and Family Medical Care",
+      "Address": "1190 W Olive Ave, Unit L, Merced, CA 95340",
+      "Phone": "(209) 722-0831",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "8 AM - 5 PM",
+        "2": "8 AM - 5 PM",
+        "3": "8 AM - 5 PM",
+        "4": "8 AM - 5 PM",
+        "5": "8 AM - 5 PM",
+        "6": "8 AM - 5 PM"
+      }
+    },
+    "8": {
+      "Name": "Fountain View Urgent Care",
+      "Address": "374 W Olive Ave Site A, Merced CA 95348",
+      "Phone": "(209) 384-5766",
+      "Hours": {
+        "0": "9 AM - 5:30 PM",
+        "1": "8 AM - 8:30 PM",
+        "2": "8 AM - 8:30 PM",
+        "3": "8 AM - 8:30 PM",
+        "4": "8 AM - 8:30 PM",
+        "5": "8 AM - 8:30 PM",
+        "6": "9 AM - 5:30 PM"
+      }
+    }
+  },
+  "Settings": {
+    "0": {
+      "0": "http://www.bpac.org.nz/Supplement/2013/July/antibiotics-guide.aspx#ear-nose-throat-sec",
+      "1": "http://www.emedicinehealth.com/antibiotics/page2_em.htm",
+      "2": "http://health.mo.gov/safety/antibioticresistance/",
+      "3": "https://www.webmd.com/a-to-z-guides/bacterial-and-viral-infections",
+      "4": "http://www.livestrong.com/article/84796-bacteria-infect/",
+      "5": "http://www.emedicinehealth.com/drug-ofloxacin/article_em.htm#whatis",
+      "6": "https://www.nlm.nih.gov/medlineplus/druginfo/meds/a685032.html",
+      "7": "http://www.drugs.com/alpha/a1.html",
+      "8": "http://www.cdc.gov/non-polio-enterovirus/about/EV-D68.html#",
+      "9": "http://www.cdc.gov/non-polio-enterovirus/about/ev68-infographic.html#text"
+    },
+    "1": "Healthy House, una agencia sin fines de lucro que entrena a intérpretes médicos profesionales, se dedica a abordar las disparidades de salud en las comunidades culturales del Valle del Centro de California, una de las áreas más diversas del país. \n\nSu programa Healthy Host, en colaboración con grupos de estudiantes de ingeniería y el Proyecto Protect de la Universidad de California, ha desarrollado esta aplicación para abordar el problema grave del mal uso y sobreuso de los antibióticos. Desde el descubrimiento de estos fármacos milagrosos, los médicos han dependido de antibióticos para curar muchas de las enfermedades comunes del público. \n\nSin embargo, el sobreuso común de los antibióticos para curar infecciones virales, lo cual es inefectivo, ha creado una crisis de bacterias muy resistentes las cuales responden limitadamente o no responden a los antibióticos. Esto ha resultado en recetar antibióticos más fuertes y en cantidades más grandes agravando aún más el problema. Además, los antibióticos son mal utilizados con frecuencia. Por ejemplo, cuando pacientes no finalizan el tratamiento completo de antibióticos, la eficacia de la medicina es afectada. Adicionalmente, miembros de comunidades culturales con frecuencia obtienen los antibióticos a través de fuentes no reguladas o clandestinas. Esto contribuye al mal uso de antibióticos que son demasiado fuertes o inapropiados para las enfermedades siendo tratadas. \n\nEs con gran esperanza que esta aplicación espera fomentar entendimiento de la crisis grave de salud sobre la resistencia de los antibióticos y lo que se puede hacer para prevenirlo."
+  },
+  "Title_VI": "Varias leyes y reglamentos federales y estatales requieren competencia lingüística. Sobre todo, la Oficina de los Derechos Civiles del Departamento Federal de Salud y Servicios Humanos requiere que todos los que reciben fondos federales cumplan con el Título VI de la Ley de los Derechos Civiles de 1964. El cumplimiento prohíbe la discriminación basada en la raza u origen nacional, tal como el no ofrecer métodos eficaces de comunicación entre los profesionales que hablan inglés y sus pacientes con conocimiento limitado del inglés (LEP). Llame a Healthy House para un intérprete al (209) 724-0102. Para información sobre el Título VI llame al (800) 242-2752 o a la Oficina de los Derechos Civiles al (415) 437-8310."
+}
