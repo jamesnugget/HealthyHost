@@ -491,7 +491,504 @@
         "Cost_Treatment": "Depends on what stage the cancer is; it could go for around $60,000 and chemo drugs would be between $15,000–$20,000 dollars per cycle."
       }
     },
-    "Dentist_Locations": {}
+    "Dentist_Locations": {
+      "0": {
+        "Name": "Armo Dental Corporation: Merced Family Dental Care",
+        "Address": "505 W 20th St. Merced, CA 95340-3715",
+        "Phone": "(209) 725-2980",
+        "Insurance": "Most PPO and Medi-Cal",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 12 PM, 2 PM - 6 PM",
+          "2": "8 AM - 12 PM, 2 PM - 6 PM",
+          "3": "8 AM - 12 PM, 2 PM - 6 PM",
+          "4": "8 AM - 12 PM, 2 PM - 6 PM",
+          "5": "8 AM - 12 PM, 2 PM - 6 PM",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "1": {
+        "Name": "Sylvania Dental Inc.",
+        "Address": "1132 Olivewood Dr, Merced, CA 93548",
+        "Phone": "(209) 722-2453",
+        "Insurance": "Cigna, Most PPO plans, and Blue Shield",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5 PM",
+          "2": "7:30 AM - 4:30 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 5 PM",
+          "6": "Closed"
+        },
+        "Languages": "Spanish, English, and Chinese"
+      },
+      "2": {
+        "Name": "Chang, Chen Tsung DDS Inc.",
+        "Address": "2448 M St. Merced, CA 95340",
+        "Phone": "(209) 383-0811",
+        "Insurance": "Medical, most private insurances, and no insurance",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 6:30 PM",
+          "2": "8 AM - 6:30 PM",
+          "3": "8 AM - 6:30 PM",
+          "4": "8 AM - 6:30 PM",
+          "5": "Closed",
+          "6": "Closed"
+        },
+        "Languages": "Spanish and English"
+      },
+      "3": {
+        "Name": "Joao F Chang DDS & Thida Mahasucon DDS",
+        "Address": "2534 M St. Merced, CA 95340-2800",
+        "Phone": "(209) 723-3071",
+        "Insurance": "Most PPO plans, Medi-Cal, and no HMO",
+        "Hours": {
+          "0": "Closed",
+          "1": "Closed",
+          "2": "9 AM - 6:30 PM",
+          "3": "6:30 AM - 6:30 PM",
+          "4": "6:30 AM - 6:30 PM",
+          "5": "Closed",
+          "6": "Closed"
+        },
+        "Languages": "Spanish and English"
+      },
+      "4": {
+        "Name": "Castaneda Fassioli Dental Corp",
+        "Address": "3385 G St. Site B, Merced, CA 95340-0980",
+        "Phone": "(209) 626-4500",
+        "Insurance": "Most PPO plans, and Medi-Cal",
+        "Hours": {
+          "0": "Closed",
+          "1": "8:30 AM - 5 PM",
+          "2": "8:30 AM - 5 PM",
+          "3": "8:30 AM - 5 PM",
+          "4": "8:30 AM - 5 PM",
+          "5": "8:30 AM - 5 PM",
+          "6": "Closed"
+        },
+        "Languages": "Spanish and English"
+      },
+      "5": {
+        "Name": "Von Goodin, DDS",
+        "Address": "830 W Olive Ave, Merced CA 95348",
+        "Phone": "(209) 384-3434",
+        "Insurance": "Most PPO and Medi-Cal",
+        "Hours": {
+          "0": "Closed",
+          "1": "8:30 AM - 5 PM",
+          "2": "8:30 AM - 5 PM",
+          "3": "8:30 AM - 5 PM",
+          "4": "8:30 AM - 5 PM",
+          "5": "Closed",
+          "6": "Closed"
+        },
+        "Languages": "Spanish and English"
+      },
+      "6": {
+        "Name": "Western Dental Inc.",
+        "Address": "1124 W Olive Ave, Site 101 Merced, CA 95348-1939",
+        "Phone": "(209) 383-2186",
+        "Insurance": "Most PPO, private and Medi-Cal",
+        "Hours": {
+          "0": "Closed",
+          "1": "9 AM - 4:30 PM",
+          "2": "9 AM - 4:30 PM",
+          "3": "9 AM - 4:30 PM",
+          "4": "9 AM - 4:30 PM",
+          "5": "9 AM - 4:30 PM",
+          "6": "8 AM - 4:30 PM"
+        },
+        "Languages": "English, Spanish, and sign language with appointment"
+      },
+      "7": {
+        "Name": "Megally Ahmed Dental (Apple Dental)",
+        "Address": "3311 M St. Merced, CA 95348-2714",
+        "Phone": "(209) 722-9411",
+        "Insurance": "Mostly only PPO, Medi-Cal only for children or (when instructed for adults)",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 1 PM",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "8": {
+        "Name": "Yosemite Dental Jun Ho Lee DDS",
+        "Address": "360 E Yosemite Ave Suite 400, Merced, CA 95340",
+        "Phone": "(209) 723-5448",
+        "Insurance": "Delta Dental, Guardian, Humana, MetLife, Americas, Cigna Dental, Aetna, Careington, most PPO dental plans",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 1 PM, 2 PM - 5 PM",
+          "2": "8 AM - 1 PM, 2 PM - 5 PM",
+          "3": "9 AM - 1 PM",
+          "4": "8 AM - 1 PM, 2 PM - 5 PM",
+          "5": "9 AM - 1 PM",
+          "6": "Closed"
+        },
+        "Languages": "English"
+      },
+      "9": {
+        "Name": "Central California Dental Surgicenter",
+        "Address": "3605 Hospital Ave, Atwater CA 95301",
+        "Phone": "(209) 381-2047",
+        "Insurance": "MediCal, Anthem Blue Cross, Private, DPO; Don't accept HMOs and PPOs",
+        "Hours": {
+          "0": "Closed",
+          "1": "7 AM - 5 PM",
+          "2": "7 AM - 5 PM",
+          "3": "7 AM - 5 PM",
+          "4": "7 AM - 5 PM",
+          "5": "7 AM - 5 PM",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "10": {
+        "Name": "Atwater Family Dental",
+        "Address": "596 Bellevue Rd, Atwater CA 95301",
+        "Phone": "(209) 358-0800",
+        "Insurance": "Private(cash), PPO; Don't accept MediCal or HMO",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "Closed",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "11": {
+        "Name": "Myriam Defay DDS Inc.",
+        "Address": "2665 Alabama St, Atwater, CA 95301",
+        "Phone": "(209) 358-1577",
+        "Insurance": "All PPO plans; age 16 and under",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 12 PM",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "12": {
+        "Name": "Dr. Danny Lee, DDS",
+        "Address": "3605 Hospital Rd, Atwater, CA 95301",
+        "Phone": "(209) 381-2047",
+        "Insurance": "MediCal, Private PPO",
+        "Hours": {
+          "0": "Closed",
+          "1": "Closed",
+          "2": "6 AM - 4 PM",
+          "3": "6 AM - 4 PM",
+          "4": "6 AM - 4 PM",
+          "5": "6 AM - 4 PM",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "13": {
+        "Name": "Dino Smiles Children’s Dentistry",
+        "Address": "1128 Commerce Ave, Atwater, CA 95301",
+        "Phone": "(209) 812-4311",
+        "Insurance": "PPO, Dental Cal (MediCal)",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 1 PM",
+          "5": "Closed",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "14": {
+        "Name": "Precision Family Dentistry of Atwater",
+        "Address": "1095 N Winton Way, Atwater, CA 95301",
+        "Phone": "(209) 358-5485",
+        "Insurance": "PPO",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "Closed",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "15": {
+        "Name": "Donald J. Bekedam Inc.",
+        "Address": "2665 Alabama St, Atwater, CA 95301",
+        "Phone": "(209) 358-1577",
+        "Insurance": "PPO, Dental Cal (MediCal): 16 and under",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 1 PM",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "16": {
+        "Name": "Dr. Emad Huwaidi",
+        "Address": "2671 Alabama St, Atwater, CA 95301",
+        "Phone": "(209) 358-7146",
+        "Insurance": "All plans, except HMO’s",
+        "Hours": {
+          "0": "Closed",
+          "1": "9 AM - 3 PM",
+          "2": "8 AM - 5 PM",
+          "3": "9 AM - 3 PM",
+          "4": "8 AM - 5 PM",
+          "5": "9 AM - 3 PM",
+          "6": "Closed"
+        },
+        "Languages": "English, Spanish & Arabic"
+      },
+      "17": {
+        "Name": "Dr. Loretta Y. Say, DMD",
+        "Address": "325 E Bellevue Rd, Atwater, CA 95301",
+        "Phone": "(209) 358-1501",
+        "Insurance": "All including (Medi-cal)",
+        "Hours": {
+          "0": "Closed",
+          "1": "Closed",
+          "2": "6 AM - 6 PM",
+          "3": "6 AM - 6 PM",
+          "4": "6 AM - 6 PM",
+          "5": "Closed",
+          "6": "Closed"
+        },
+        "Languages": "English, Spanish, & Chinese"
+      },
+      "18": {
+        "Name": "Church Lawrence R. DDS – Central California Dental",
+        "Address": "3605 Hospital Ave, Site H, Atwater, CA 95301",
+        "Phone": "(209) 381-2047",
+        "Insurance": "Most PPO Plans and Medi-Cal",
+        "Hours": {
+          "0": "Closed",
+          "1": "Closed",
+          "2": "6 AM - 4:30 PM",
+          "3": "6 AM - 4:30 PM",
+          "4": "6 AM - 4:30 PM",
+          "5": "6 AM - 4:30 PM",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "19": {
+        "Name": "Ido-Bachour Houda DDS",
+        "Address": "3605 Hospital Ave Site A, Atwater, CA 95301",
+        "Phone": "(209) 381-2005",
+        "Insurance": "Most PPO Plans and Medi-cal only for children",
+        "Hours": {
+          "0": "Closed",
+          "1": "8:30 AM - 5:30 PM",
+          "2": "8:30 AM - 5:30 PM",
+          "3": "8:30 AM - 5:30 PM",
+          "4": "8:30 AM - 5:30 PM",
+          "5": "Closed",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "20": {
+        "Name": "Benjamin J. Seaton, DDS",
+        "Address": "816 2nd St, Los Banos, CA 93635",
+        "Phone": "(209) 826-8100",
+        "Insurance": "Delta Dental Premier plan. No PPO plans.",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5:30 PM",
+          "2": "8 AM - 5:30 PM",
+          "3": "8 AM - 5:30 PM",
+          "4": "8 AM - 5:30 PM",
+          "5": "8 AM - 3 PM",
+          "6": "Closed"
+        },
+        "Languages": "English and Spanish"
+      },
+      "21": {
+        "Name": "Sierra Dental Group",
+        "Address": "1989 E Pacheco Blvd Site I, Los Banos, CA 93635",
+        "Phone": "(209) 826-8600",
+        "Insurance": "PPO Plans",
+        "Hours": {
+          "0": "Closed",
+          "1": "10 AM - 7 PM",
+          "2": "10 AM - 7 PM",
+          "3": "10 AM - 7 PM",
+          "4": "8 AM - 5 PM",
+          "5": "10 AM - 7 PM",
+          "6": "9 AM - 1 PM"
+        },
+        "Languages": "English and Spanish"
+      },
+      "22": {
+        "Name": "Ronald A. Carter DDS & Jeffery M. Carter DDS",
+        "Address": "1317 S. 6th St., Los Banos, CA 93635",
+        "Phone": "(209) 826-5732",
+        "Insurance": "Multiple insurance plans including Guardian Dental, Dental Network of America, and Ameritas",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 12 PM, 1 PM - 5 PM",
+          "2": "8 AM - 12 PM, 1 PM - 5 PM",
+          "3": "8 AM - 12 PM, 1 PM - 5 PM",
+          "4": "8 AM - 12 PM, 1 PM - 5 PM",
+          "5": "8 AM - 12 PM",
+          "6": "Closed"
+        },
+        "Languages": "English"
+      },
+      "23": {
+        "Name": "Doctor Carolyn Alyanakian-Smith",
+        "Address": "1314 S. 6th St, Los Banos, CA 93635",
+        "Phone": "(209) 827-9226",
+        "Insurance": "Delta Dental Preffered Plan accepts most plans except HMO, and Medi-Cal",
+        "Hours": {
+          "0": "Closed",
+          "1": "9 AM - 6 PM",
+          "2": "8:30 AM - 5:30 PM",
+          "3": "8:30 AM - 5:30 PM",
+          "4": "8 AM - 5 PM",
+          "5": "Closed",
+          "6": "Closed"
+        },
+        "Languages": "English"
+      },
+      "24": {
+        "Name": "Main Street Dental",
+        "Address": "1314 S. 6th St, Los Banos, CA 93635",
+        "Phone": "(209) 827-9226",
+        "Insurance": "All except medical",
+        "Hours": {
+          "0": "Closed",
+          "1": "9 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "Closed",
+          "6": "Closed"
+        },
+        "Languages": "English"
+      },
+      "25": {
+        "Name": "Family and Cosmetic Dentistry",
+        "Address": "1402 California Ave, Dos Palos, CA 93620",
+        "Phone": "(209) 392-6166",
+        "Insurance": "Ameritas, Gaurdian, and United Healthcare – Delta Dental Premier",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 2 PM",
+          "6": "Closed"
+        },
+        "Languages": "English"
+      },
+      "26": {
+        "Name": "Singh Dental Care",
+        "Address": "1472 B St, Livingston, CA 95334",
+        "Phone": "(209) 394-5175",
+        "Insurance": "Contact for more info",
+        "Hours": {
+          "0": "Closed",
+          "1": "8:30 AM - 5:30 PM",
+          "2": "Closed",
+          "3": "8 AM - 2 PM",
+          "4": "Closed",
+          "5": "8:30 AM - 5:30 PM",
+          "6": "8 AM - 4 PM"
+        },
+        "Languages": "English"
+      },
+      "27": {
+        "Name": "Family Dental Care",
+        "Address": "1112 Main St, Livingston, CA 95334",
+        "Phone": "(209) 394-8383",
+        "Insurance": "Accept private insurance, no MediCal",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 5 PM",
+          "6": "Closed"
+        },
+        "Languages": "Spanish"
+      },
+      "28": {
+        "Name": "Suave Dental, Momani DDS",
+        "Address": "706 Main St, Livingston, CA 95334",
+        "Phone": "(209) 535-9933",
+        "Insurance": "PPO and MediCal",
+        "Hours": {
+          "0": "Closed",
+          "1": "Closed",
+          "2": "9 AM - 6 PM",
+          "3": "9 AM - 6 PM",
+          "4": "9 AM - 6 PM",
+          "5": "9 AM - 6 PM",
+          "6": "9 AM - 6 PM"
+        },
+        "Languages": "Spanish and English"
+      },
+      "29": {
+        "Name": "Livingston Dental Group",
+        "Address": "1648 Joseph St. Livingston, CA 95334",
+        "Phone": "(209) 394-8090",
+        "Insurance": "PPO",
+        "Hours": {
+          "0": "Closed",
+          "1": "7:45 AM - 4:45 PM",
+          "2": "6:45 AM - 3:30 PM",
+          "3": "6:45 AM - 3:30 PM",
+          "4": "7:45 AM - 4:45 PM",
+          "5": "6:45 AM - 3:30 PM",
+          "6": "Closed"
+        },
+        "Languages": "Vietnamese, Spanish, English, and Tagalog"
+      },
+      "30": {
+        "Name": "Hilmar Dental",
+        "Address": "19901 1st St #3, Hilmar, CA 95324",
+        "Phone": "(209) 668-0101",
+        "Insurance": "PPO",
+        "Hours": {
+          "0": "Closed",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 3 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 3 PM",
+          "6": "Closed"
+        },
+        "Languages": "English, Spanish and Portuguese"
+      }
+    }
   },
   "Settings": {
     "0": {
