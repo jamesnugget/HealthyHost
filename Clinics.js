@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Platform, StyleSheet, View, Text, AppRegistry, Image, Linking, ScrollView, Dimensions } from 'react-native';
 import { Container, Header, Content, Button } from 'native-base';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
+import { InteractionManager } from 'react-native';
 
 import I18n from './locales/i18n.js';
 
@@ -10,7 +11,19 @@ var object = require('./locales/en.json');
 //gets height of phone screen
 const { height } = Dimensions.get('window');
 
-export default class ClinicsScreen extends React.PureComponent {
+export default class ClinicsScreen extends React.Component {
+
+  //grabs info of screen height and places it as a state
+  state = {
+    isReady: false,
+    screenHeight: height,
+  };
+
+  componentDidMount() {
+    InteractionManager.runAfterInteractions(() => {
+      this.setState({ isReady: true });
+    });
+  }
 
   //grabs addresses clicked on and takes user to the map app of the platform
   handleAddresses = (address) => {
@@ -51,17 +64,24 @@ export default class ClinicsScreen extends React.PureComponent {
     return Hours;
   };
 
-  //grabs info of screen height and places it as a state
-  state = {
-    screenHeight: height,
-  };
-
   //changes window of screen to size of content if and only if the content size is bigger than
   onContentSizeChange = (contentWidth, contentHeight) => {
     this.setState({ screenHeight: contentHeight });
   };
 
+  renderPlaceholder() {
+    return (
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text>Now Loading...</Text>
+      </View>
+    )
+  }
+
   render() {
+
+    if (!this.state.isReady) {
+      return this.renderPlaceholder();
+    }
 
     return (
       //calls the scrollview to keep content from going off screen and not being able to scroll down

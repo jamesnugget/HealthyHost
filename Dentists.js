@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Platform, StyleSheet, View, Text, AppRegistry, Image, Linking, ScrollView, Dimensions } from 'react-native';
 import { Container, Header, Content, Button } from 'native-base';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
+import { InteractionManager } from 'react-native';
 
 import I18n from './locales/i18n.js';
 import { forStatement } from '@babel/types';
@@ -12,6 +13,18 @@ var object = require('./locales/en.json');
 const { height } = Dimensions.get('window');
 
 export default class DentistsScreen extends React.PureComponent {
+
+  //grabs info of screen height and places it as a state
+  state = {
+    isReady: false,
+    screenHeight: height,
+  };
+
+  componentDidMount() {
+    InteractionManager.runAfterInteractions(() => {
+      this.setState({ isReady: true });
+    });
+  }
 
   //grabs addresses clicked on and takes user to the map app of the platform
   handleAddresses = (address) => {
@@ -53,8 +66,8 @@ export default class DentistsScreen extends React.PureComponent {
 
     for (i = 0; i < objectSize; i++) {
       Output.push(<View key={i}><Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>{i + 1}. {I18n.t('Oral_Health.Dentist_Locations.' + i + '.Name')}</Text>
-        <Text style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Address')}</Text>
-        <Text style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Phone')}</Text>
+        <Text selectable={true} style={{ textAlign: "left", fontSize: 15, color: "black" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Address')}</Text>
+        <Text selectable={true} style={{ textAlign: "left", fontSize: 15, color: "black" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Phone')}</Text>
         <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>{Hours[i]}
         <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Insurance')}:</Text>
         <Text style={{ textAlign: "left", fontSize: 15, color: "black" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Insurance')}</Text>
@@ -66,17 +79,24 @@ export default class DentistsScreen extends React.PureComponent {
 
   };
 
-  //grabs info of screen height and places it as a state
-  state = {
-    screenHeight: height,
-  };
-
   //changes window of screen to size of content if and only if the content size is bigger than
   onContentSizeChange = (contentWidth, contentHeight) => {
     this.setState({ screenHeight: contentHeight });
   };
 
+  renderPlaceholder() {
+    return (
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text>Now Loading...</Text>
+      </View>
+    )
+  }
+
   render() {
+
+    if (!this.state.isReady) {
+      return this.renderPlaceholder();
+    }
 
     return (
       //calls the scrollview to keep content from going off screen and not being able to scroll down
