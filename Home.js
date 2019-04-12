@@ -57,7 +57,7 @@ export default class HomeScreen extends React.PureComponent {
         <View style={styles.container}>
 
           {/* Healthy House Logo */}
-          <Image style={{ width: '50%' }} source={require('./assets/ic_launcher.png')} />
+          <Image style={{ width: '50%', resizeMode: "stretch" }} source={require('./assets/ic_launcher.png')} />
 
           {/* Intro title */}
           <Text style={styles.welcome}>{I18n.t('Text.Intro')}</Text>
