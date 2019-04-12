@@ -12,6 +12,7 @@
 		"Cost_Treatment": "Cost of Treatment",
 		"Causes": "Causes",
 		"Add_Info": "Additional Information",
+		"Now_Loading": "Now Loading...",
 		"Days": {
 			"0": "Sunday",
 			"1": "Monday",
@@ -72,6 +73,10 @@
 			"1": "Facts",
 			"2": "Steps for Good Hygiene",
 			"3": "Dentist Locations"
+		},
+		"Facts_Menu_Choices": {
+			"0": "Teeth and Gum Care Overview",
+			"1": "When to see a Dentist?"
 		}
 	},
 	"Antibiotics": {
@@ -421,10 +426,47 @@
 		}
 	},
 	"Oral_Health": {
-		"Facts": {},
+		"Facts": {
+			"0": {
+				"Title": "Brushing",
+				"Info": "Brushing is the major line of defense against an unhealthy mouth.\n\nDirections:\n\t• Brush teeth at least 2 times per day.\n\t• Focus on brushing for at least 2 minutes.\n\t• Move Brush back and forth making sure to get the front, back, and top of teeth.\n\t• Work on sorting teeth by compartments, such as front teeth, left side, and right side to achieve adequate cleaning.\n\t• Brushing your tongue can help eliminate harmful bacteria and improve breath.\n\t• Gently Brushing of the gums is also good for overall mouth hygiene.\n\t• Light bleeding of the gums is normal if the user has not brushed their teeth in a while."
+			},
+			"1": {
+				"Title": "Flossing",
+				"Info": "Recommended to floss teeth once per day.\n\nDirections:\n\t• Break off about 18 inches of floss and wind around a finger on each hand so that the floss is tight.\n\t• Hold the floss tightly between thumb and forefinger.\n\t• Guide the floss between your teeth using a gentle rubbing motion to ease the floss into the in between areas.\n\t• Repeat this motion for all teeth in mouth.\n\t• When starting a flossing routine bleeding of the gums is normal."
+			},
+			"2": {
+				"Title": "Mouth Wash",
+				"Info": "There are two main types of mouthwash:\n\n• Cosmetic:\n\to Has no effect on teeth health\n\to Temporarily fixes bad breath.\n\n• Therapeutic:\n\to Decrease Plaque buildup\n\to Decrease gingivitis\n\to Bad Breath\n\to Tooth Decay\n\to Alveolar Osteitis (Dry Socket)\n\to Topical Pain Relief\n\to Whitening\n\to Xerostomia (dry mouth)\n\to Oral Cancer Concerns"
+			},
+			"3": {
+				"Title": "Diet",
+				"Info": "• Diet is the first line of defense for mouth health, what you eat is just as important as how you maintain your mouth.\n• Consuming vitamins and minerals lead to a healthy diet.\n\nThis may include:\n\t• Calcium-rich foods, such as low-fat or fat-free milk, yogurt and cheese, fortified soy drinks and tofu, canned salmon, almonds and dark green leafy vegetables help promote strong teeth and bones.\n\t• Phosphorus found in eggs, fish, lean meat, dairy, nuts and beans is good for strong teeth.\n\t• Vitamin C promotes gum health, so eat plenty of citrus fruits, tomatoes, peppers, broccoli, potatoes and spinach."
+			},
+			"4": {
+				"Title": "How often should you visit a dentist?",
+				"Info": "Regular dentist visits should typically be about every 6 months to reduce the chances of an infection or any sort of oral complication."
+			},
+			"5": {
+				"Title": "For Kids",
+				"Info": "It is recommended that kids see their dentist as soon as their first tooth comes out, or on their first birthday."
+			},
+			"6": {
+				"Title": "For Adults",
+				"Info": "Your dentist will advise you how often to go to the dentist depending on your oral health. A typical adult with good oral hygiene might have to visit a dentist once or twice a year, while an adult with a lot of dental complications might have to go more often."
+			},
+			"7": {
+				"Title": "You should go more often if you:",
+				"Info": "\t• Smoke (tobacco can cause gum diseases and/or oral cancer)\n\t• Are pregnant (your body releases hormones can cause inflammation)\n\t• Have diabetes (higher risk of gum disease and other problems)\n\t• You’re being treated for cancer (treatment can cause infections)\n\t• Have a heart disease (dental health is linked to heart health)\n\t• HIV positive (higher risk of tooth decay and infections)"
+			},
+			"8": {
+				"Title": "You should see or call a dentist if you:",
+				"Info": "\t• Have tooth or gum pain that gets worse or doesn’t go away.\n\t• Have gums that are red, swollen, or bleed easily.\n\t• Have a sore in your mouth that doesn’t heal.\n\t• Have a tooth sensitive to hot, cold, or pressure.\n\t• Have something wrong with your old dental restoration.\n\t• Lose a filling.\n\t• Have a dry mouth on a daily basis.\n\t• Experience pain or clicking noises in your jaw."
+			}
+		},
 		"Good_Hygiene": {
 			"0": {
-				"Step": "Star children early",
+				"Step": "Start children early",
 				"Info": "• One in four young children develop signs of tooth decay before they start school. \n• 50% of all children between ages 12 to 15 develop cavities. \n• 1/7 (13%) adolescents age 12 to 19 years have at least one untreated decay tooth. \n• Beginning oral hygiene routine within the first few days after birth."
 			},
 			"1": {

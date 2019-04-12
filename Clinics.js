@@ -72,7 +72,7 @@ export default class ClinicsScreen extends React.Component {
   renderPlaceholder() {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Now Loading...</Text>
+        <Text>{I18n.t('Text.Now_Loading')}</Text>
       </View>
     )
   }
