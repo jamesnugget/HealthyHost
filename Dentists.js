@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, View, Text, AppRegistry, Image, Linking, ScrollView, Dimensions } from 'react-native';
+import { Platform, StyleSheet, View, Text, AppRegistry, Image, Linking, ScrollView, Dimensions, ActivityIndicator } from 'react-native';
 import { Container, Header, Content, Button } from 'native-base';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import { InteractionManager } from 'react-native';
 
 import I18n from './locales/i18n.js';
-import { forStatement } from '@babel/types';
 
 var object = require('./locales/en.json');
 
@@ -65,9 +64,10 @@ export default class DentistsScreen extends React.PureComponent {
     }
 
     for (i = 0; i < objectSize; i++) {
+      let idx = i;
       Output.push(<View key={i}><Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>{i + 1}. {I18n.t('Oral_Health.Dentist_Locations.' + i + '.Name')}</Text>
-        <Text selectable={true} style={{ textAlign: "left", fontSize: 15, color: "black" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Address')}</Text>
-        <Text selectable={true} style={{ textAlign: "left", fontSize: 15, color: "black" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Phone')}</Text>
+        <Text onPress={() => this.handleAddresses(I18n.t('Oral_Health.Dentist_Locations.' + idx + '.Address'))} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Address')}</Text>
+        <Text onPress={() => this.handlePhones(I18n.t('Oral_Health.Dentist_Locations.' + idx + '.Phone'))} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Phone')}</Text>
         <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>{Hours[i]}
         <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Insurance')}:</Text>
         <Text style={{ textAlign: "left", fontSize: 15, color: "black" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Insurance')}</Text>
@@ -87,6 +87,7 @@ export default class DentistsScreen extends React.PureComponent {
   renderPlaceholder() {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <ActivityIndicator size="large" color="#000000" />
         <Text>{I18n.t('Text.Now_Loading')}</Text>
       </View>
     )
@@ -102,9 +103,7 @@ export default class DentistsScreen extends React.PureComponent {
       //calls the scrollview to keep content from going off screen and not being able to scroll down
       <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
         <View style={styles.content}>
-
           {this.makeList()}
-
         </View>
       </ScrollView>
 

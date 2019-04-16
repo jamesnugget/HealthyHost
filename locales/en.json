@@ -88,7 +88,7 @@
 				"1": "Proper Usage"
 			},
 			"DO": {
-				"0": "DO ask your doctor whether your or your family member's infection will respond to antibiotics.  (If necessary, ask if a lab test is indicated to verify the type of infection.)",
+				"0": "DO ask your doctor whether you or your family member's infection will respond to antibiotics.  (If necessary, ask if a lab test is indicated to verify the type of infection.)",
 				"1": "DO ask your doctor about antibiotic-resistant bacteria and what you can do to help prevent its occurrence.",
 				"2": "DO ask your doctor if you are being given only medicine that is needed.",
 				"3": "DO ask your doctor if the strength of the antibiotic being given is only what is necessary to get a clinical result.",
@@ -1018,7 +1018,7 @@
 			},
 			"30": {
 				"Name": "Hilmar Dental",
-				"Address": "19901 1st St #3, Hilmar, CA 95324",
+				"Address": "19901 1st St Site 3, Hilmar, CA 95324",
 				"Phone": "(209) 668-0101",
 				"Insurance": "PPO",
 				"Hours": {
