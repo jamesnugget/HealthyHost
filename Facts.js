@@ -21,8 +21,8 @@ export default class FactsScreen extends React.PureComponent {
 
         <View style={styles.container}>
 
-          <Button onPress={() => this.props.navigation.navigate("Teeth and Gum Care Overview")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '80%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Facts_Menu_Choices.0')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("How often to the Dentist")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '80%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Facts_Menu_Choices.1')}</Text></Button>
+          <Button onPress={() => this.props.navigation.navigate("Teeth and Gum Care Overview")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Facts_Menu_Choices.0')}</Text></Button>
+          <Button onPress={() => this.props.navigation.navigate("How often to the Dentist")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Facts_Menu_Choices.1')}</Text></Button>
 
         </View>
       </ScrollView>

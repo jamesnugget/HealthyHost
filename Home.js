@@ -57,7 +57,7 @@ export default class HomeScreen extends React.PureComponent {
         <View style={styles.container}>
 
           {/* Healthy House Logo */}
-          <Image style={{ width: '50%', resizeMode: "stretch" }} source={require('./assets/ic_launcher.png')} />
+          <Image style={{ width: '50%' }} source={require('./assets/ic_launcher.png')} />
 
           {/* Intro title */}
           <Text style={styles.welcome}>{I18n.t('Text.Intro')}</Text>
@@ -70,14 +70,14 @@ export default class HomeScreen extends React.PureComponent {
             <Button onPress={() => this.saveLanguage("hmn")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Hmong</Text></Button>
           </View>
 
-          <Button onPress={() => this.props.navigation.navigate("Antibiotics")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '80%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.0')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Illnesses")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '80%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.1')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Questions for your Doctor")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '80%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.2')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Oral Health")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '80%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.3')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Medical Clinics")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '80%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.4')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Resources")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '80%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.5')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Background")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '80%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.6')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Title VI")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '80%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.7')}</Text></Button>
+          <Button onPress={() => this.props.navigation.navigate("Antibiotics")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.0')}</Text></Button>
+          <Button onPress={() => this.props.navigation.navigate("Illnesses")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.1')}</Text></Button>
+          <Button onPress={() => this.props.navigation.navigate("Questions for your Doctor")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.2')}</Text></Button>
+          <Button onPress={() => this.props.navigation.navigate("Oral Health")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.3')}</Text></Button>
+          <Button onPress={() => this.props.navigation.navigate("Medical Clinics")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.4')}</Text></Button>
+          <Button onPress={() => this.props.navigation.navigate("Resources")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.5')}</Text></Button>
+          <Button onPress={() => this.props.navigation.navigate("Background")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.6')}</Text></Button>
+          <Button onPress={() => this.props.navigation.navigate("Title VI")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.7')}</Text></Button>
 
         </View>
       </ScrollView>
