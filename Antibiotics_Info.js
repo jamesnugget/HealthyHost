@@ -23,7 +23,7 @@ export default class AntibioticsInfoScreen extends React.PureComponent {
 
     var objectSize = Object.keys(object.Antibiotics).length;
 
-    for (i = 1; i < objectSize - 1; i++) {
+    for (i = 1; i < objectSize; i++) {
 
       var string = I18n.t('Antibiotics.' + i + '.Name');
 

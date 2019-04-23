@@ -7,6 +7,8 @@ import AsyncStorage from '@react-native-community/async-storage';
 /* Imports app information from language files */
 import I18n from './locales/i18n.js';
 
+var object = require('./locales/en.json');
+
 const { height } = Dimensions.get('window');
 
 export default class HomeScreen extends React.PureComponent {
@@ -24,6 +26,19 @@ export default class HomeScreen extends React.PureComponent {
   onContentSizeChange = (contentWidth, contentHeight) => {
     this.setState({ screenHeight: contentHeight });
   };
+
+  makeList = () => {
+    Output = []
+
+    var objectSize = Object.keys(object.Text.Main_Menu_Choices).length;
+
+    for (var i = 0; i < objectSize; i++) {
+      let idx = i;
+      Output.push(<Button key={idx} onPress={() => this.props.navigation.navigate(object.Text.Main_Menu_Choices[idx])} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.' + idx)}</Text></Button>);
+    }
+
+    return Output;
+  }
 
   saveLanguage = async (language) => {
     try {
@@ -70,14 +85,7 @@ export default class HomeScreen extends React.PureComponent {
             <Button onPress={() => this.saveLanguage("hmn")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Hmong</Text></Button>
           </View>
 
-          <Button onPress={() => this.props.navigation.navigate("Antibiotics")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.0')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Illnesses")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.1')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Questions for your Doctor")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.2')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Oral Health")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.3')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Medical Clinics")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.4')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Resources")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.5')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Background")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.6')}</Text></Button>
-          <Button onPress={() => this.props.navigation.navigate("Title VI")} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '90%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>{I18n.t('Text.Main_Menu_Choices.7')}</Text></Button>
+          {this.makeList()}
 
         </View>
       </ScrollView>
