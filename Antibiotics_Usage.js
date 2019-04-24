@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import { Platform, StyleSheet, View, Text, AppRegistry, Image, ScrollView, Dimensions } from 'react-native';
-import { Container, Header, Content, Button } from 'native-base';
-import { createStackNavigator, createAppContainer } from 'react-navigation';
+import React from 'react';
+import { View, Text, Dimensions } from 'react-native';
+import { Button } from 'native-base';
 
 import I18n from './locales/i18n.js';
 

@@ -1,5 +1,3 @@
-import React from 'react';
-import { Button, View, Text } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 //imports screens from each file to stacknavigator for navigation
@@ -23,8 +21,8 @@ import GoodHygieneScreen from './Good_Hygiene.js';
 import DentistsScreen from './Dentists.js';
 import FactsScreen from './Facts.js';
 import TeethGumScreen from './Teeth&Gum.js';
-import OftenDentist from './OftenDentist.js';
 import OftenDentistScreen from './OftenDentist.js';
+import GeneralHealthScreen from './General_Health.js';
 
 //makes the stacknavigator which allows for buttons to navigate different screens based on function
 const AppNavigator = createStackNavigator(
@@ -50,7 +48,8 @@ const AppNavigator = createStackNavigator(
     "Dentist Locations": DentistsScreen,
     "Facts": FactsScreen,
     "Teeth and Gum Care Overview": TeethGumScreen,
-    "How often to the Dentist": OftenDentistScreen
+    "How often to the Dentist": OftenDentistScreen,
+    "General Health": GeneralHealthScreen
   },
   {
     //first screen to enter when opening the app

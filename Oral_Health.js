@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
-import { Platform, StyleSheet, View, Text, AppRegistry, Image, ScrollView, Dimensions } from 'react-native';
-import { Container, Header, Content, Button } from 'native-base';
-import { createStackNavigator, createAppContainer } from 'react-navigation';
-import AsyncStorage from '@react-native-community/async-storage';
+import React from 'react';
+import { StyleSheet, View, Text, ScrollView, Dimensions } from 'react-native';
+import { Button } from 'native-base';
 
 /* Imports app information from language files */
 import I18n from './locales/i18n.js';

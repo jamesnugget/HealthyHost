@@ -23,14 +23,11 @@
       "6": "Sábado"
     },
     "Main_Menu_Choices": {
-      "0": "Antibióticos",
-      "1": "Enfermedades",
-      "2": "Preguntas para su Doctor",
-      "3": "Salud Bucal",
-      "4": "Clinicas Medicas",
-      "5": "Recursos",
-      "6": "Información de Fondo",
-      "7": "Título VI"
+      "0": "Salud Bucal",
+      "1": "Salud General",
+      "2": "Recursos",
+      "3": "Información de Fondo",
+      "4": "Título VI"
     },
     "Antibiotics_Menu_Choices": {
       "0": "Uso de Antibióticos",
@@ -73,6 +70,12 @@
       "1": "Hechos",
       "2": "Pasos para una Buena Higiene",
       "3": "Ubicaciones de Dentistas"
+    },
+    "General_Menu_Choices": {
+      "0": "Antibióticos",
+      "1": "Enfermedades",
+      "2": "Preguntas para su Doctor",
+      "3": "Clinicas Medicas"
     },
     "Facts_Menu_Choices": {
       "0": "Dientes y Cuidado de las Encías",

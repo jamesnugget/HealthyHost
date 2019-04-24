@@ -23,14 +23,11 @@
 			"6": "Saturday"
 		},
 		"Main_Menu_Choices": {
-			"0": "Antibiotics",
-			"1": "Illnesses",
-			"2": "Questions for your Doctor",
-			"3": "Oral Health",
-			"4": "Medical Clinics",
-			"5": "Resources",
-			"6": "Background",
-			"7": "Title VI"
+			"0": "Oral Health",
+			"1": "General Health",
+			"2": "Resources",
+			"3": "Background",
+			"4": "Title VI"
 		},
 		"Antibiotics_Menu_Choices": {
 			"0": "Antibiotic Usage",
@@ -73,6 +70,12 @@
 			"1": "Facts",
 			"2": "Steps for Good Hygiene",
 			"3": "Dentist Locations"
+		},
+		"General_Menu_Choices": {
+			"0": "Antibiotics",
+			"1": "Illnesses",
+			"2": "Questions for your Doctor",
+			"3": "Medical Clinics"
 		},
 		"Facts_Menu_Choices": {
 			"0": "Teeth and Gum Care",

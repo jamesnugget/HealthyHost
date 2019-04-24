@@ -23,14 +23,11 @@
       "6": "Hnub Lwjhawm"
     },
     "Main_Menu_Choices": {
-      "0": "Tshuaj Tiv Thaiv Kab Mob",
-      "1": "Kev Mob Kneeg",
-      "2": "Lus nug rau koj tus kws kho mob",
-      "3": "Txoj Kev Noj Qab Haus Huv",
-      "4": "Tej Chaw Kho Mob",
-      "5": "Kev Pab Lwm Yam",
-      "6": "Tom Qab",
-      "7": "Title VI (NQI 6)"
+      "0": "Txoj Kev Noj Qab Haus Huv",
+      "1": "Kev Noj Qab Haus Huv",
+      "2": "Kev Pab Lwm Yam",
+      "3": "Tom Qab",
+      "4": "Title VI (NQI 6)"
     },
     "Antibiotics_Menu_Choices": {
       "0": "Siv Tshuaj Tua Kab Mob",
@@ -73,6 +70,12 @@
       "1": "Cov lus tseeb",
       "2": "Nrhiav los tu cev",
       "3": "Cov Chaw Kho Hniav"
+    },
+    "General_Menu_Choices": {
+      "0": "Tshuaj Tiv Thaiv Kab Mob",
+      "1": "Kev Mob Kneeg",
+      "2": "Lus nug rau koj tus kws kho mob",
+      "3": "Tej Chaw Kho Mob"
     },
     "Facts_Menu_Choices": {
       "0": "Cov hniav thiab cov Gum Care",

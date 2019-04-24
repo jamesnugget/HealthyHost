@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import { Platform, StyleSheet, View, Text, AppRegistry, Image, ScrollView, Dimensions } from 'react-native';
-import { Container, Header, Content, Button } from 'native-base';
-import { createStackNavigator, createAppContainer } from 'react-navigation';
+import React from 'react';
+import { StyleSheet, View, Text, Image, ScrollView, Dimensions } from 'react-native';
+import { Button } from 'native-base';
 import AsyncStorage from '@react-native-community/async-storage';
 
 /* Imports app information from language files */

@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import { Platform, StyleSheet, View, Text, AppRegistry, Image, ScrollView, Dimensions } from 'react-native';
-import { Container, Header, Content, Button } from 'native-base';
-import { createStackNavigator, createAppContainer } from 'react-navigation';
+import React from 'react';
+import { StyleSheet, View, Text, ScrollView, Dimensions } from 'react-native';
+import { Button } from 'native-base';
 
 import I18n from './locales/i18n.js';
 
@@ -9,7 +8,7 @@ var object = require('./locales/en.json');
 
 const { height } = Dimensions.get('window');
 
-export default class OftenDentistScreen extends React.PureComponent {
+export default class OftenDentistScreen extends React.Component {
 
   //This funciton only applies to the "Hmong" language for now
   makeAudioButtons = () => {
