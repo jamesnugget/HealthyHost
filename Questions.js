@@ -78,7 +78,7 @@ export default class QuestionsScreen extends React.PureComponent {
         <View style={{ flex: 1 }}>
 
           <View style={{ flexDirection: 'row', justifyContent: "center" }}>
-            {this.makeAudioButtons()}
+            {/*this.makeAudioButtons()*/}
           </View>
 
           {/* Displays FAQ */}

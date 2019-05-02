@@ -431,111 +431,111 @@
   "Oral_Health": {
     "Facts": {
       "0": {
-        "Title": "Brushing",
-        "Info": "Brushing is the major line of defense against an unhealthy mouth.\n\nDirections:\n\t• Brush teeth at least 2 times per day.\n\t• Focus on brushing for at least 2 minutes.\n\t• Move Brush back and forth making sure to get the front, back, and top of teeth.\n\t• Work on sorting teeth by compartments, such as front teeth, left side, and right side to achieve adequate cleaning.\n\t• Brushing your tongue can help eliminate harmful bacteria and improve breath.\n\t• Gently Brushing of the gums is also good for overall mouth hygiene.\n\t• Light bleeding of the gums is normal if the user has not brushed their teeth in a while."
+        "Title": "Txhuam",
+        "Info": "Kev txhuam hniav yog txoj kab loj tiv thaiv ntawm lub qhov ncauj tsis zoo.\n\nKhais:\n\t• Txhuam cov hniav tsawg kawg 2 zaug hauv ib hnub\n\t• Tsom ntsoov rau txhuam kom ntev li 2 feeb\n\t• Txav Kev Txhuam Txhuam kom paub meej pem hauv ntej, nraub qaum, thiab saum cov hniav\n\t• Ua haujlwm ntawm kev sib faib cov hniav los ntawm cov chaw, xws li pem hauv ntej, sab laug, thiab sab xis kom ua tiav tu zoo\n\t• Txhuam koj tus nplaig tuaj yeem pab tshem tawm cov kab mob phem thiab ua pa dua\n\t• Txhaj Txhim Kho ntawm cov pos hniav kuj zoo Rau qhov lub qhov ncauj tawm ntawm qhov ncauj tawm\n\t• Lub plawv los ntawm cov pos hniav yog qhov qub yog tias tus neeg siv tsis tau txhuam lawv cov hniav ib ntus."
       },
       "1": {
-        "Title": "Flossing",
-        "Info": "Recommended to floss teeth once per day.\n\nDirections:\n\t• Break off about 18 inches of floss and wind around a finger on each hand so that the floss is tight.\n\t• Hold the floss tightly between thumb and forefinger.\n\t• Guide the floss between your teeth using a gentle rubbing motion to ease the floss into the in between areas.\n\t• Repeat this motion for all teeth in mouth.\n\t• When starting a flossing routine bleeding of the gums is normal."
+        "Title": "Yav tas",
+        "Info": "Pom zoo kom siv hlua dig hniav ib zaug ib hnub.\n\nKhais:\n\t• Tshem tawm li ntawm 18 ntiv ntawm cov hlua dig thiab cua nyob ib sab ntawm txhua tus tes kom cov hlua dig hniav nruj kom nruj heev\n\t• Tuav txoj hlua khi ntawm lub taub hau thiab tus ntiv tes\n\t• Tuav txoj hlua nias ntawm koj cov hniav uas siv cov lus sib dhos zoo los ua kom yooj yim\n\t• Thaum pib lub cev txoj hlab ntshav ntawm cov pos hniav yeej zoo li qub."
       },
       "2": {
-        "Title": "Mouth Wash",
-        "Info": "There are two main types of mouthwash:\n\n• Cosmetic:\n\to Has no effect on teeth health\n\to Temporarily fixes bad breath.\n\n• Therapeutic:\n\to Decrease Plaque buildup\n\to Decrease gingivitis\n\to Bad Breath\n\to Tooth Decay\n\to Alveolar Osteitis (Dry Socket)\n\to Topical Pain Relief\n\to Whitening\n\to Xerostomia (dry mouth)\n\to Oral Cancer Concerns"
+        "Title": "Ncauj Mus Ntxuav",
+        "Info": "Muaj ob lub ntsiab lus ntawm qhov ncauj tshuaj yaug:\n\n• Tshuaj pleev ib ce:\n\to Tsis muaj teebmeem dabtsi rau kev kho hniav\n\to Siv sijhawm ua tsis taus pa ua tsis zoo.\n\n• Kho mob:\n\to Txo cov quav hniav\n\to Ua kom tsis muaj kabmob\n\to Ua pa tsis zoo\n\to Kuab hniav ntev\n\to Alveolar osteitis (lub qhov ntswg qhuav)\n\to Mob ntshav qab zib\n\to Mob xuab moos\n\to Xerostomia (qhov ncauj qhuav)\n\to Qhov kev mob ntawm qhov ncauj"
       },
       "3": {
-        "Title": "Diet",
-        "Info": "• Diet is the first line of defense for mouth health, what you eat is just as important as how you maintain your mouth.\n• Consuming vitamins and minerals lead to a healthy diet.\n\nThis may include:\n\t• Calcium-rich foods, such as low-fat or fat-free milk, yogurt and cheese, fortified soy drinks and tofu, canned salmon, almonds and dark green leafy vegetables help promote strong teeth and bones.\n\t• Phosphorus found in eggs, fish, lean meat, dairy, nuts and beans is good for strong teeth.\n\t• Vitamin C promotes gum health, so eat plenty of citrus fruits, tomatoes, peppers, broccoli, potatoes and spinach."
+        "Title": "Noj cov zaub mov",
+        "Info": "• Kev noj haus yog thawj kab kev tiv thaiv rau qhov ncauj kev noj qab haus huv, koj noj dab tsi yog qhov tseem ceeb npaum li cas koj tswj koj lub qhov ncauj.\n• Noj cov vitamins thiab minerals ua rau noj zaub mov zoo.\n\nQhov no tej zaum yuav muaj xws li:\n\t• Cov khoom noj uas muaj calcium ntau, xws li cov kua mis tsis muaj rog lossis yog rog tsis muaj rog, yogurt thiab cheese, cov kua dej qab zib muaj dej khov thiab taum, cov zaub txhwb qaib, almonds thiab cov zaub ntsuab ntsuab tuaj yeem pab txhawb cov hniav thiab cov pob txha.\n\t• Phosphorus pom hauv cov qe, ntses, nqaij ntshiv, khoom noj khoom haus, txiv ntseej thiab taum yog qhov zoo rau cov hniav uas muaj zog.\n\t• Cov Vitamin C txhawb kev mob nkeeg, yog li noj citrus txiv hmab txiv ntoo, txiv lws suav, kua txob, broccoli, qos yaj ywm thiab spinach."
       },
       "4": {
-        "Title": "How often should you visit a dentist?",
-        "Info": "Regular dentist visits should typically be about every 6 months to reduce the chances of an infection or any sort of oral complication."
+        "Title": "Koj yuav mus ntsib kws kho hniav ntau npaum cas?",
+        "Info": "Kev mus ntsib kws kho mob li niaj zaus yuav tsum yog li ntawm txhua 6 lub hlis los txo qhov kis tau tus kab mob los yog tsis muaj teeb meem ntawm lub qhov ncauj."
       },
       "5": {
-        "Title": "For Kids",
-        "Info": "It is recommended that kids see their dentist as soon as their first tooth comes out, or on their first birthday."
+        "Title": "Rau Cov Menyuam",
+        "Info": "Nws raug nquahu kom cov menyuam pom lawv tus kws kho hniav sai li sai tau thaum lawv thawj tus hniav tuaj, lossis lawv lub hnub yug thawj zaug."
       },
       "6": {
-        "Title": "For Adults",
-        "Info": "Your dentist will advise you how often to go to the dentist depending on your oral health. A typical adult with good oral hygiene might have to visit a dentist once or twice a year, while an adult with a lot of dental complications might have to go more often."
+        "Title": "Rau Cov Neeg Laus",
+        "Info": "Koj tus kws kho hniav yuav qhia koj ntau npaum li cas mus ntsib kws kho hniav nyob ntawm koj lub qhov ncauj mob. Tus neeg laus uas muaj qhov ncauj zoo huv lub cev yuav tau mus ntsib kws kho hniav ib zaug lossis ob zaug hauv ib xyoos, thaum ib tus neeg laus uas muaj teeb meem ntawm kev kho hniav ntau zaus yuav tau mus ntau zaus."
       },
       "7": {
-        "Title": "You should go more often if you:",
-        "Info": "\t• Smoke (tobacco can cause gum diseases and/or oral cancer)\n\t• Are pregnant (your body releases hormones can cause inflammation)\n\t• Have diabetes (higher risk of gum disease and other problems)\n\t• You’re being treated for cancer (treatment can cause infections)\n\t• Have a heart disease (dental health is linked to heart health)\n\t• HIV positive (higher risk of tooth decay and infections)"
+        "Title": "Koj yuav tsum mus ntau zaus yog tias koj:",
+        "Info": "\t• Kev haus luam yeeb (ua luam yeeb yuav ua rau cov kab mob kis hniav thiab/lossis mob cancer hauv lub qhov ncauj)\n\t• Yog tias cev xeeb tub (koj lub cev tso cov tshuaj hormones tuaj yeem ua kom mob)\n\t• Muaj ntshav qab zib (muaj teeb meem dua ntawm kab mob pos hniav thiab lwm yam teeb meem)\n\t• Koj muaj kab mob hauv lub plawv (kev mob hniav yog txuas rau kev mob plawv)\n\t• HIV zoo (kev pheej hmoo siab ntawm hniav lwj thiab kab mob)"
       },
       "8": {
-        "Title": "You should see or call a dentist if you:",
-        "Info": "\t• Have tooth or gum pain that gets worse or doesn’t go away.\n\t• Have gums that are red, swollen, or bleed easily.\n\t• Have a sore in your mouth that doesn’t heal.\n\t• Have a tooth sensitive to hot, cold, or pressure.\n\t• Have something wrong with your old dental restoration.\n\t• Lose a filling.\n\t• Have a dry mouth on a daily basis.\n\t• Experience pain or clicking noises in your jaw."
+        "Title": "Koj yuav tsum tau ntsib lossis hu rau tus kws kho hniav yog tias koj:",
+        "Info": "\t• Taws hniav lossis mob pos hniav uas mob heev dua lossis tsis mus.\n\t• Muaj cov pos hniav uas muaj xim liab, o, los ntshav yooj yim.\n\t• Muaj ib qho mob hauv koj lub qhov ncauj uas tsis kho.\n\t• Muaj tus hniav rhiab kub, txias, lossis muaj kev nyuab siab.\n\t• Muaj qee yam tsis raug nrog koj qhov kev kho hniav qub.\n\t• Tsis ua li cas.\n\t• Muaj qhov ncauj qhuav txhua hnub.\n\t• Hnov mob los yog txhaj cov suab nrov hauv koj lub puab tsaig."
       }
     },
     "Good_Hygiene": {
       "0": {
-        "Step": "Start children early",
-        "Info": "• One in four young children develop signs of tooth decay before they start school. \n• 50% of all children between ages 12 to 15 develop cavities. \n• 1/7 (13%) adolescents age 12 to 19 years have at least one untreated decay tooth. \n• Beginning oral hygiene routine within the first few days after birth."
+        "Step": "Pib me nyuam ntxov",
+        "Info": "• Ib ntawm plaub tus me nyuam yaus muaj kev paub txog hniav lwj ua ntej lawv pib kawm ntawv. \n• 50% ntawm txhua tus menyuam hnub nyoog 12 txog 15 xyoos muaj kab noj hniav. \n• 1/7 (13%) cov hluas uas muaj hnub nyoog 12 txog 19 xyoos muaj tsawg kawg yog ib qho tsis muaj qhov tsis muaj hniav lwj. \n• Pib txij li ob peb hnub tom qab yug los."
       },
       "1": {
-        "Step": "Brush and Floss Properly",
-        "Info": "• Twice a day for at least 2 min. \n• Ideally, use a piece of floss up to 18 inches in length, allowing you to use a fresh area of floss every few teeth without reinserting bacteria you just removed."
+        "Step": "Txhuam Thiab Txhuam Hniav",
+        "Info": "• Ob zaug ib hnub rau tsawg kawg 2 feeb. \n• Yog tias koj xav tau, siv ib daig hlua khau mus txog 18 ntiv (inches), uas koj siv lub tshuab tshiab ob peb qho hniav tsis muaj reinserting cov kab mob uas koj nyuam qhuav tshem tawm."
       },
       "2": {
         "Step": "Fluoride",
-        "Info": "• Fluoride varnish works by increasing the concentration of fluoride in the outer surface of teeth, thereby enhancing fluoride uptake during early stages of de-mineralization. \n• Fluoride products such as toothpaste, mouth rinse, and dental office topicals have been shown to reduce caries (cavities) between 30% and 70% compared with no fluoride therapy."
+        "Info": "• Cov kua roj kua dej ua hauj lwm los ntawm kev ua kom muaj cov tshuaj fluoride nyob rau sab nraud ntawm cov kaus hniav, qhov no ua kom cov tshuaj fluoride nce thaum lub sij hawm ntxov ntxov ntawm de-mineralization. \n• Cov tshuaj fluoride xws li cov tshuaj txhuam hniav, lub qhov ncauj yaug, thiab cov chaw ua haujlwm kho kaus hniav tau pom tias yuav txo tau cov kabmob (kab noj) ntawm 30% thiab 70% piv rau tsis muaj cov tshuaj fluoride."
       },
       "3": {
-        "Step": "Know when to Replace the Toothbrush",
-        "Info": "• Change toothbrush three to four times a year - or sooner if the bristles become irregular or frayed. \n• Always rinse your toothbrush with water after brushing and store it in an upright position. \n• Try to keep your toothbrush separate from the other toothbrush in the same holder to prevent cross contamination."
+        "Step": "Paub tias thaum twg yuav pauv qhov txhuam hniav",
+        "Info": "• Hloov cov txhuam hniav peb mus rau plaub zaus hauv ib lub xyoo - los yog sai dua yog tias cov bristles ua tsis raws cai los yog raug txhom. \n• Nco ntsoov yaug koj tus txhuam hniav nrog dej tom qab txhuam thiab khaws cia rau hauv txoj haujlwm ncaj ncaj. \n• Sim ua kom koj tus txhuam hniav cais ntawm lwm tus txhuam hniav hauv tib lub nrog rau kom tsis txhob kis tus kabmob."
       },
       "4": {
-        "Step": "Rinse or Chew Gum After Meal",
-        "Info": "• The physical act of chewing increases salivary flow in the mouth; if chewed after eating, the increased salivary flow can help neutralize and wash away the acids that are produced when food is broken down by the bacteria in plaque on teeth. \n• Gum is an adjunct to brushing and flossing but chewing gum does not replace brushing and flossing. \n• Clinical studies have shown that chewing sugarless gum for 20 minutes following meals can help prevent tooth decay."
+        "Step": "Yaug los yog Chew Gum Tom Qab Noj Mov",
+        "Info": "• Lub zog ntawm txoj kev zom zom nce nce zuj zus hauv qhov ncauj; Yog hais tias noj mov tom qab noj mov, qhov nce cov kua qaub caws tuaj yeem pab ua kom tsis txhob muaj cov kua qaub uas tau ua thaum cov zaub mov tawg ntawm cov kab mob hauv cov quav hniav. \n• Cov pos hniav yog ib qho kev txhawm rau txhuam thiab hlua khi, tab sis cov zom zawg tsis hloov txhuam thiab hlua dig. \n• Cov kev tshawb fawb soj ntsuam tau pom hais tias cov zom qab tsis muaj suab thaj rau 20 feeb tom qab noj mov yuav pab tiv thaiv kom hniav lwj."
       },
       "5": {
-        "Step": "Don’t Smoke or Use Tobacco",
-        "Info": "• Losing your teeth before age 65 has also recently been associated with 50% increase in risk of death from all causes. \n• If you smoke or use tobacco, or regularly drink alcohol, you have an increased risk of developing lung or oral cancer as well as gum disease. \n• New tobacco users who use smokeless products are likely to experience bad breath, yellowish-brown stains on their teeth and mouth stores."
+        "Step": "Tsis txhob haus luam yeeb lossis Siv Luam Yeeb",
+        "Info": "• Ua kom poob ntawm koj cov hniav ua ntej lub hnub nyoog 65 xyoos tseem nyuam qhuav txuam nrog 50% ntawm qhov kev pheej hmoo ntawm kev tuag ntawm txhua yam ua rau. \n• Yog tias koj haus luam yeeb lossis haus luam yeeb, lossis haus dej haus cawv, koj muaj feem yuav ua rau mob ntsws lossis mob qog nqaij hlav hauv lub qhov ncauj thiab cov kab mob pos hniav. \n• Cov neeg haus luam yeeb tshiab uas siv cov khoom tsis muaj haus luam yeeb yuav muaj kev ua pa tsw phem, xim daj-xim av ntawm lawv cov hniav thiab qhov ncauj qhov ncauj."
       },
       "6": {
-        "Step": "Avoid Sugary Foods/ Control the Amount of Sugar",
-        "Info": "• Avoid sugary foods that stay in your mouth for a long time, like hard, sticky or chewy varieties of candy. \n• Offer healthy snacks, such as cheese, fruits, yogurt, peanuts butter, chocolate milk and sugarless gum. \n• Save your sugary treats for the end of a meal before a tooth-brushing session, rather that throughout the day. \n• Substitute water for sugar-laden sodas and fruit juices. \n• Bacteria in your mouth digest the food you eat and specifically feed on the sugar, producing acids that can slowly dissolve tooth enamel and cause tooth decay."
+        "Step": "Tsis txhob noj cov khoom noj uas muaj suab thaj/tswj tus nqi ntawm Qab Zib",
+        "Info": "• Zam cov khoom qab zib uas nyob hauv koj lub qhov ncauj kom ntev, zoo li tawv, nplaum los yog chewy ntau hom khoom qab zib. \n• Muab cov khoom noj txom ncauj zoo, xws li cheese, txiv hmab txiv ntoo, yogurt, txiv laum huab xeeb, kua mis thiab cov nqaij tsis muaj suab thaj. \n• Txuag koj cov khoom qab zib kom kawg ntawm kev noj mov ua ntej hnub pib txhuam hniav, es hnub ntawd. \n• Hloov dej rau cov dej qab zib thiab kua txiv hmab txiv ntoo. \n• Nqaij kabmob hauv koj lub qhov ncauj digest cov zaub mov koj noj thiab tshwj xeeb yog pub rau hauv qab zib, ua cov acids uas yuav maj mam txhuam hniav txhuam hniav thiab ua kom hniav lwj."
       },
       "7": {
-        "Step": "See a Dentist",
-        "Info": "• Regular dental visits are important because they can help spot dental health problems early on when treatment is likely to be simpler and more affordable. \n• Even if you don’t have any symptoms, you can still have dental health problems that only a dentist can diagnose. Regularly dental visits will also help prevent problems from developing. \n• Some people need to visit the dentist once or twice a year, others may need more visits. You are a unique individual, with a unique smile and unique needs when it comes to keeping your smile healthy."
+        "Step": "Mus ntsib ib tug kws kho hniav",
+        "Info": "• Kev mus kuaj hniav tsis tu ncua yog qhov tseem ceeb vim tias lawv tuaj yeem pab tshawb tau cov teeb meem kev kho hniav ntxov ntxov thaum kho tau yooj yim thiab pheej yig dua. \n• Yog tias koj tsis muaj mob, koj tuaj yeem muaj teebmeem rau kev kho hniav uas tsuas yog ib tus kws kho hniav tuaj yeem kuaj xyuas. Kev mus kuaj mob tsis tu ncua kuj tseem tuaj yeem pab tiv thaiv teeb meem los ntawm kev tsim kho. \n• Qee tus neeg yuav tsum mus ntsib kws kho hniav ib zaug lossis ob zaug hauv ib xyoos, lwm tus yuav tsum tau mus xyuas ntau dua. Koj yog ib tus neeg tshwj xeeb, nrog kev luag nyav thiab kev xav tau tshwj xeeb thaum nws los ua kom koj lub ntsej muag luag."
       }
     },
     "Diseases": {
       "0": {
         "Name": "Tooth Decay (Cavities)",
-        "Symptoms": "A toothache",
-        "Causes": "Dental plaque can lead to tooth decay and cavities. Cavities caused by breakdown of tooth enamel by acids produced by bacteria located in plaque on teeth, along gum-line and in crevices on chewing surface of teeth. Consuming foods high in carbohydrates cause the bacteria to produce acids responsible for causing outer coating of tooth enamel or root surface to decay.",
-        "Treatment": "Daily brushing, flossing teeth, and rinsing with fluoride. Fluoride treatment can help restore tooth’s enamel and potentially reverse cavity in early stages. Fillings common when decay has progressed beyond earliest stages. Crowns are for extensive decay or weakened teeth, intended to replace tooth’s natural crown. Root canals repair and save badly damaged or infected tooth for when decay has reached inner material of tooth. Tooth extractions for teeth that have become so severely decayed they can't be restored or removed.",
-        "Cost_Treatment": "With fillings, the cost is between $50 to $150 depending if you want silver or white fillings."
+        "Symptoms": "Tus hniav",
+        "Causes": "Cov quav hniav yuav ua rau muaj hniav lwj thiab kab noj hniav. Cov kab mob ua rau muaj kev txhuam hniav ntawm cov kua qaub uas ua los ntawm cov kab mob uas nyob hauv cov quav hniav, nrog rau cov pos hniav thiab nyob rau hauv cov zom ntawm cov hniav. Noj cov zaub mov hauv cov carbohydrates ua rau cov kab mob ua kom muaj cov kua qaub uas yog lub luag hauj lwm los cuam tshuam txheej txheej ntawm tus hniav txha hniav los yog cov hauv paus hniav tuaj yoj.",
+        "Treatment": "Txhua hnub txhuam hniav, hlua dig hniav, thiab yaug nrog tshuaj fluoride. Kev kho cov tshuaj fluoride tuaj yeem pab rov qab tau hniav txhuam hniav thiab cov kabmob uas thim rov qab tuaj yeem ua thaum ntxov. Cov phom sij thaum cov hniav lwj tau ploj mus dhau ntawm cov qib theem. Cov yas hniav yog rau ntau lwj lossis tsis muaj zog cov hniav, npaj los hloov tus hniav lub cev yas. Cov hauv paus hniav tuaj yeem kho thiab txuag cov kev puas tsuaj lossis tus kab mob kis rau thaum twg cov hniav lwj mus txog hauv cov ntaub ntawv ntawm cov hniav. Kev rho hniav rau cov hniav uas tau ua lwj loj heev lawv tsis tuaj yeem txum tim lossis tshem tawm.",
+        "Cost_Treatment": "Nrog rau cov ntaub ntim, qhov nqi yog $50 txog $150 nyob ntawm seb koj puas xav tau nyiaj los yog dawb ntsaws."
       },
       "1": {
         "Name": "Gingivitis",
-        "Symptoms": "Red/swollen gums, gums blead easily",
-        "Causes": "It is a mild form of gum disease. The bacteria cause inflammation of the gums. The longer plaque and tartar are on the teeth the more harmful they become. Result of infections and inflammation of the gums and bone that surround the teeth. Specific chronic conditions including, diabetes, weak immune system, and poor oral hygiene increases the individual’s risk of suffering from periodontal disease.",
-        "Treatment": "Daily brushing and flossing, and regular cleaning by a dentist. If treatment is refused, bone that supports teeth can be lost, and gums can be infected. Eventually leading to teeth loss because of the lack of bone support.",
-        "Cost_Treatment": "The cost of a toothbrush, toothpaste, floss and/or possible routine cleaning range from $4-$75."
+        "Symptoms": "Cov pos hniav/cov pos hniav, cov pos hniav ua tau yooj yim",
+        "Causes": "Nws yog ib hom kab mob ntawm cov pos hniav. Cov kab mob ua rau mob ntawm cov pos hniav. Cov quav hniav ntev thiab cov pa sib tw ntev dua rau ntawm cov hniav qhov teeb meem ntau dua lawv. Tshwm sim ntawm cov kab mob thiab mob ntawm cov pos hniav thiab pob txha uas nyob ib ncig ntawm cov hniav. Cov kev mob nyhav xws li, mob ntshav qab zib, tsis muaj zog tiv thaiv kab mob, thiab lub cev tsis huv hauv lub qhov ncauj ua rau tus neeg muaj kev pheej hmoo los ntawm kev mob ntsws.",
+        "Treatment": "Txhua hnub txhuam thiab hlua dig hniav, thiab tu txhua tus kws kho hniav. Yog tias tsis kam kho, cov pob txha uas pab txhawb cov hniav tuaj yeem poob, thiab cov pos hniav yuav kis tau. Nws thiaj li ua rau cov hniav poob vim qhov tsis muaj pob txha yug.",
+        "Cost_Treatment": "Tus nqi txhuam hniav, tshuaj txhuam hniav, siv hlua dig hniav thiab/los yog ua tau txhua txhua hnub los ntawm $4-$75."
       },
       "2": {
         "Name": "Periodontitis",
-        "Symptoms": "Swollen gums, bleeding gums, loss of tooth",
-        "Causes": "When gingivitis is not treated, it can advance to periodontitis (which means inflammation around the tooth). Gums pull away from the teeth and form spaces called “pockets” that become infected. These are infections that harm the gum and bone that hold teeth in place. If not treated, the bones, gums, and tissue that support the teeth can be destroyed. The teeth may eventually become loose and have to be removed.",
-        "Treatment": "Must go to and be perform by a professional. They will decide what measures to take, either a nonsurgical treatment or a surgical treatment.",
-        "Cost_Treatment": "The cost to treat Gingivitis varies with the severity of the disease it can start from $75 – $3,600."
+        "Symptoms": "Cov pos hniav o, los ntshav cov pos hniav, poob hniav",
+        "Causes": "Thaum mob gingivitis tsis kho, nws tuaj yeem ua ntej rau cov kab mob (uas txhais tau tias tus kab mob nyob ib ncig ntawm tus hniav). Cov pos hniav rub tawm ntawm cov hniav thiab daim ntawv hu ua \"hnab ris\" uas kis mob. Cov no yog cov kab mob uas ua rau mob pos hniav thiab pob txha uas tuav cov hniav nyob rau hauv qhov chaw. Yog tias tsis kho, cov pob txha, cov pos hniav, thiab cov ntaub so ntswg uas pab txhawb cov hniav tuaj yeem raug rhuav tshem. Cov hniav nws thiaj li yuav xoob thiab yuav tsum tau muab tshem tawm.",
+        "Treatment": "Yuav tsum mus rau thiab ua tau los ntawm ib tug kws tshaj lij. Lawv yuav txiav txim siab seb yuav tsum ua li cas, tsis hais ib qho kev kho mob li cas los yog kev kho mob phais.",
+        "Cost_Treatment": "Tus nqi rau kev kho mob Gingivitis nws txawv nrog qhov mob ntawm tus kab mob no nws pib ntawm $75 - $3,600."
       },
       "3": {
         "Name": "Tooth Loss",
-        "Symptoms": "Swollen gums, bleeding gums, loss of tooth",
-        "Causes": "Usually caused by cavities and periodontal diseases which it affects the ages of 65–74.",
-        "Treatment": "Keep brushing your teeth, flossing teeth, and rinse with a fluoride and antiseptic mouthwash daily.",
-        "Cost_Treatment": "The cost of treating tooth loss varies with the complexity of where the tooth starts at $300 - $1,000."
+        "Symptoms": "Cov pos hniav o, los ntshav cov pos hniav, poob hniav",
+        "Causes": "Feem ntau tshwm sim los ntawm cov kab noj hniav thiab kab mob ntsws uas nws cuam tshuam rau lub hnub nyoog 65-74.",
+        "Treatment": "Txhuam txhuam koj cov hniav, hlua dig hniav, thiab yaug nrog tshuaj fluoride thiab tshuaj tiv thaiv antiseptic txhua hnub.",
+        "Cost_Treatment": "Tus nqi ntawm kev kho hniav tsis pom muaj qhov txawv ntawm qhov uas tus hniav pib ntawm $300 - $1,000."
       },
       "4": {
         "Name": "Oral Cancer",
-        "Symptoms": "Painful swallowing, pain in the mouth or ear",
-        "Causes": "High risk behaviors like, tobacco, alcohol use of any kind.",
-        "Treatment": "Early detection, surgery in the mouth and radiation therapy.",
-        "Cost_Treatment": "Depends on what stage the cancer is; it could go for around $60,000 and chemo drugs would be between $15,000–$20,000 dollars per cycle."
+        "Symptoms": "Mob nqos, mob hauv qhov ncauj lossis pob ntseg",
+        "Causes": "Kev coj cwj pwm coj zoo li tob tob, haus cawv txhua yam.",
+        "Treatment": "Kev paub ntxov ntxov, kev phais hauv lub qhov ncauj thiab kev kho hluav taws xob.",
+        "Cost_Treatment": "Nws nyob ntawm seb tus mob cancer yog dab tsi; nws yuav mus rau ntawm $60,000 thiab tshuaj chemo yuav yog $15,000- $20,000 duas las rau ib hlis twg."
       }
     },
     "Dentist_Locations": {

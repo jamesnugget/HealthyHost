@@ -82,7 +82,7 @@ export default class IllnessesInfoScreen extends React.PureComponent {
         <View style={{ flex: 1 }}>
 
           <View style={{ flexDirection: 'row', justifyContent: "center" }}>
-            {this.makeAudioButtons()}
+            {/*this.makeAudioButtons()*/}
           </View>
 
           {this.makePage(illness)}

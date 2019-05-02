@@ -38,7 +38,7 @@ export default class TitleVIScreen extends React.PureComponent {
         <View style={{ flex: 1, alignItems: 'center' }}>
 
           <View style={{ flexDirection: 'row', justifyContent: "center" }}>
-            {this.makeAudioButtons()}
+            {/*this.makeAudioButtons()*/}
           </View>
 
           {/* Imports the entire title VI paragraph in current language */}

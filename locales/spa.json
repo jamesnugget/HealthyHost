@@ -431,111 +431,111 @@
   "Oral_Health": {
     "Facts": {
       "0": {
-        "Title": "Brushing",
-        "Info": "Brushing is the major line of defense against an unhealthy mouth.\n\nDirections:\n\t• Brush teeth at least 2 times per day.\n\t• Focus on brushing for at least 2 minutes.\n\t• Move Brush back and forth making sure to get the front, back, and top of teeth.\n\t• Work on sorting teeth by compartments, such as front teeth, left side, and right side to achieve adequate cleaning.\n\t• Brushing your tongue can help eliminate harmful bacteria and improve breath.\n\t• Gently Brushing of the gums is also good for overall mouth hygiene.\n\t• Light bleeding of the gums is normal if the user has not brushed their teeth in a while."
+        "Title": "El Cepillado",
+        "Info": "El cepillado es la principal línea de defensa contra una boca poco saludable.\n\nDirecciones:\n\t• Cepille los dientes al menos 2 veces al día.\n\t• Concéntrese en el cepillado durante al menos 2 minutos.\n\t• Mueva el cepillo hacia atrás y adelante asegurándose de obtener la parte frontal, posterior y superior de los dientes.\n\t• Trabaje en la clasificación de los dientes por compartimentos, como los dientes frontales, el lado izquierdo y el lado derecho para lograr una limpieza adecuada.\n\t• El cepillado de la lengua puede ayudar a eliminar las bacterias dañinas y mejorar la respiración.\n\t• El cepillado suave de las encías también es bueno para la higiene bucal general.\n\t• El sangrado leve de las encías es normal si el usuario no se ha cepillado sus dientes en un rato"
       },
       "1": {
-        "Title": "Flossing",
-        "Info": "Recommended to floss teeth once per day.\n\nDirections:\n\t• Break off about 18 inches of floss and wind around a finger on each hand so that the floss is tight.\n\t• Hold the floss tightly between thumb and forefinger.\n\t• Guide the floss between your teeth using a gentle rubbing motion to ease the floss into the in between areas.\n\t• Repeat this motion for all teeth in mouth.\n\t• When starting a flossing routine bleeding of the gums is normal."
+        "Title": "Hilo Dental",
+        "Info": "Recomendado para usar hilo dental una vez al día.\n\nDirecciones:\n\t• Rompa aproximadamente 18 pulgadas de hilo y enrolle alrededor de un dedo en cada mano para que el hilo esté apretado.\n\t• Sostenga el hilo firmemente entre pulgar e índice.\n\t• Guíe el hilo dental entre sus dientes con un suave movimiento de frotamiento para facilitar el hilo en las áreas intermedias.\n\t• Repita este movimiento para todos los dientes en la boca.\n\t• Cuando Comenzar con el hilo dental es normal el sangrado de las encías."
       },
       "2": {
-        "Title": "Mouth Wash",
-        "Info": "There are two main types of mouthwash:\n\n• Cosmetic:\n\to Has no effect on teeth health\n\to Temporarily fixes bad breath.\n\n• Therapeutic:\n\to Decrease Plaque buildup\n\to Decrease gingivitis\n\to Bad Breath\n\to Tooth Decay\n\to Alveolar Osteitis (Dry Socket)\n\to Topical Pain Relief\n\to Whitening\n\to Xerostomia (dry mouth)\n\to Oral Cancer Concerns"
+        "Title": "Enjuague Bucal",
+        "Info": "Hay dos tipos principales de enjuague bucal:\n\n• Cosmético:\n\to No tiene efecto en la salud de los dientes\n\to Corrige el mal aliento temporalmente.\n\n• Terapéutico:\n\to Disminuye la acumulación de placa\n\to Disminuir la gingivitis\n\to Mal aliento\n\to Diente cariado\n\to Osteitis alveolar (Socket seco)\n\to Alivio del dolor tópico\n\to Blanqueamiento\n\to Xerostomía (boca seca)\n\to Problemas de cáncer oral"
       },
       "3": {
-        "Title": "Diet",
-        "Info": "• Diet is the first line of defense for mouth health, what you eat is just as important as how you maintain your mouth.\n• Consuming vitamins and minerals lead to a healthy diet.\n\nThis may include:\n\t• Calcium-rich foods, such as low-fat or fat-free milk, yogurt and cheese, fortified soy drinks and tofu, canned salmon, almonds and dark green leafy vegetables help promote strong teeth and bones.\n\t• Phosphorus found in eggs, fish, lean meat, dairy, nuts and beans is good for strong teeth.\n\t• Vitamin C promotes gum health, so eat plenty of citrus fruits, tomatoes, peppers, broccoli, potatoes and spinach."
+        "Title": "Dieta",
+        "Info": "• La dieta es la primera línea de defensa para la salud bucal, lo que come es tan importante como la forma en que mantiene su boca.\n• El consumo de vitaminas y minerales conduce a una dieta saludable.\n\nEsto puede incluir:\n\t• Los alimentos ricos en calcio, como la leche baja en grasa o sin grasa, el yogur y el queso, las bebidas de soja fortificadas y el tofu, el salmón enlatado, las almendras y las verduras de hoja verde oscuro ayudan a promover huesos y dientes fuertes.\n\t• Se encuentra fósforo En los huevos, pescado, carne magra, lácteos, nueces y frijoles es bueno para los dientes fuertes.\n\t• La vitamina C promueve la salud de las encías, así que coma muchos cítricos, tomates, pimientos, brócoli, papas y espinacas."
       },
       "4": {
-        "Title": "How often should you visit a dentist?",
-        "Info": "Regular dentist visits should typically be about every 6 months to reduce the chances of an infection or any sort of oral complication."
+        "Title": "¿Con qué frecuencia debe visitar a un dentista?",
+        "Info": "Las visitas regulares al dentista normalmente deben realizarse cada 6 meses para reducir las posibilidades de una infección o cualquier tipo de complicación oral."
       },
       "5": {
-        "Title": "For Kids",
-        "Info": "It is recommended that kids see their dentist as soon as their first tooth comes out, or on their first birthday."
+        "Title": "Para Niños",
+        "Info": "Se recomienda que los niños vean a su dentista tan pronto como salga su primer diente, o en su primer cumpleaños."
       },
       "6": {
-        "Title": "For Adults",
-        "Info": "Your dentist will advise you how often to go to the dentist depending on your oral health. A typical adult with good oral hygiene might have to visit a dentist once or twice a year, while an adult with a lot of dental complications might have to go more often."
+        "Title": "Para Adultos",
+        "Info": "Su dentista le aconsejará la frecuencia con la que debe ir al dentista según su salud bucal. Un adulto típico con una buena higiene bucal podría tener que visitar a un dentista una o dos veces al año, mientras que un adulto con muchas complicaciones dentales podría tener que acudir con más frecuencia."
       },
       "7": {
-        "Title": "You should go more often if you:",
-        "Info": "\t• Smoke (tobacco can cause gum diseases and/or oral cancer)\n\t• Are pregnant (your body releases hormones can cause inflammation)\n\t• Have diabetes (higher risk of gum disease and other problems)\n\t• You’re being treated for cancer (treatment can cause infections)\n\t• Have a heart disease (dental health is linked to heart health)\n\t• HIV positive (higher risk of tooth decay and infections)"
+        "Title": "Deberías ir más a menudo si:",
+        "Info": "\t• Fumas (el tabaco puede causar enfermedades de las encías y/o cáncer oral)\n\t• Estás embarazada (su cuerpo libera hormonas puede causar inflamación)\n\t• Tienes diabetes (mayor riesgo de enfermedad de las encías y otros problemas)\n\t• Está recibiendo tratamiento para el cáncer (el tratamiento puede causar infecciones)\n\t• Tienes una enfermedad cardíaca (la salud dental está relacionada con la salud del corazón)\n\t• Eres VIH positivo (mayor riesgo de caries e infecciones)"
       },
       "8": {
-        "Title": "You should see or call a dentist if you:",
-        "Info": "\t• Have tooth or gum pain that gets worse or doesn’t go away.\n\t• Have gums that are red, swollen, or bleed easily.\n\t• Have a sore in your mouth that doesn’t heal.\n\t• Have a tooth sensitive to hot, cold, or pressure.\n\t• Have something wrong with your old dental restoration.\n\t• Lose a filling.\n\t• Have a dry mouth on a daily basis.\n\t• Experience pain or clicking noises in your jaw."
+        "Title": "Debe ver o llamar a un dentista si:",
+        "Info": "\t• Tienes dolor de dientes o encías que empeora o no desaparece.\n\t• Tienes encías enrojecidas, inflamadas o que sangran fácilmente.\n\t• Tienes una úlcera en la boca que no lo hace curar.\n\t• Tienes un diente sensible al calor, al frío o a la presión.\n\t• Tienes algo mal con su antigua restauración dental.\n\t• Pierdes un empaste.\n\t• Tienes una boca seca a diario.\n\t• Experimenta dolor o chasquidos en la mandíbula."
       }
     },
     "Good_Hygiene": {
       "0": {
-        "Step": "Start children early",
-        "Info": "• One in four young children develop signs of tooth decay before they start school. \n• 50% of all children between ages 12 to 15 develop cavities. \n• 1/7 (13%) adolescents age 12 to 19 years have at least one untreated decay tooth. \n• Beginning oral hygiene routine within the first few days after birth."
+        "Step": "Comience a los niños temprano",
+        "Info": "• Uno de cada cuatro niños pequeños desarrolla signos de caries dental antes de comenzar la escuela.\n• El 50% de todos los niños entre las edades de 12 a 15 años desarrollan caries.\n• 1/7 (13%) adolescentes de 12 a 19 años tienen al menos un diente cariado sin tratar.\n• Inicio de la rutina de higiene oral en los primeros días después del nacimiento."
       },
       "1": {
-        "Step": "Brush and Floss Properly",
-        "Info": "• Twice a day for at least 2 min. \n• Ideally, use a piece of floss up to 18 inches in length, allowing you to use a fresh area of floss every few teeth without reinserting bacteria you just removed."
+        "Step": "Cepilla y usa el hilo dental apropiadamente",
+        "Info": "• Dos veces al día durante al menos 2 min.\n• Idealmente, use un pedazo de hilo de hasta 18 pulgadas de largo, lo que le permite usar un área nueva de hilo dental cada pocos dientes sin reinsertar las bacterias que acaba de extraer."
       },
       "2": {
-        "Step": "Fluoride",
-        "Info": "• Fluoride varnish works by increasing the concentration of fluoride in the outer surface of teeth, thereby enhancing fluoride uptake during early stages of de-mineralization. \n• Fluoride products such as toothpaste, mouth rinse, and dental office topicals have been shown to reduce caries (cavities) between 30% and 70% compared with no fluoride therapy."
+        "Step": "Fluoruro",
+        "Info": "• El barniz de fluoruro funciona al aumentar la concentración de fluoruro en la superficie externa de los dientes, lo que mejora la captación de fluoruro durante las primeras etapas de la desmineralización.\n• Se ha demostrado que los productos de fluoruro, como la pasta de dientes, el enjuague bucal y los productos tópicos de consultorios médicos reducen la caries (caries) entre un 30% y un 70% en comparación con la terapia sin fluoruro."
       },
       "3": {
-        "Step": "Know when to Replace the Toothbrush",
-        "Info": "• Change toothbrush three to four times a year - or sooner if the bristles become irregular or frayed. \n• Always rinse your toothbrush with water after brushing and store it in an upright position. \n• Try to keep your toothbrush separate from the other toothbrush in the same holder to prevent cross contamination."
+        "Step": "Sepa cuándo reemplazar el cepillo de dientes",
+        "Info": "• Cambie el cepillo de dientes de tres a cuatro veces al año, o antes si las cerdas se vuelven irregulares o deshilachadas.\n• Enjuague siempre con agua el cepillo de dientes y guárdelo en posición vertical.\n• Trate de mantener su cepillo de dientes separado del otro cepillo de dientes en el mismo soporte para evitar la contaminación cruzada."
       },
       "4": {
-        "Step": "Rinse or Chew Gum After Meal",
-        "Info": "• The physical act of chewing increases salivary flow in the mouth; if chewed after eating, the increased salivary flow can help neutralize and wash away the acids that are produced when food is broken down by the bacteria in plaque on teeth. \n• Gum is an adjunct to brushing and flossing but chewing gum does not replace brushing and flossing. \n• Clinical studies have shown that chewing sugarless gum for 20 minutes following meals can help prevent tooth decay."
+        "Step": "Enjuague o masque chicle después de la comida",
+        "Info": "• El acto físico de masticar aumenta el flujo de saliva en la boca; Si se mastica después de comer, el aumento del flujo salival puede ayudar a neutralizar y lavar los ácidos que se producen cuando los alimentos degradan las bacterias de la placa en los dientes.\n• La goma es un complemento del cepillado y el uso del hilo dental, pero la goma de mascar no reemplaza el cepillado y el uso del hilo dental.\n• Los estudios clínicos han demostrado que masticar chicle sin azúcar durante 20 minutos después de las comidas puede ayudar a prevenir la caries dental."
       },
       "5": {
-        "Step": "Don’t Smoke or Use Tobacco",
-        "Info": "• Losing your teeth before age 65 has also recently been associated with 50% increase in risk of death from all causes. \n• If you smoke or use tobacco, or regularly drink alcohol, you have an increased risk of developing lung or oral cancer as well as gum disease. \n• New tobacco users who use smokeless products are likely to experience bad breath, yellowish-brown stains on their teeth and mouth stores."
+        "Step": "No fume ni use tabaco",
+        "Info": "• La pérdida de sus dientes antes de los 65 años también se ha asociado recientemente con un aumento del 50% en el riesgo de muerte por todas las causas.\n• Si fuma o consume tabaco, o si bebe alcohol regularmente, tiene un mayor riesgo de desarrollar cáncer de pulmón u oral, así como enfermedad de las encías.\n• Los nuevos usuarios de tabaco que usan productos sin humo probablemente experimenten mal aliento, manchas de color marrón amarillento en los dientes y en la boca."
       },
       "6": {
-        "Step": "Avoid Sugary Foods/ Control the Amount of Sugar",
-        "Info": "• Avoid sugary foods that stay in your mouth for a long time, like hard, sticky or chewy varieties of candy. \n• Offer healthy snacks, such as cheese, fruits, yogurt, peanuts butter, chocolate milk and sugarless gum. \n• Save your sugary treats for the end of a meal before a tooth-brushing session, rather that throughout the day. \n• Substitute water for sugar-laden sodas and fruit juices. \n• Bacteria in your mouth digest the food you eat and specifically feed on the sugar, producing acids that can slowly dissolve tooth enamel and cause tooth decay."
+        "Step": "Evite los alimentos azucarados/Controle la cantidad de azúcar",
+        "Info": "• Evite los alimentos azucarados que permanecen en la boca durante mucho tiempo, como las variedades de caramelos duros, pegajosos o masticables.\n• Ofrezca bocadillos saludables, como queso, frutas, yogur, mantequilla de maní, leche con chocolate y chicle sin azúcar.\n• Guarde sus dulces azucarados para el final de una comida antes de una sesión de cepillado de dientes, en lugar de hacerlo durante todo el día.\n• Sustituya el agua por refrescos con azúcar y jugos de frutas.\n• Las bacterias en su boca digieren los alimentos que ingieren y se alimentan específicamente del azúcar, produciendo ácidos que pueden disolver lentamente el esmalte dental y causar caries."
       },
       "7": {
-        "Step": "See a Dentist",
-        "Info": "• Regular dental visits are important because they can help spot dental health problems early on when treatment is likely to be simpler and more affordable. \n• Even if you don’t have any symptoms, you can still have dental health problems that only a dentist can diagnose. Regularly dental visits will also help prevent problems from developing. \n• Some people need to visit the dentist once or twice a year, others may need more visits. You are a unique individual, with a unique smile and unique needs when it comes to keeping your smile healthy."
+        "Step": "Ver a un dentista",
+        "Info": "• Las visitas dentales regulares son importantes porque pueden ayudar a detectar problemas de salud dental desde el principio, cuando el tratamiento es más sencillo y más asequible.\n• Incluso si no tiene ningún síntoma, puede tener problemas de salud dental que solo un dentista puede diagnosticar. Las visitas regulares al dentista también ayudarán a prevenir el desarrollo de problemas.\n• Algunas personas necesitan visitar al dentista una o dos veces al año, otras pueden necesitar más visitas. Usted es un individuo único, con una sonrisa única y necesidades únicas cuando se trata de mantener una sonrisa saludable."
       }
     },
     "Diseases": {
       "0": {
-        "Name": "Tooth Decay (Cavities)",
-        "Symptoms": "A toothache",
-        "Causes": "Dental plaque can lead to tooth decay and cavities. Cavities caused by breakdown of tooth enamel by acids produced by bacteria located in plaque on teeth, along gum-line and in crevices on chewing surface of teeth. Consuming foods high in carbohydrates cause the bacteria to produce acids responsible for causing outer coating of tooth enamel or root surface to decay.",
-        "Treatment": "Daily brushing, flossing teeth, and rinsing with fluoride. Fluoride treatment can help restore tooth’s enamel and potentially reverse cavity in early stages. Fillings common when decay has progressed beyond earliest stages. Crowns are for extensive decay or weakened teeth, intended to replace tooth’s natural crown. Root canals repair and save badly damaged or infected tooth for when decay has reached inner material of tooth. Tooth extractions for teeth that have become so severely decayed they can't be restored or removed.",
-        "Cost_Treatment": "With fillings, the cost is between $50 to $150 depending if you want silver or white fillings."
+        "Name": "Caries Dental (Cavidades)",
+        "Symptoms": "Un dolor de muelas",
+        "Causes": "La placa dental puede provocar caries y caries. Cavidades causadas por la descomposición del esmalte dental por ácidos producidos por bacterias ubicadas en la placa en los dientes, a lo largo de la línea de las encías y en las grietas de la superficie de masticación de los dientes. El consumo de alimentos ricos en hidratos de carbono hace que las bacterias produzcan ácidos responsables de causar el deterioro del revestimiento externo del esmalte dental o de la superficie de la raíz.",
+        "Treatment": "Cepillado diario, limpieza con hilo dental y enjuague con flúor. El tratamiento con fluoruro puede ayudar a restaurar el esmalte de los dientes y potencialmente revertir la cavidad en las primeras etapas. Rellenos comunes cuando la descomposición ha progresado más allá de las primeras etapas. Las coronas son para caries extensas o dientes debilitados, destinados a reemplazar la corona natural de los dientes. Los conductos radiculares reparan y guardan los dientes gravemente dañados o infectados cuando la caries ha alcanzado el material interno del diente. Extracciones de dientes para dientes que se han deteriorado tanto que no se pueden restaurar ni extraer.",
+        "Cost_Treatment": "Con los empastes, el costo es entre $50 y $150 dependiendo de si desea empastes blancos o plateados."
       },
       "1": {
         "Name": "Gingivitis",
-        "Symptoms": "Red/swollen gums, gums blead easily",
-        "Causes": "It is a mild form of gum disease. The bacteria cause inflammation of the gums. The longer plaque and tartar are on the teeth the more harmful they become. Result of infections and inflammation of the gums and bone that surround the teeth. Specific chronic conditions including, diabetes, weak immune system, and poor oral hygiene increases the individual’s risk of suffering from periodontal disease.",
-        "Treatment": "Daily brushing and flossing, and regular cleaning by a dentist. If treatment is refused, bone that supports teeth can be lost, and gums can be infected. Eventually leading to teeth loss because of the lack of bone support.",
-        "Cost_Treatment": "The cost of a toothbrush, toothpaste, floss and/or possible routine cleaning range from $4-$75."
+        "Symptoms": "Encías rojas/inflamadas, las encías se hinchan fácilmente",
+        "Causes": "Es una forma leve de enfermedad de las encías. Las bacterias causan inflamación de las encías. Cuanto más larga es la placa y el sarro en los dientes, más dañinos se vuelven. Resultado de infecciones e inflamación de las encías y huesos que rodean los dientes. Las afecciones crónicas específicas, como la diabetes, el sistema inmunitario débil y una higiene bucal deficiente, aumentan el riesgo de que la persona sufra de enfermedad periodontal.",
+        "Treatment": "El cepillado diario y el uso de hilo dental, y la limpieza regular por un dentista. Si se rechaza el tratamiento, se puede perder el hueso que soporta los dientes y se pueden infectar las encías. Eventualmente lleva a la pérdida de dientes debido a la falta de soporte óseo.",
+        "Cost_Treatment": "El costo de un cepillo de dientes, pasta de dientes, hilo dental y/o posible limpieza de rutina oscila entre $4 y $75."
       },
       "2": {
         "Name": "Periodontitis",
-        "Symptoms": "Swollen gums, bleeding gums, loss of tooth",
-        "Causes": "When gingivitis is not treated, it can advance to periodontitis (which means inflammation around the tooth). Gums pull away from the teeth and form spaces called “pockets” that become infected. These are infections that harm the gum and bone that hold teeth in place. If not treated, the bones, gums, and tissue that support the teeth can be destroyed. The teeth may eventually become loose and have to be removed.",
-        "Treatment": "Must go to and be perform by a professional. They will decide what measures to take, either a nonsurgical treatment or a surgical treatment.",
-        "Cost_Treatment": "The cost to treat Gingivitis varies with the severity of the disease it can start from $75 – $3,600."
+        "Symptoms": "Inflamación de las encías, sangrado de las encías, pérdida del diente",
+        "Causes": "Cuando la gingivitis no se trata, puede avanzar a periodontitis (lo que significa una inflamación alrededor del diente). Las encías se separan de los dientes y forman espacios llamados \"bolsas\" que se infectan. Estas son infecciones que dañan las encías y los huesos que mantienen los dientes en su lugar. Si no se tratan, los huesos, las encías y el tejido que sostienen los dientes se pueden destruir. Los dientes pueden eventualmente aflojarse y ser removidos.",
+        "Treatment": "Debe ir y ser realizado por un profesional. Ellos decidirán qué medidas tomar, ya sea un tratamiento no quirúrgico o un tratamiento quirúrgico.",
+        "Cost_Treatment": "El costo para tratar la gingivitis varía según la gravedad de la enfermedad que puede comenzar desde $75 a $3,600."
       },
       "3": {
-        "Name": "Tooth Loss",
-        "Symptoms": "Swollen gums, bleeding gums, loss of tooth",
-        "Causes": "Usually caused by cavities and periodontal diseases which it affects the ages of 65–74.",
-        "Treatment": "Keep brushing your teeth, flossing teeth, and rinse with a fluoride and antiseptic mouthwash daily.",
-        "Cost_Treatment": "The cost of treating tooth loss varies with the complexity of where the tooth starts at $300 - $1,000."
+        "Name": "Pérdida de Dientes",
+        "Symptoms": "Inflamación de las encías, sangrado de las encías, pérdida del diente",
+        "Causes": "Suele ser causada por caries y enfermedades periodontales que afectan a las edades de 65 a 74 años.",
+        "Treatment": "Siga cepillándose los dientes, use hilo dental y enjuague con fluoruro y un enjuague bucal antiséptico todos los días.",
+        "Cost_Treatment": "El costo de tratar la pérdida de dientes varía según la complejidad de donde el diente comienza en $300 - $1,000."
       },
       "4": {
-        "Name": "Oral Cancer",
-        "Symptoms": "Painful swallowing, pain in the mouth or ear",
-        "Causes": "High risk behaviors like, tobacco, alcohol use of any kind.",
-        "Treatment": "Early detection, surgery in the mouth and radiation therapy.",
-        "Cost_Treatment": "Depends on what stage the cancer is; it could go for around $60,000 and chemo drugs would be between $15,000–$20,000 dollars per cycle."
+        "Name": "Cáncer oral",
+        "Symptoms": "Dolor al tragar, dolor en la boca o en el oído.",
+        "Causes": "Comportamientos de alto riesgo como, tabaco, consumo de alcohol de cualquier tipo.",
+        "Treatment": "Detección precoz, cirugía en la boca y radioterapia.",
+        "Cost_Treatment": "Depende de en qué etapa se encuentra el cáncer; podría costar alrededor de $ 60,000 y los medicamentos de quimioterapia serían entre $ 15,000 y $ 20,000 dólares por ciclo."
       }
     },
     "Dentist_Locations": {

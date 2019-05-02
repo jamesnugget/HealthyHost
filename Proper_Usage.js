@@ -51,7 +51,7 @@ export default class ProperUsageScreen extends React.PureComponent {
         <View style={{ flex: 1 }}>
 
           <View style={{ flexDirection: 'row', justifyContent: "center" }}>
-            {this.makeAudioButtons()}
+            {/*this.makeAudioButtons()*/}
           </View>
 
           {this.makeList()}

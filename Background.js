@@ -38,7 +38,7 @@ export default class BackgroundScreen extends React.PureComponent {
         <View style={{ flex: 1 }}>
 
           <View style={{ flexDirection: 'row', justifyContent: "center" }}>
-            {this.makeAudioButtons()}
+            {/*this.makeAudioButtons()*/}
           </View>
 
           {/* Displays entire background in current language */}
