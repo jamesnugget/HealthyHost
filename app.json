@@ -1,4 +1,11 @@
 {
   "name": "HealthyHost",
-  "displayName": "HealthyHost"
+  "displayName": "HealthyHost",
+  "ios": {
+    "supportsTablet": false,
+    "bundleIdentifier": "edu.ucmerced.healthyhost"
+  },
+  "android": {
+    "package": "com.healthyhost"
+  }
 }
