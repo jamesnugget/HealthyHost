@@ -1,6 +1,7 @@
 import React from 'react';
-import { StyleSheet, View, Text, Linking, ScrollView, Dimensions } from 'react-native';
+import { Platform, StyleSheet, View, Text, Linking, ScrollView, Dimensions, StatusBar } from 'react-native';
 import { Button } from 'native-base';
+import SafariView from 'react-native-safari-view';
 
 import I18n from './locales/i18n.js';
 
@@ -10,9 +11,23 @@ const { height } = Dimensions.get('window');
 
 export default class IllnessesInfoScreen extends React.PureComponent {
 
+  static navigationOptions = () => ({
+    title: 'Healthy Host',
+    headerTintColor: 'white',
+    headerStyle: {
+      backgroundColor: 'royalblue'
+    }
+  });
+
   handleURL = (URL) => {
     //opens link in phone web browser
-    Linking.openURL(URL);
+    if (Platform.OS === 'ios') {
+      SafariView.show({
+        url: URL
+      });
+    } else {
+      Linking.openURL(URL);
+    }
   };
 
   makePage = (illness) => {
@@ -49,17 +64,17 @@ export default class IllnessesInfoScreen extends React.PureComponent {
 
   //This funciton only applies to the "Hmong" language for now
   makeAudioButtons = () => {
-    var string = I18n.locale;
+    //var string = I18n.locale;
 
-    var n = string.localeCompare("hmn");
+    //var n = string.localeCompare("hmn");
 
     Output = []
 
-    if (n == 0) {
-      Output.push(<Button key={0} onPress={() => { alert("Now playing audio.") }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Ua si</Text></Button>);
-      Output.push(<Button key={1} onPress={() => { alert("Audio is paused.") }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Ncua</Text></Button>);
-      Output.push(<Button key={2} onPress={() => { alert("Audio has stopped.") }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Nres</Text></Button>);
-    }
+    //if (n == 0) {
+    Output.push(<Button key={0} onPress={() => { alert("Coming Soon!", "Will play audio.") }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Play</Text></Button>);
+    Output.push(<Button key={1} onPress={() => { alert("Coming Soon!", "Audio will pause.") }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Pause</Text></Button>);
+    Output.push(<Button key={2} onPress={() => { alert("Coming Soon!", "Audio will stop.") }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Stop</Text></Button>);
+    //}
     return Output;
   };
 
@@ -79,10 +94,11 @@ export default class IllnessesInfoScreen extends React.PureComponent {
 
     return (
       <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
+        <StatusBar barStyle="light-content" />
         <View style={{ flex: 1 }}>
 
           <View style={{ flexDirection: 'row', justifyContent: "center" }}>
-            {/*this.makeAudioButtons()*/}
+            {this.makeAudioButtons()}
           </View>
 
           {this.makePage(illness)}

@@ -23,6 +23,8 @@ import FactsScreen from './Facts.js';
 import TeethGumScreen from './Teeth&Gum.js';
 import OftenDentistScreen from './OftenDentist.js';
 import GeneralHealthScreen from './General_Health.js';
+import ContactScreen from './Contact.js';
+import NotificationsScreen from './Notifications.js';
 
 //makes the stacknavigator which allows for buttons to navigate different screens based on function
 const AppNavigator = createStackNavigator(
@@ -49,7 +51,9 @@ const AppNavigator = createStackNavigator(
     "Facts": FactsScreen,
     "Teeth and Gum Care Overview": TeethGumScreen,
     "How often to the Dentist": OftenDentistScreen,
-    "General Health": GeneralHealthScreen
+    "General Health": GeneralHealthScreen,
+    "Contact Us": ContactScreen,
+    "Notifications": NotificationsScreen
   },
   {
     //first screen to enter when opening the app

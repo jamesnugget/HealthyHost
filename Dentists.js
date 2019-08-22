@@ -1,8 +1,10 @@
 import React from 'react';
-import { Platform, StyleSheet, View, Text, AppRegistry, Image, Linking, ScrollView, Dimensions, ActivityIndicator } from 'react-native';
+import { Platform, StyleSheet, View, Text, AppRegistry, Image, Linking, ScrollView, Dimensions, ActivityIndicator, StatusBar } from 'react-native';
 import { InteractionManager } from 'react-native';
 
 import I18n from './locales/i18n.js';
+
+import { images } from './dentist_images.js';
 
 var object = require('./locales/en.json');
 
@@ -10,6 +12,15 @@ var object = require('./locales/en.json');
 const { height } = Dimensions.get('window');
 
 export default class DentistsScreen extends React.PureComponent {
+
+  static navigationOptions = () => ({
+    title: 'Healthy Host',
+    headerTintColor: 'white',
+    headerBackTitle: "Back",
+    headerStyle: {
+      backgroundColor: 'royalblue'
+    }
+  });
 
   //grabs info of screen height and places it as a state
   state = {
@@ -62,15 +73,22 @@ export default class DentistsScreen extends React.PureComponent {
     }
 
     for (i = 0; i < objectSize; i++) {
+
       let idx = i;
-      Output.push(<View key={i}><Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>{i + 1}. {I18n.t('Oral_Health.Dentist_Locations.' + i + '.Name')}</Text>
+
+      let imgSource = images[idx + 1].uri;
+
+      Output.push(<View key={i}>
+        <Image style={{ width: 300, height: 200, resizeMode: 'contain' }} source={imgSource} />
+        <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>{i + 1}. {I18n.t('Oral_Health.Dentist_Locations.' + i + '.Name')}</Text>
         <Text onPress={() => this.handleAddresses(I18n.t('Oral_Health.Dentist_Locations.' + idx + '.Address'))} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Address')}</Text>
         <Text onPress={() => this.handlePhones(I18n.t('Oral_Health.Dentist_Locations.' + idx + '.Phone'))} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Phone')}</Text>
         <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>{Hours[i]}
         <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Insurance')}:</Text>
         <Text style={{ textAlign: "left", fontSize: 15, color: "black" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Insurance')}</Text>
         <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Languages')}:</Text>
-        <Text style={{ textAlign: "left", fontSize: 15, color: "black" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Languages')}</Text></View>);
+        <Text style={{ textAlign: "left", fontSize: 15, color: "black" }}>{I18n.t('Oral_Health.Dentist_Locations.' + i + '.Languages')}</Text>
+      </View>);
     }
 
     return Output;
@@ -100,6 +118,7 @@ export default class DentistsScreen extends React.PureComponent {
     return (
       //calls the scrollview to keep content from going off screen and not being able to scroll down
       <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
+        <StatusBar barStyle="light-content" />
         <View style={styles.content}>
           {this.makeList()}
         </View>

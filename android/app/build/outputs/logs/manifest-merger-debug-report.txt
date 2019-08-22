@@ -8,7 +8,7 @@ MERGED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/Andro
 MERGED from [:@react-native-community_async-storage] /Users/1tbhd/Documents/GitHub/HealthyHost/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/1tbhd/Documents/GitHub/HealthyHost/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-i18n] /Users/1tbhd/Documents/GitHub/HealthyHost/node_modules/react-native-i18n/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.react:react-native:0.59.1] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/react-native-0.59.1.aar/839c814e63a33b095100129768e625c0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/2740c1890b3c6fb7331c75024b18d8ef/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01fbdf7f5005c4f848531f11c4634024/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/18f77d7365816f46d511b87b41459c89/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/16188308fd3c0195e6d3b6a1fbbc63ab/AndroidManifest.xml:17:1-22:12
@@ -70,8 +70,8 @@ application
 ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:6:3-26:17
 MERGED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:6:3-26:17
 MERGED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:6:3-26:17
-MERGED from [com.facebook.react:react-native:0.59.1] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/react-native-0.59.1.aar/839c814e63a33b095100129768e625c0/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.59.1] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/react-native-0.59.1.aar/839c814e63a33b095100129768e625c0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/2740c1890b3c6fb7331c75024b18d8ef/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/2740c1890b3c6fb7331c75024b18d8ef/AndroidManifest.xml:11:5-20
 MERGED from [com.android.support:support-compat:28.0.0] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a9700362d35f19b4f58b6b6755b175c5/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a9700362d35f19b4f58b6b6755b175c5/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7728dddfce673cd7aea8419cb61067fe/AndroidManifest.xml:22:5-23:19
@@ -84,23 +84,23 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/1tbhd/.gradle/caches/t
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:8:5-37
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:8:5-37
 	tools:ignore
-		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/debug/AndroidManifest.xml:7:39-78
+		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/debug/AndroidManifest.xml:7:75-114
 	android:roundIcon
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:10:5-50
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:10:5-50
 	tools:targetApi
-		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/debug/AndroidManifest.xml:7:18-38
+		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/debug/AndroidManifest.xml:7:54-74
 	android:icon
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:9:5-39
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:9:5-39
 	android:allowBackup
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:11:5-32
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:11:5-32
-	android:networkSecurityConfig
-		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/debug/AndroidManifest.xml:7:79-135
 	android:theme
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:12:5-36
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:12:5-36
+	android:usesCleartextTraffic
+		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/debug/AndroidManifest.xml:7:18-53
 	android:name
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:7:5-36
 		ADDED from /Users/1tbhd/Documents/GitHub/HealthyHost/android/app/src/main/AndroidManifest.xml:7:5-36
@@ -142,8 +142,8 @@ MERGED from [:react-native-gesture-handler] /Users/1tbhd/Documents/GitHub/Health
 MERGED from [:react-native-gesture-handler] /Users/1tbhd/Documents/GitHub/HealthyHost/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-i18n] /Users/1tbhd/Documents/GitHub/HealthyHost/node_modules/react-native-i18n/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-i18n] /Users/1tbhd/Documents/GitHub/HealthyHost/node_modules/react-native-i18n/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native:0.59.1] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/react-native-0.59.1.aar/839c814e63a33b095100129768e625c0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.59.1] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/react-native-0.59.1.aar/839c814e63a33b095100129768e625c0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/2740c1890b3c6fb7331c75024b18d8ef/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.8] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/2740c1890b3c6fb7331c75024b18d8ef/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01fbdf7f5005c4f848531f11c4634024/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01fbdf7f5005c4f848531f11c4634024/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/1tbhd/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/18f77d7365816f46d511b87b41459c89/AndroidManifest.xml:20:5-44

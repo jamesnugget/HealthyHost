@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text, ScrollView, Dimensions } from 'react-native';
+import { StyleSheet, View, Text, ScrollView, Dimensions, StatusBar } from 'react-native';
 import { Button } from 'native-base';
 
 import I18n from './locales/i18n.js';
@@ -9,6 +9,15 @@ var object = require('./locales/en.json');
 const { height } = Dimensions.get('window');
 
 export default class IllnessesScreen extends React.PureComponent {
+
+  static navigationOptions = () => ({
+    title: 'Healthy Host',
+    headerTintColor: 'white',
+    headerBackTitle: "Back",
+    headerStyle: {
+      backgroundColor: 'royalblue'
+    }
+  });
 
   state = {
     screenHeight: height,
@@ -36,6 +45,7 @@ export default class IllnessesScreen extends React.PureComponent {
   render() {
     return (
       <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
+        <StatusBar barStyle="light-content" />
         <View style={{ flex: 1, alignItems: "center" }}>
 
           {this.makeList()}

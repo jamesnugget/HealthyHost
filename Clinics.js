@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform, StyleSheet, View, Text, Linking, ScrollView, Dimensions, ActivityIndicator } from 'react-native';
+import { Platform, StyleSheet, View, Text, Image, Linking, ScrollView, Dimensions, ActivityIndicator, StatusBar } from 'react-native';
 import { InteractionManager } from 'react-native';
 
 import I18n from './locales/i18n.js';
@@ -10,6 +10,15 @@ var object = require('./locales/en.json');
 const { height } = Dimensions.get('window');
 
 export default class ClinicsScreen extends React.Component {
+
+  static navigationOptions = () => ({
+    title: 'Healthy Host',
+    headerTintColor: 'white',
+    headerBackTitle: "Back",
+    headerStyle: {
+      backgroundColor: 'royalblue'
+    }
+  });
 
   //grabs info of screen height and places it as a state
   state = {
@@ -52,6 +61,18 @@ export default class ClinicsScreen extends React.Component {
 
     var objectSize = Object.keys(object.Clinics).length;
 
+    images = [
+      require('./assets/clinics/1.jpg'),
+      require('./assets/clinics/2.jpg'),
+      require('./assets/clinics/3.jpg'),
+      require('./assets/clinics/4.jpg'),
+      require('./assets/clinics/5.jpg'),
+      require('./assets/clinics/6.jpg'),
+      require('./assets/clinics/7.jpg'),
+      require('./assets/clinics/8.jpg'),
+      require('./assets/clinics/9.jpg')
+    ]
+
     //For loop to insert arrays of hours into the Hours[]
     for (i = 0; i < objectSize; i++) {
       var temp = []
@@ -64,10 +85,13 @@ export default class ClinicsScreen extends React.Component {
     for (i = 0; i < objectSize; i++) {
       let idx = i;
 
-      Output.push(<View key={idx}><Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>{idx + 1}. {I18n.t('Clinics.' + i + '.Name')}</Text>
+      Output.push(<View key={idx} style={{ flex: 1 }}>
+        <Image style={{ width: 300, height: 200, resizeMode: 'contain' }} source={images[idx]} />
+        <Text style={{ textAlign: "left", fontSize: 30, color: "black", fontWeight: "bold" }}>{idx + 1}. {I18n.t('Clinics.' + i + '.Name')}</Text>
         <Text onPress={() => { this.handleAddresses(I18n.t('Clinics.' + idx + '.Address')) }} style={{ textAlign: "left", fontSize: 15, color: "red" }}>{I18n.t('Clinics.' + i + '.Address')}</Text>
         <Text onPress={() => { this.handlePhones(I18n.t('Clinics.' + idx + '.Phone')) }} style={{ textAlign: "left", fontSize: 15, color: "blue" }}>{I18n.t('Clinics.' + i + '.Phone')}</Text>
-        <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>{Hours[idx]}</View>);
+        <Text style={{ textAlign: "left", fontSize: 22, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Hours')}:</Text>{Hours[idx]}
+      </View>);
     }
     return Output;
   };
@@ -95,6 +119,7 @@ export default class ClinicsScreen extends React.Component {
     return (
       //calls the scrollview to keep content from going off screen and not being able to scroll down
       <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
+        <StatusBar barStyle="light-content" />
         <View style={styles.content}>
           {this.makeList()}
         </View>
@@ -110,8 +135,6 @@ const styles = StyleSheet.create({
     flexGrow: 1,
   },
   content: {
-    flexGrow: 1,
-    justifyContent: "space-between",
     padding: 10,
   },
 });

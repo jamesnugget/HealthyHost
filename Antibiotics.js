@@ -10,6 +10,15 @@ const { height } = Dimensions.get('window');
 
 export default class AntibioticsScreen extends React.PureComponent {
 
+  static navigationOptions = () => ({
+    title: 'Healthy Host',
+    headerTintColor: 'white',
+    headerBackTitle: "Back",
+    headerStyle: {
+      backgroundColor: 'royalblue'
+    }
+  });
+
   state = {
     screenHeight: height,
   };
