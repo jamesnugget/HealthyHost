@@ -1,0 +1,992 @@
+{
+  "Text": {
+    "Intro": "¡Bienvenidos a Healthy Host!",
+    "Description": "Descripción",
+    "Uses": "Usos",
+    "Symptoms": "Síntomas",
+    "Treatment": "Tratamiento",
+    "FAQ": "FAQ",
+    "Hours": "Horas",
+    "Insurance": "Aseguranza",
+    "Languages": "Idiomas",
+    "Cost_Treatment": "Costo del Tratamiento",
+    "Causes": "Causas",
+    "Add_Info": "Información Adicional",
+    "Now_Loading": "Cargando...",
+    "Email_Err": "Por favor instale una aplicación de correo electrónico!",
+    "Days": {
+      "0": "Domingo",
+      "1": "Lunes",
+      "2": "Martes",
+      "3": "Miércoles",
+      "4": "Jueves",
+      "5": "Viernes",
+      "6": "Sábado"
+    },
+    "Main_Menu_Choices": {
+      "0": "Salud Bucal",
+      "1": "Salud General",
+      "2": "Información de Fondo",
+      "3": "Título VI",
+      "4": "Noticias y Eventos",
+      "5": "Contáctenos"
+    },
+    "Antibiotics_Menu_Choices": {
+      "0": "Uso de Antibióticos",
+      "1": "Amoxicilina",
+      "2": "Azitromicina",
+      "3": "Ceftriaxona",
+      "4": "Cefalexina",
+      "5": "Doxiciclina",
+      "6": "Eritromicina",
+      "7": "Flucloxacilina",
+      "8": "Levaquin",
+      "9": "Metronidazol",
+      "10": "Ofloxacino",
+      "11": "Penicilina G"
+    },
+    "Diseases_Menu_Choices": {
+      "0": "La Caries Dental",
+      "1": "Gingivitis",
+      "2": "Periodontitis",
+      "3": "Pérdida de Dientes",
+      "4": "Cáncer Oral"
+    },
+    "Illnesses_Menu_Choices": {
+      "0": "Clamidia",
+      "1": "Infección en el Oído",
+      "2": "Helicobacter Pylori",
+      "3": "Impétigo",
+      "4": "Enfermedad de Lyme",
+      "5": "Mastitis",
+      "6": "Mononucleosis",
+      "7": "Fascitis Necrotizante",
+      "8": "Virus Sincicial Respiratorio (VSR)",
+      "9": "Faringitis Estreptocócica ",
+      "10": "Herpes Tipo 2",
+      "11": "Infección del Tracto Urinario",
+      "12": "Fiebre del Valle"
+    },
+    "Oral_Menu_Choices": {
+      "0": "Enfermedades",
+      "1": "Hechos",
+      "2": "Pasos para una Buena Higiene",
+      "3": "Ubicaciones de Dentistas"
+    },
+    "General_Menu_Choices": {
+      "0": "Antibióticos",
+      "1": "Enfermedades",
+      "2": "Preguntas para su Doctor",
+      "3": "Clinicas Medicas"
+    },
+    "Facts_Menu_Choices": {
+      "0": "Dientes y Cuidado de las Encías",
+      "1": "Visita al Dentista"
+    }
+  },
+  "Antibiotics": {
+    "0": {
+      "Name": "Uso de Antibióticos",
+      "Description": "Esta página contiene recomendaciones acerca del manejo apropiado de sus antibióticos. Seleccione una de las siguintes dos opciones para aprender más sobre el cuidado de sus antibióticos.",
+      "Usage": {
+        "0": "Uso Incorrecto",
+        "1": "Uso Correcto"
+      },
+      "DO": {
+        "0": "SI, pregúntele a su médico si su infección o la de un familiar van a responder al antibiótico. (Si es necesario, pregunte si necesita una prueba de laboratorio para verificar el tipo de infección.)",
+        "1": "SI, pregúntele a su médico sobre la bacteria resistente a los antibióticos y lo que Ud. puede hacer para ayudar a prevenir la incidencia.",
+        "2": "SI, pregúntele a su médico si le está recetando solamente la medicina necesaria.",
+        "3": "SI, pregúntele a su médico si la potencia del antibiótico recetado es solamente la necesaria para obtener los resultados clínicos.",
+        "4": "SI, tome antibióticos para infecciones bacterianas si la infección es apropiadamente diagnosticada y los antibióticos son recetados por un médico.",
+        "5": "SI, sigua las instrucciones exactas para tomar su antibiótico. Tome la cantidad exacta especificada a las horas especificadas. Asegúrese de tomar la medicina durante todo el periodo recetado por su médico. Dejarla de tomar muy temprano podría permitir que la bacteria se haga resistente al no matarla completamente. Aunque se sienta mejor, ¡tome toda la medicina!"
+      },
+      "DONT": {
+        "0": "NO presione a su médico para que le recete antibióticos.",
+        "1": "NO tome antibióticos para un resfriado común. Los resfriados son causados por un virus, no la bacteria. El tratamiento es típicamente descanso, muchos líquidos, y medicinas para la fiebre o dolor de cabeza.",
+        "2": "NO tome antibióticos para infecciones virales ya que no son efectivos.",
+        "3": "NO tome antibióticos al menos que hayan sido recetados por un médico para un enfermedad actual.",
+        "4": "NO comparta antibióticos con otras personas ni los obtenga de fuentes no reguladas. Las enfermedades de otros son probablemente diferentes a la suya y un antibiótico equivocado le podría hacer más mal que bien.",
+        "5": "NO tome antibióticos simplemente porque estuvo expuesto a un enfermo. Esto podría aumentar su probabilidad de contraer una infección resistente."
+      }
+    },
+    "1": {
+      "Name": "Amoxicilina",
+      "Description": "Utilizada para el tratamiento de infecciones bacterianas localizadas en los oídos, nariz, piel, y vías urinarias. Combate infecciones tales como la bronquitis, neumonía, tonsilitis y gonorrea.",
+      "Uses": "Dolor de estómago, piernas y pecho, diarrea, llagas en la boca o piel, síntomas de resfriados y dificultad para respirar.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/16.1.html#Js5406e.16.1"
+    },
+    "2": {
+      "Name": "Azitromicina",
+      "Description": "Esta se utiliza para el tratamiento de infecciones bacterianas en los oídos, piel, y vías respiratorias.",
+      "Uses": "Diarrea, picazón y piel roja, y fiebre.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/9.4.html#Js2215e.9.4"
+    },
+    "3": {
+      "Name": "Ceftriaxona",
+      "Description": "Utilizada para el tratamiento de infecciones bacterianas localizadas en los oídos, nariz, piel, y vías urinarias. Combate infecciones tales como la bronquitis, neumonía, tonsilitis y gonorrea.",
+      "Uses": "Dolor de estómago, piernas y pecho, diarrea, llagas en la boca o piel, síntomas de resfriados y dificultad para respirar.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/9.7.html#Js2215e.9.7"
+    },
+    "4": {
+      "Name": "Cefalexina",
+      "Description": "Esta es utilizada para tratar infecciones bacterianas del oído, sistema respiratorio, piel y vías urinarias.",
+      "Uses": "Diarrea, dolor abdominal, escalofríos y fiebre.",
+      "Add_Info": "https://medlineplus.gov/druginfo/meds/a682733.html"
+    },
+    "5": {
+      "Name": "Doxiciclina",
+      "Description": "Esta trata la bacteria que causa acné, infecciones intestinales, infecciones de los ojos, infecciones de las vías urinarias y baches/chichones.",
+      "Uses": "Tos, diarrea, orina oscura, dolor muscular/coyunturas, dolores de cabeza y mareos.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2922e/2.5.8.html"
+    },
+    "6": {
+      "Name": "Eritromicina",
+      "Description": "Este antibiótico se utiliza para retardar el crecimiento de bacteria o para completamente exterminar la bacteria sensitiva.",
+      "Uses": "Fiebre, sarpullido en la piel, dolor estomacal severo y vómitos.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2918e/23.4.html#Jh2918e.23.4"
+    },
+    "7": {
+      "Name": "Flucloxacilina",
+      "Description": "Utilizada para tratar las infecciones del oído, nariz y garganta. También se utiliza para la tonsilitis e infecciones respiratorias como la neumonía.",
+      "Uses": "Sarpullido de la piel, dolor muscular/coyunturas, problemas del hígado y fiebre.",
+      "Add_Info": "https://drugs.webmd.boots.com/drugs/drug-200-Flucloxacillin.aspx"
+    },
+    "8": {
+      "Name": "Levaquin",
+      "Description": "Utilizado para el tratamiento de infecciones bacterianas de la piel, la vejiga, los riñones y la próstata. Se utiliza también para combatir la bacteria que causa neumonía y bronquitis.",
+      "Uses": "Inmenso dolor, rigidez articular, magulladuras, inflamación, problemas que afectan el movimiento.",
+      "Add_Info": "https://www.webmd.com/drugs/2/drug-14492-8235/levaquin-oral/levofloxacin-oral/details"
+    },
+    "9": {
+      "Name": "Metronidazol",
+      "Description": "Este antibiótico combate infecciones bacterianas localizadas en la piel o en el estómago, coyunturas, vagina y las vías respiratorias.",
+      "Uses": "Visión borrosa, confusión, fiebre, dolores de cabeza y vómitos.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/16.21.html#Js5406e.16.21"
+    },
+    "10": {
+      "Name": "Ofloxacino",
+      "Description": "Este se utiliza para tratar infecciones bacterianas que causan bronquitis, clamidia, gonorrea, e infecciones de la piel y las vías urinarias.",
+      "Uses": "Diarrea, mareos, dolor repentino, convulsiones y fiebre.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2988e/14.4.html#Jh2988e.14.4"
+    },
+    "11": {
+      "Name": "Penicilina G",
+      "Description": "Esta se utiliza para combatir una variedad de infecciones bacterianas como la  meningitis, gonorrea y sífilis.",
+      "Uses": "Sarpullidos de la piel, diarrea, dolores estomacales, dolores de cabeza y fiebres.",
+      "Add_Info": "http://www.drugs.com/alpha/a1.html"
+    }
+  },
+  "Illnesses": {
+    "0": {
+      "Name": "Clamidia",
+      "Description": "La clamidia se trasmite por el sexo vaginal y anal. Raramente se trasmite durante el sexo oral o al tocarse los ojos con la mano. También se puede transmitir de la mujer a su feto durante el parto. La clamidia no se trasmite a través de un contacto casual y normalmente no hay síntomas. Las personas, en su mayoría mujeres, no están conscientes de tener la infección.",
+      "Symptoms": "Los síntomas para las mujeres podrían incluir: dolor abdominal, flujo vaginal anormal, sangrado entre periodos menstruales, fiebre baja, coito doloroso, dolor o sensación de ardor al orinar, inflamación dentro de la vagina o alrededor del ano, una urgencia de orinar más de lo normal, sangrado vaginal después del coito y/o una secreción amarillenta del cuello uterino que podría tener un olor fuerte. Cuando los hombres tienen síntomas, podrían sentir dolor o ardor al orinar, tener pus o un flujo acuoso o lechoso del pene, testículos inflamados o sensibles, y/o inflamación alrededor del ano. En mujeres y hombres, la clamidia puede causar que el ano tenga comezón o sangre. También puede resultar en un flujo y diarrea. Si la clamidia infecta  los ojos, podría causar enrojecimiento, comezón, y secreción. Si la clamidia infecta la garganta, podría causar dolor de garganta. Los síntomas de la clamidia podrían aparecer solo por la mañana y podrían ser leves, especialmente en los hombres. Si Ud. o su pareja tiene cualquier síntoma enumerado anteriormente, consulte a un profesional de salud. Esto es especialmente importante si está embarazada.",
+      "Treatment": "Se trata con antibióticos.",
+      "Add_Info": "https://www.cdc.gov/std/chlamydia/stdfact-chlamydia.htm"
+    },
+    "1": {
+      "Name": "Infección en el Oído",
+      "Description": "Estas infecciones pueden ser causadas por bacteria o virus y comenzar con un resfriado o gripe causando que líquidos se acumulen en los oídos.",
+      "Symptoms": "Fiebre y dolor que duran varios días.",
+      "Treatment": "Los antibióticos pueden reducir los síntomas, pero la mayoría sanan en un par de semanas.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/ear-infections/symptoms-causes/syc-20351616"
+    },
+    "2": {
+      "Name": "Helicobacter Pylori",
+      "Description": "Una bacteria que causa inflamación crónica del revestimiento del estómago.",
+      "Symptoms": "Eructos, distensión abdominal, náuseas, vómitos, pérdida de peso inexplicable",
+      "Treatment": "Esta infeccion se trata al erradicar la bacteria y dejar que se autocure. Los antiácidos también se pueden usar para controlar la bacteria.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/h-pylori/symptoms-causes/syc-20356171"
+    },
+    "3": {
+      "Name": "Impétigo",
+      "Description": "El impétigo es una infección de la piel la cual a menudo comienza cuando bacteria, que existe normalmente en la piel, entra a través de una pequeña cortadura o rasguño.",
+      "Symptoms": "Los síntomas incluyen ampollas o llagas amarillas, costrosas, que supuran las cuales pueden aparecer en cualquier parte del cuerpo. Al rascarlas el impétigo se puede propagar a otras partes del cuerpo. Es más común en niños que en adultos y muy a menudo es tratado con antibióticos.",
+      "Treatment": "Los antibióticos se pueden utilizar para tratar esto.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/9.2.html#Js5406e.9.2"
+    },
+    "4": {
+      "Name": "Enfermedad de Lyme",
+      "Description": "Esta enfermedad sistémica causada por la bacteria es típicamente transmitida por garrapatas infectadas. Cuando una garrapata muerde a una persona, la bacteria se propaga.",
+      "Symptoms": "La infeccion se puede resultar en malestar, fiebre, dolor de cabeza, fatiga, dolor muscular así como algo llamado el sarpullido “ojos de buey.” Si no se trata, la enfermedad puede causar artritis y afectar el corazón y el sistema nervioso central.",
+      "Treatment": "Se trata con antibióticos.",
+      "Add_Info": "https://www.cdc.gov/lyme/toolkit/index.html"
+    },
+    "5": {
+      "Name": "Mastitis",
+      "Description": "Esta infección en los senos se adquiere típicamente durante las primeras seis semanas de lactancia. Se puede tratar extrayendo regularmente la leche materna y tomando antibióticos.",
+      "Symptoms": "Dolor en los senos, escalofríos, fatiga, fiebre, malestar, enrojecimiento, secreción del pezón, pus, hinchazón.",
+      "Treatment": "Se requieren antibióticos. Los analgésicos leves pueden ayudar con la incomodidad.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/mastitis/symptoms-causes/syc-20374829"
+    },
+    "6": {
+      "Name": "Mononucleosis",
+      "Description": "También conocida como mono o la enfermedad del bezo.",
+      "Symptoms": "Esta infección viral se transmite por la saliva.",
+      "Treatment": "Aunque no hay cura para esta enfermedad, hay tratamientos que reducirán el dolor durante brotes.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/mononucleosis/symptoms-causes/syc-20350328"
+    },
+    "7": {
+      "Name": "Fascitis Necrotizante",
+      "Description": "Una infección causada por bacteria que destruye piel, grasa y tejidos cubriendo los músculos en muy poco tiempo. Es muy rara pero muy seria y el 25% de los infectados mueren.",
+      "Symptoms": "Fatiga, debilidad, fiebre con escalofríos y sudorosa, nausea, vomito, mareos, disminución de la orina.",
+      "Treatment": "Fuertes antibióticos aplicados directamente por las venas, en algunos caso se tendrá que amputar las áreas infectadas para prevenir el que se propague la infección.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/9.2.html#Js5406e.9.2"
+    },
+    "8": {
+      "Name": "Virus Sincicial Respiratorio (VSR)",
+      "Description": "Este virus infecta los pulmones y las vías respiratorias. El VSR se parece a un resfriado leve en adultos saludables, pero podría causar infecciones serias en bebes y ancianos.",
+      "Symptoms": "Secreción nasal, disminución del apetito, estornudos, fiebre.",
+      "Treatment": "No hay tratamiento específico. No se necesitan antibióticos.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/respiratory-syncytial-virus/symptoms-causes/syc-20353098"
+    },
+    "9": {
+      "Name": "Faringitis Estreptocócica ",
+      "Description": "La faringitis estreptocócica es una infección bacteriana que afecta la garganta y las amígdalas causando un dolor de garganta severo y puede causar fiebre.",
+      "Symptoms": "Dolor de garganta, agrandamiento de los ganglios linfáticos, dolor al pasar, hinchazón de las amígdalas, fiebre, escalofríos, malestar.",
+      "Treatment": "Se trata con antibióticos.",
+      "Add_Info": "https://medlineplus.gov/streptococcalinfections.html#summary"
+    },
+    "10": {
+      "Name": "Herpes Tipo 2",
+      "Description": "El herpes genital.",
+      "Symptoms": "Cuando existen llagas alrededor de los genitales o el ano.",
+      "Treatment": "Se transmite a través del contacto sexual con alguien que tiene HSV-2.",
+      "Add_Info": "https://www.cdc.gov/std/herpes/stdfact-herpes-detailed.htm"
+    },
+    "11": {
+      "Name": "Infección del Tracto Urinario",
+      "Description": "La uretra, el tubo que lleva la orina desde la vejiga hasta el exterior del cuerpo, se encuentra cerca del ano. La bacteria del intestino grueso, tal como E. coli, está en el lugar perfecto para escapar del ano e invadir la uretra. Desde allí, estas pueden propagarse hasta la vejiga, y si la infección no es curada, continuaran a infectar los riñones. Las mujeres pueden estar particularmente expuestas a las infecciones del tracto urinario porque tienen uretras más cortas, dándole a la bacteria acceso rápido a la vejiga. El sexo también puede introducir bacteria al tracto urinario.",
+      "Symptoms": "Sensación de ardor al orinar, una urgencia frecuente e intensa de orinar a pesar que poco sale, dolor o presión en la espalda o la parte inferior del abdomen, orina turbia, oscura, sangrienta, o con olor raro, cansancio o temblores, y fiebre o escalofríos (una señal de que la infección pueda haber llegado a los riñones)",
+      "Treatment": "Se trata con antibióticos.",
+      "Add_Info": "https://www.mayoclinic.org/diseases-conditions/urinary-tract-infection/symptoms-causes/syc-20353447"
+    },
+    "12": {
+      "Name": "Fiebre del Valle",
+      "Description": "Una enfermedad causada por un hongo que habita en la tierra, Coccidioides immitis. Pequeñitas semillas, o esporas, son arrastradas por el viento y son  inhaladas en los pulmones en donde comienza la infección.",
+      "Symptoms": "Las personas pueden experimentar dolor en el pecho, escalofríos, fatiga, fiebre, bultos o erupciones cutáneas, dificultad para respirar y pérdida de peso.",
+      "Treatment": "Medicamentos antimicóticos, No se necesitan antibióticos.",
+      "Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/3.3.html#Js2215e.3.3"
+    }
+  },
+  "FAQ": {
+    "0": "¿Cuál es la diferencia entre las infecciones bacterianas y virales?",
+    "1": "¿Cómo se distinguen las síntomas de infecciones bacterianas a los de infecciones virales?",
+    "2": "¿Cuál es la diferencia entre los tratamientos para las infecciones bacterianas y las virales?",
+    "3": "¿Cuándo necesito antibióticos? ¿Existen otras alternativas de tratamientos seguros?",
+    "4": "¿Cómo afectaran los antibióticos las bacterias naturales en el cuerpo?",
+    "5": "¿Interfiere el antibiótico contra la efectividad de otras medicinas tales como las píldoras anticonceptivas?",
+    "6": "¿Que es la resistencia antibiótica? ¿Acaso el tomar un antibiótico reduce su efectividad para curar infecciones bacterianas en el futuro? ¿Cómo se puede prevenir esto?",
+    "7": "¿Cuál es la dosis apropiada para tomar antibióticos? ¿Por cuánto tiempo se deben tomar los antibióticos?",
+    "8": "¿Importa en donde o de qué lugar obtengo los antibióticos? ¿Por qué?",
+    "9": "¿Existen posibles reacciones adversas si los antibióticos se toman con comida(s) o alcohol?",
+    "10": {
+      "Multi_Part_Question": {
+        "0": "Cuando se toman antibióticos con otras medicinas...",
+        "1": "Cuando se toman los antibióticos..."
+      },
+      "Parts": {
+        "0": {
+          "A": "¿De cuáles medicinas debo tener cuidado al tomar antibióticos?",
+          "B": "¿Existen medicinas comunes que no se pueden tomar durante el consumo de antibióticos?",
+          "C": "¿Cuáles son los efectos secundarios dañinos que debo buscar al comenzar el proceso de medicinas dobles o múltiples?"
+        },
+        "1": {
+          "A": "¿Debo comer antes de tomar antibióticos?",
+          "B": "¿Cuánto dura el proceso del antibiótico?",
+          "C": "¿Cuándo empieza a funcionar la medicina? ¿Cómo sé que funciona?",
+          "D": "¿Si me siento mejor, debo terminar de tomar el número o dosis recetada?",
+          "E": "¿Qué sucede si accidentalmente me pierdo una dosis?",
+          "F": "¿Existen efectos secundarios que debo buscar al comenzar el antibiótico?"
+        }
+      }
+    }
+  },
+  "Clinics": {
+    "0": {
+      "Name": "Merced Medical Clinic",
+      "Address": "650 W. Olive Ave Site A, Merced, CA 95348",
+      "Phone": "(209) 722-8047",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "11 AM - 5 PM",
+        "2": "Cerrado",
+        "3": "11 AM - 5 PM",
+        "4": "11 AM - 5 PM",
+        "5": "Cerrado",
+        "6": "9 AM - 12 PM"
+      }
+    },
+    "1": {
+      "Name": "Golden Valley Health Center",
+      "Address": "127 W El Portal Drive Site B, Merced, CA 95348",
+      "Phone": "(209) 381-4104",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "8 AM - 5:30PM",
+        "2": "8 AM - 5:30PM",
+        "3": "8 AM - 5:30PM",
+        "4": "8 AM - 5:30PM",
+        "5": "8 AM - 5:30PM",
+        "6": "Cerrado"
+      }
+    },
+    "2": {
+      "Name": "V A Castle Medical Clinic",
+      "Address": "340 E Yosemite Ave, Merced, CA 95340",
+      "Phone": "(209) 381-0105",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "8 AM - 5:30 PM",
+        "2": "8 AM - 5:30 PM",
+        "3": "8 AM - 5:30 PM",
+        "4": "8 AM - 5:30 PM",
+        "5": "8 AM - 5:30 PM",
+        "6": "8 AM - 5:30 PM"
+      }
+    },
+    "3": {
+      "Name": "Planned Parenthood",
+      "Address": "3166 Collins Drive, Merced, CA 95348",
+      "Phone": "(209) 723-7751",
+      "Hours": {
+        "0": "9 AM - 5 PM",
+        "1": "8 AM - 8 PM",
+        "2": "8 AM - 8 PM",
+        "3": "8 AM - 8 PM",
+        "4": "8 AM - 8 PM",
+        "5": "8 AM - 8 PM",
+        "6": "Cerrado"
+      }
+    },
+    "4": {
+      "Name": "Patients First Medical Center",
+      "Address": "394 E Yosemite Ave, Merced, CA 95340",
+      "Phone": "(209) 383-3990",
+      "Hours": {
+        "0": "9 AM - 5 PM",
+        "1": "9 AM - 5 PM",
+        "2": "9 AM - 5 PM",
+        "3": "9 AM - 5 PM",
+        "4": "9 AM - 5 PM",
+        "5": "9 AM - 5 PM",
+        "6": "9 AM - 5 PM"
+      }
+    },
+    "5": {
+      "Name": "Bloss Medical Clinic",
+      "Address": "1251 Grove Ave Site A, Atwater, CA 95301",
+      "Phone": "(209) 358-8425",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "8 AM - 6 PM",
+        "2": "8 AM - 6 PM",
+        "3": "8 AM - 6 PM",
+        "4": "8 AM - 6 PM",
+        "5": "8 AM - 6 PM",
+        "6": "Cerrado"
+      }
+    },
+    "6": {
+      "Name": "A Family's Urgent Care",
+      "Address": "2644 M Street, Merced, CA 95340",
+      "Phone": "(209) 722-5308",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "10 AM - 5:30 PM",
+        "2": "10 AM - 5:30 PM",
+        "3": "10 AM - 5:30 PM",
+        "4": "10 AM - 5:30 PM",
+        "5": "10 AM - 5:30 PM",
+        "6": "Cerrado"
+      }
+    },
+    "7": {
+      "Name": "Children and Family Medical Care",
+      "Address": "1190 W Olive Ave, Unit L, Merced, CA 95340",
+      "Phone": "(209) 722-0831",
+      "Hours": {
+        "0": "Cerrado",
+        "1": "8 AM - 5 PM",
+        "2": "8 AM - 5 PM",
+        "3": "8 AM - 5 PM",
+        "4": "8 AM - 5 PM",
+        "5": "8 AM - 5 PM",
+        "6": "8 AM - 5 PM"
+      }
+    },
+    "8": {
+      "Name": "Fountain View Urgent Care",
+      "Address": "374 W Olive Ave Site A, Merced CA 95348",
+      "Phone": "(209) 384-5766",
+      "Hours": {
+        "0": "9 AM - 5:30 PM",
+        "1": "8 AM - 8:30 PM",
+        "2": "8 AM - 8:30 PM",
+        "3": "8 AM - 8:30 PM",
+        "4": "8 AM - 8:30 PM",
+        "5": "8 AM - 8:30 PM",
+        "6": "9 AM - 5:30 PM"
+      }
+    }
+  },
+  "Oral_Health": {
+    "Facts": {
+      "0": {
+        "Title": "El Cepillado",
+        "Info": "El cepillado es la principal línea de defensa contra una boca poco saludable.\n\nDirecciones:\n\t• Cepille los dientes al menos 2 veces al día.\n\t• Concéntrese en el cepillado durante al menos 2 minutos.\n\t• Mueva el cepillo hacia atrás y adelante asegurándose de obtener la parte frontal, posterior y superior de los dientes.\n\t• Trabaje en la clasificación de los dientes por compartimentos, como los dientes frontales, el lado izquierdo y el lado derecho para lograr una limpieza adecuada.\n\t• El cepillado de la lengua puede ayudar a eliminar las bacterias dañinas y mejorar la respiración.\n\t• El cepillado suave de las encías también es bueno para la higiene bucal general.\n\t• El sangrado leve de las encías es normal si el usuario no se ha cepillado sus dientes en un rato"
+      },
+      "1": {
+        "Title": "Hilo Dental",
+        "Info": "Recomendado para usar hilo dental una vez al día.\n\nDirecciones:\n\t• Rompa aproximadamente 18 pulgadas de hilo y enrolle alrededor de un dedo en cada mano para que el hilo esté apretado.\n\t• Sostenga el hilo firmemente entre pulgar e índice.\n\t• Guíe el hilo dental entre sus dientes con un suave movimiento de frotamiento para facilitar el hilo en las áreas intermedias.\n\t• Repita este movimiento para todos los dientes en la boca.\n\t• Cuando Comenzar con el hilo dental es normal el sangrado de las encías."
+      },
+      "2": {
+        "Title": "Enjuague Bucal",
+        "Info": "Hay dos tipos principales de enjuague bucal:\n\n• Cosmético:\n\to No tiene efecto en la salud de los dientes\n\to Corrige el mal aliento temporalmente.\n\n• Terapéutico:\n\to Disminuye la acumulación de placa\n\to Disminuir la gingivitis\n\to Mal aliento\n\to Diente cariado\n\to Osteitis alveolar (Socket seco)\n\to Alivio del dolor tópico\n\to Blanqueamiento\n\to Xerostomía (boca seca)\n\to Problemas de cáncer oral"
+      },
+      "3": {
+        "Title": "Dieta",
+        "Info": "• La dieta es la primera línea de defensa para la salud bucal, lo que come es tan importante como la forma en que mantiene su boca.\n• El consumo de vitaminas y minerales conduce a una dieta saludable.\n\nEsto puede incluir:\n\t• Los alimentos ricos en calcio, como la leche baja en grasa o sin grasa, el yogur y el queso, las bebidas de soja fortificadas y el tofu, el salmón enlatado, las almendras y las verduras de hoja verde oscuro ayudan a promover huesos y dientes fuertes.\n\t• Se encuentra fósforo En los huevos, pescado, carne magra, lácteos, nueces y frijoles es bueno para los dientes fuertes.\n\t• La vitamina C promueve la salud de las encías, así que coma muchos cítricos, tomates, pimientos, brócoli, papas y espinacas."
+      },
+      "4": {
+        "Title": "¿Con qué frecuencia debe visitar a un dentista?",
+        "Info": "Las visitas regulares al dentista normalmente deben realizarse cada 6 meses para reducir las posibilidades de una infección o cualquier tipo de complicación oral."
+      },
+      "5": {
+        "Title": "Para Niños",
+        "Info": "Se recomienda que los niños vean a su dentista tan pronto como salga su primer diente, o en su primer cumpleaños."
+      },
+      "6": {
+        "Title": "Para Adultos",
+        "Info": "Su dentista le aconsejará la frecuencia con la que debe ir al dentista según su salud bucal. Un adulto típico con una buena higiene bucal podría tener que visitar a un dentista una o dos veces al año, mientras que un adulto con muchas complicaciones dentales podría tener que acudir con más frecuencia."
+      },
+      "7": {
+        "Title": "Deberías ir más a menudo si:",
+        "Info": "\t• Fumas (el tabaco puede causar enfermedades de las encías y/o cáncer oral)\n\t• Estás embarazada (su cuerpo libera hormonas puede causar inflamación)\n\t• Tienes diabetes (mayor riesgo de enfermedad de las encías y otros problemas)\n\t• Está recibiendo tratamiento para el cáncer (el tratamiento puede causar infecciones)\n\t• Tienes una enfermedad cardíaca (la salud dental está relacionada con la salud del corazón)\n\t• Eres VIH positivo (mayor riesgo de caries e infecciones)"
+      },
+      "8": {
+        "Title": "Debe ver o llamar a un dentista si:",
+        "Info": "\t• Tienes dolor de dientes o encías que empeora o no desaparece.\n\t• Tienes encías enrojecidas, inflamadas o que sangran fácilmente.\n\t• Tienes una úlcera en la boca que no lo hace curar.\n\t• Tienes un diente sensible al calor, al frío o a la presión.\n\t• Tienes algo mal con su antigua restauración dental.\n\t• Pierdes un empaste.\n\t• Tienes una boca seca a diario.\n\t• Experimenta dolor o chasquidos en la mandíbula."
+      }
+    },
+    "Good_Hygiene": {
+      "0": {
+        "Step": "Comience a los niños temprano",
+        "Info": "• Uno de cada cuatro niños pequeños desarrolla signos de caries dental antes de comenzar la escuela.\n• El 50% de todos los niños entre las edades de 12 a 15 años desarrollan caries.\n• 1/7 (13%) adolescentes de 12 a 19 años tienen al menos un diente cariado sin tratar.\n• Inicio de la rutina de higiene oral en los primeros días después del nacimiento."
+      },
+      "1": {
+        "Step": "Cepilla y usa el hilo dental apropiadamente",
+        "Info": "• Dos veces al día durante al menos 2 min.\n• Idealmente, use un pedazo de hilo de hasta 18 pulgadas de largo, lo que le permite usar un área nueva de hilo dental cada pocos dientes sin reinsertar las bacterias que acaba de extraer."
+      },
+      "2": {
+        "Step": "Fluoruro",
+        "Info": "• El barniz de fluoruro funciona al aumentar la concentración de fluoruro en la superficie externa de los dientes, lo que mejora la captación de fluoruro durante las primeras etapas de la desmineralización.\n• Se ha demostrado que los productos de fluoruro, como la pasta de dientes, el enjuague bucal y los productos tópicos de consultorios médicos reducen la caries (caries) entre un 30% y un 70% en comparación con la terapia sin fluoruro."
+      },
+      "3": {
+        "Step": "Sepa cuándo reemplazar el cepillo de dientes",
+        "Info": "• Cambie el cepillo de dientes de tres a cuatro veces al año, o antes si las cerdas se vuelven irregulares o deshilachadas.\n• Enjuague siempre con agua el cepillo de dientes y guárdelo en posición vertical.\n• Trate de mantener su cepillo de dientes separado del otro cepillo de dientes en el mismo soporte para evitar la contaminación cruzada."
+      },
+      "4": {
+        "Step": "Enjuague o masque chicle después de la comida",
+        "Info": "• El acto físico de masticar aumenta el flujo de saliva en la boca; Si se mastica después de comer, el aumento del flujo salival puede ayudar a neutralizar y lavar los ácidos que se producen cuando los alimentos degradan las bacterias de la placa en los dientes.\n• La goma es un complemento del cepillado y el uso del hilo dental, pero la goma de mascar no reemplaza el cepillado y el uso del hilo dental.\n• Los estudios clínicos han demostrado que masticar chicle sin azúcar durante 20 minutos después de las comidas puede ayudar a prevenir la caries dental."
+      },
+      "5": {
+        "Step": "No fume ni use tabaco",
+        "Info": "• La pérdida de sus dientes antes de los 65 años también se ha asociado recientemente con un aumento del 50% en el riesgo de muerte por todas las causas.\n• Si fuma o consume tabaco, o si bebe alcohol regularmente, tiene un mayor riesgo de desarrollar cáncer de pulmón u oral, así como enfermedad de las encías.\n• Los nuevos usuarios de tabaco que usan productos sin humo probablemente experimenten mal aliento, manchas de color marrón amarillento en los dientes y en la boca."
+      },
+      "6": {
+        "Step": "Evite los alimentos azucarados/Controle la cantidad de azúcar",
+        "Info": "• Evite los alimentos azucarados que permanecen en la boca durante mucho tiempo, como las variedades de caramelos duros, pegajosos o masticables.\n• Ofrezca bocadillos saludables, como queso, frutas, yogur, mantequilla de maní, leche con chocolate y chicle sin azúcar.\n• Guarde sus dulces azucarados para el final de una comida antes de una sesión de cepillado de dientes, en lugar de hacerlo durante todo el día.\n• Sustituya el agua por refrescos con azúcar y jugos de frutas.\n• Las bacterias en su boca digieren los alimentos que ingieren y se alimentan específicamente del azúcar, produciendo ácidos que pueden disolver lentamente el esmalte dental y causar caries."
+      },
+      "7": {
+        "Step": "Ver a un dentista",
+        "Info": "• Las visitas dentales regulares son importantes porque pueden ayudar a detectar problemas de salud dental desde el principio, cuando el tratamiento es más sencillo y más asequible.\n• Incluso si no tiene ningún síntoma, puede tener problemas de salud dental que solo un dentista puede diagnosticar. Las visitas regulares al dentista también ayudarán a prevenir el desarrollo de problemas.\n• Algunas personas necesitan visitar al dentista una o dos veces al año, otras pueden necesitar más visitas. Usted es un individuo único, con una sonrisa única y necesidades únicas cuando se trata de mantener una sonrisa saludable."
+      }
+    },
+    "Diseases": {
+      "0": {
+        "Name": "Caries Dental (Cavidades)",
+        "Symptoms": "Un dolor de muelas",
+        "Causes": "La placa dental puede provocar caries y caries. Cavidades causadas por la descomposición del esmalte dental por ácidos producidos por bacterias ubicadas en la placa en los dientes, a lo largo de la línea de las encías y en las grietas de la superficie de masticación de los dientes. El consumo de alimentos ricos en hidratos de carbono hace que las bacterias produzcan ácidos responsables de causar el deterioro del revestimiento externo del esmalte dental o de la superficie de la raíz.",
+        "Treatment": "Cepillado diario, limpieza con hilo dental y enjuague con flúor. El tratamiento con fluoruro puede ayudar a restaurar el esmalte de los dientes y potencialmente revertir la cavidad en las primeras etapas. Rellenos comunes cuando la descomposición ha progresado más allá de las primeras etapas. Las coronas son para caries extensas o dientes debilitados, destinados a reemplazar la corona natural de los dientes. Los conductos radiculares reparan y guardan los dientes gravemente dañados o infectados cuando la caries ha alcanzado el material interno del diente. Extracciones de dientes para dientes que se han deteriorado tanto que no se pueden restaurar ni extraer.",
+        "Cost_Treatment": "Con los empastes, el costo es entre $50 y $150 dependiendo de si desea empastes blancos o plateados."
+      },
+      "1": {
+        "Name": "Gingivitis",
+        "Symptoms": "Encías rojas/inflamadas, las encías se hinchan fácilmente",
+        "Causes": "Es una forma leve de enfermedad de las encías. Las bacterias causan inflamación de las encías. Cuanto más larga es la placa y el sarro en los dientes, más dañinos se vuelven. Resultado de infecciones e inflamación de las encías y huesos que rodean los dientes. Las afecciones crónicas específicas, como la diabetes, el sistema inmunitario débil y una higiene bucal deficiente, aumentan el riesgo de que la persona sufra de enfermedad periodontal.",
+        "Treatment": "El cepillado diario y el uso de hilo dental, y la limpieza regular por un dentista. Si se rechaza el tratamiento, se puede perder el hueso que soporta los dientes y se pueden infectar las encías. Eventualmente lleva a la pérdida de dientes debido a la falta de soporte óseo.",
+        "Cost_Treatment": "El costo de un cepillo de dientes, pasta de dientes, hilo dental y/o posible limpieza de rutina oscila entre $4 y $75."
+      },
+      "2": {
+        "Name": "Periodontitis",
+        "Symptoms": "Inflamación de las encías, sangrado de las encías, pérdida del diente",
+        "Causes": "Cuando la gingivitis no se trata, puede avanzar a periodontitis (lo que significa una inflamación alrededor del diente). Las encías se separan de los dientes y forman espacios llamados \"bolsas\" que se infectan. Estas son infecciones que dañan las encías y los huesos que mantienen los dientes en su lugar. Si no se tratan, los huesos, las encías y el tejido que sostienen los dientes se pueden destruir. Los dientes pueden eventualmente aflojarse y ser removidos.",
+        "Treatment": "Debe ir y ser realizado por un profesional. Ellos decidirán qué medidas tomar, ya sea un tratamiento no quirúrgico o un tratamiento quirúrgico.",
+        "Cost_Treatment": "El costo para tratar la gingivitis varía según la gravedad de la enfermedad que puede comenzar desde $75 a $3,600."
+      },
+      "3": {
+        "Name": "Pérdida de Dientes",
+        "Symptoms": "Inflamación de las encías, sangrado de las encías, pérdida del diente",
+        "Causes": "Suele ser causada por caries y enfermedades periodontales que afectan a las edades de 65 a 74 años.",
+        "Treatment": "Siga cepillándose los dientes, use hilo dental y enjuague con fluoruro y un enjuague bucal antiséptico todos los días.",
+        "Cost_Treatment": "El costo de tratar la pérdida de dientes varía según la complejidad de donde el diente comienza en $300 - $1,000."
+      },
+      "4": {
+        "Name": "Cáncer oral",
+        "Symptoms": "Dolor al tragar, dolor en la boca o en el oído.",
+        "Causes": "Comportamientos de alto riesgo como, tabaco, consumo de alcohol de cualquier tipo.",
+        "Treatment": "Detección precoz, cirugía en la boca y radioterapia.",
+        "Cost_Treatment": "Depende de en qué etapa se encuentra el cáncer; podría costar alrededor de $ 60,000 y los medicamentos de quimioterapia serían entre $ 15,000 y $ 20,000 dólares por ciclo."
+      }
+    },
+    "Dentist_Locations": {
+      "0": {
+        "Name": "ABC Dental Group",
+        "Address": "505 W 20th St. Merced, CA 95340",
+        "Phone": "(209) 725-2980",
+        "Insurance": "Most PPO and Medi-Cal",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "9 AM - 5 PM",
+          "2": "9 AM - 5 PM",
+          "3": "9 AM - 5 PM",
+          "4": "9 AM - 5 PM",
+          "5": "9 AM - 5 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English and Spanish"
+      },
+      "1": {
+        "Name": "Sylvania Dental",
+        "Address": "1132 Olivewood Dr, Merced, CA 93548",
+        "Phone": "(209) 722-2435",
+        "Insurance": "Cigna, Most PPO plans, and Blue Shield",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "9 AM - 5 PM",
+          "2": "9 AM - 5 PM",
+          "3": "9 AM - 5 PM",
+          "4": "9 AM - 5 PM",
+          "5": "9 AM - 5 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "Spanish, English, and Chinese"
+      },
+      "2": {
+        "Name": "Dr. Chang Family Dentistry",
+        "Address": "2448 M St. Merced, CA 95340",
+        "Phone": "(209) 383-0811",
+        "Insurance": "Medical, most private insurances, and no insurance",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 6:30 PM",
+          "2": "8 AM - 6:30 PM",
+          "3": "8 AM - 6:30 PM",
+          "4": "8 AM - 6:30 PM",
+          "5": "Cerrado",
+          "6": "Cerrado"
+        },
+        "Languages": "Spanish and English"
+      },
+      "3": {
+        "Name": "Joao F. Chang DDS & Thida Mahasucon DDS",
+        "Address": "2534 M St. Merced, CA 95340",
+        "Phone": "(209) 723-3071",
+        "Insurance": "Most PPO plans, Medi-Cal, and no HMO",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "Cerrado",
+          "2": "6:30 AM - 6:30 PM",
+          "3": "9 AM - 6:30 PM",
+          "4": "6:30 AM - 6:30 PM",
+          "5": "6:30 AM - 6:30 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "Spanish and English"
+      },
+      "4": {
+        "Name": "Castaneda Fassioli Dental Corp",
+        "Address": "3385 G St. Site B, Merced, CA 95340",
+        "Phone": "(209) 626-4500",
+        "Insurance": "Most PPO plans, and Medi-Cal",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8:30 AM - 5 PM",
+          "2": "8:30 AM - 5 PM",
+          "3": "8:30 AM - 5 PM",
+          "4": "8:30 AM - 5 PM",
+          "5": "8:30 AM - 5 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "Spanish and English"
+      },
+      "5": {
+        "Name": "Von Goodin, DDS",
+        "Address": "830 W Olive Ave, Merced CA 95348",
+        "Phone": "(209) 384-3434",
+        "Insurance": "Most PPO and Medi-Cal",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "Cerrado",
+          "6": "Cerrado"
+        },
+        "Languages": "Spanish and English"
+      },
+      "6": {
+        "Name": "Western Dental Inc.",
+        "Address": "1124 W Olive Ave, Site 101 Merced, CA 95348",
+        "Phone": "(209) 383-2186",
+        "Insurance": "Most PPO, private and Medi-Cal",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "9 AM - 7 PM",
+          "2": "9 AM - 7 PM",
+          "3": "9 AM - 7 PM",
+          "4": "9 AM - 7 PM",
+          "5": "9 AM - 7 PM",
+          "6": "8 AM - 4:30 PM"
+        },
+        "Languages": "English, Spanish, and sign language with appointment"
+      },
+      "7": {
+        "Name": "Megally Ahmed Dental (Apple Dental)",
+        "Address": "3311 M St. Merced, CA 95348",
+        "Phone": "(209) 722-9411",
+        "Insurance": "Mostly only PPO, Medi-Cal only for children or (when instructed for adults)",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 1 PM, 2PM - 5PM",
+          "2": "8 AM - 1 PM, 2PM - 5PM",
+          "3": "8 AM - 1 PM, 2PM - 5PM",
+          "4": "8 AM - 1 PM, 2PM - 5PM",
+          "5": "8 AM - 1 PM, 2PM - 5PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English and Spanish"
+      },
+      "8": {
+        "Name": "Yosemite Dental Jun Ho Lee DDS",
+        "Address": "360 E Yosemite Ave Suite 400, Merced, CA 95340",
+        "Phone": "(209) 723-5448",
+        "Insurance": "Delta Dental, Guardian, Humana, MetLife, Americas, Cigna Dental, Aetna, Careington, most PPO dental plans",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "9 AM - 1 PM",
+          "4": "8 AM - 5 PM",
+          "5": "9 AM - 1 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English"
+      },
+      "9": {
+        "Name": "Central California Dental Surgicenter",
+        "Address": "3605 Hospital Ave, Atwater CA 95301",
+        "Phone": "(209) 381-2047",
+        "Insurance": "MediCal, Anthem Blue Cross, Private, DPO; Don't accept HMOs and PPOs",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "Cerrado",
+          "2": "6:30 AM - 4 PM",
+          "3": "6:30 AM - 4 PM",
+          "4": "6:30 AM - 4 PM",
+          "5": "6:30 AM - 4 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English and Spanish"
+      },
+      "10": {
+        "Name": "Atwater Family Dental",
+        "Address": "596 Bellevue Rd, Atwater CA 95301",
+        "Phone": "(209) 358-0800",
+        "Insurance": "Private(cash), PPO; Don't accept MediCal or HMO",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "Cerrado",
+          "6": "Cerrado"
+        },
+        "Languages": "English and Spanish"
+      },
+      "11": {
+        "Name": "Myriam Defay DDS Inc.",
+        "Address": "2665 Alabama St, Atwater, CA 95301",
+        "Phone": "(209) 358-1577",
+        "Insurance": "All PPO plans; age 16 and under",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 12 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English and Spanish"
+      },
+      "12": {
+        "Name": "Hilmar Dental",
+        "Address": "19901 1st St Site 3, Hilmar, CA 95324",
+        "Phone": "(209) 668-0101",
+        "Insurance": "PPO",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 3 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English, Spanish and Portuguese"
+      },
+      "13": {
+        "Name": "Dino Smiles Children’s Dentistry",
+        "Address": "1128 Commerce Ave, Atwater, CA 95301",
+        "Phone": "(209) 812-4311",
+        "Insurance": "PPO, Dental Cal (MediCal)",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 2 PM",
+          "5": "Cerrado",
+          "6": "Cerrado"
+        },
+        "Languages": "English and Spanish"
+      },
+      "14": {
+        "Name": "Precision Family Dentistry of Atwater",
+        "Address": "1095 N Winton Way, Atwater, CA 95301",
+        "Phone": "(209) 358-5485",
+        "Insurance": "PPO",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 12 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English and Spanish"
+      },
+      "15": {
+        "Name": "Donald J. Bekedam Inc.",
+        "Address": "2665 Alabama St, Atwater, CA 95301",
+        "Phone": "(209) 358-1577",
+        "Insurance": "PPO, Dental Cal (MediCal): 16 and under",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 1 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English and Spanish"
+      },
+      "16": {
+        "Name": "Dr. Emad Huwaidi",
+        "Address": "2671 Alabama St, Atwater, CA 95301",
+        "Phone": "(209) 358-7146",
+        "Insurance": "All plans, except HMO’s",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "9 AM - 3 PM",
+          "2": "8 AM - 5 PM",
+          "3": "9 AM - 3 PM",
+          "4": "8 AM - 5 PM",
+          "5": "9 AM - 3 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English, Spanish & Arabic"
+      },
+      "17": {
+        "Name": "Dr. Loretta Y. Say, DMD",
+        "Address": "325 E Bellevue Rd, Atwater, CA 95301",
+        "Phone": "(209) 358-1501",
+        "Insurance": "All including (Medi-cal)",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "Cerrado",
+          "2": "6 AM - 6 PM",
+          "3": "6 AM - 6 PM",
+          "4": "9 AM - 6 PM",
+          "5": "Cerrado",
+          "6": "Cerrado"
+        },
+        "Languages": "English, Spanish, & Chinese"
+      },
+      "18": {
+        "Name": "Livingston Dental Group",
+        "Address": "1648 Joseph St. Livingston, CA 95334",
+        "Phone": "(209) 394-8090",
+        "Insurance": "PPO",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "7:45 AM - 4:45 PM",
+          "2": "6:45 AM - 3:30 PM",
+          "3": "6:45 AM - 3:30 PM",
+          "4": "7:45 AM - 4:45 PM",
+          "5": "6:45 AM - 3:30 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "Vietnamese, Spanish, English, and Tagalog"
+      },
+      "19": {
+        "Name": "Suave Dental, Momani DDS",
+        "Address": "706 Main St, Livingston, CA 95334",
+        "Phone": "(209) 535-9933",
+        "Insurance": "PPO and MediCal",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "Cerrado",
+          "2": "9 AM - 6 PM",
+          "3": "9 AM - 6 PM",
+          "4": "9 AM - 6 PM",
+          "5": "9 AM - 6 PM",
+          "6": "9 AM - 5 PM"
+        },
+        "Languages": "Spanish and English"
+      },
+      "20": {
+        "Name": "Benjamin J. Seaton, DDS",
+        "Address": "816 2nd St, Los Banos, CA 93635",
+        "Phone": "(209) 826-8100",
+        "Insurance": "Delta Dental Premier plan. No PPO plans.",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5:30 PM",
+          "2": "8 AM - 5:30 PM",
+          "3": "8 AM - 5:30 PM",
+          "4": "8 AM - 5:30 PM",
+          "5": "8 AM - 3 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English and Spanish"
+      },
+      "21": {
+        "Name": "Sierra Dental Group",
+        "Address": "1989 E Pacheco Blvd Site I, Los Banos, CA 93635",
+        "Phone": "(209) 826-8600",
+        "Insurance": "PPO Plans",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "10 AM - 7 PM",
+          "2": "10 AM - 7 PM",
+          "3": "10 AM - 7 PM",
+          "4": "8 AM - 5 PM",
+          "5": "10 AM - 7 PM",
+          "6": "9 AM - 1 PM"
+        },
+        "Languages": "English and Spanish"
+      },
+      "22": {
+        "Name": "Ronald A. Carter DDS & Jeffery M. Carter DDS",
+        "Address": "1317 S. 6th St., Los Banos, CA 93635",
+        "Phone": "(209) 826-5732",
+        "Insurance": "Multiple insurance plans including Guardian Dental, Dental Network of America, and Ameritas",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 12 PM, 1 PM - 5 PM",
+          "2": "8 AM - 12 PM, 1 PM - 5 PM",
+          "3": "8 AM - 12 PM, 1 PM - 5 PM",
+          "4": "8 AM - 12 PM, 1 PM - 5 PM",
+          "5": "8 AM - 12 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English"
+      },
+      "23": {
+        "Name": "Family Dental Care",
+        "Address": "1112 Main St, Livingston, CA 95334",
+        "Phone": "(209) 394-8383",
+        "Insurance": "Accept private insurance, no MediCal",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 5 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "Spanish"
+      },
+      "24": {
+        "Name": "Main Street Dental",
+        "Address": "1314 S. 6th St, Los Banos, CA 93635",
+        "Phone": "(209) 827-9226",
+        "Insurance": "All except medical",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "9 AM - 6 PM",
+          "2": "8:30 AM - 5:30 PM",
+          "3": "8:30 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 12 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English"
+      },
+      "25": {
+        "Name": "Family and Cosmetic Dentistry",
+        "Address": "1402 California Ave, Dos Palos, CA 93620",
+        "Phone": "(209) 392-6166",
+        "Insurance": "Ameritas, Gaurdian, and United Healthcare – Delta Dental Premier",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8 AM - 5 PM",
+          "2": "8 AM - 5 PM",
+          "3": "8 AM - 5 PM",
+          "4": "8 AM - 5 PM",
+          "5": "8 AM - 2 PM",
+          "6": "Cerrado"
+        },
+        "Languages": "English"
+      },
+      "26": {
+        "Name": "Singh Dental Care",
+        "Address": "1472 B St, Livingston, CA 95334",
+        "Phone": "(209) 394-5175",
+        "Insurance": "Contact for more info",
+        "Hours": {
+          "0": "Cerrado",
+          "1": "8:30 AM - 5:30 PM",
+          "2": "Cerrado",
+          "3": "8 AM - 2 PM",
+          "4": "Cerrado",
+          "5": "8:30 AM - 5:30 PM",
+          "6": "8 AM - 4 PM"
+        },
+        "Languages": "English"
+      }
+    }
+  },
+  "Settings": {
+    "Links": {
+      "0": "https://bpac.org.nz/",
+      "1": "https://www.emedicinehealth.com/script/main/hp.asp",
+      "2": "https://health.mo.gov/",
+      "3": "https://www.webmd.com/",
+      "4": "https://www.livestrong.com/",
+      "5": "https://www.nlm.nih.gov/",
+      "6": "https://www.drugs.com/",
+      "7": "https://www.cdc.gov/"
+    },
+    "Background": "Healthy House, una agencia sin fines de lucro que entrena a intérpretes médicos profesionales, se dedica a abordar las disparidades de salud en las comunidades culturales del Valle del Centro de California, una de las áreas más diversas del país. \n\nSu programa Healthy Host, en colaboración con grupos de estudiantes de ingeniería y el Proyecto Protect de la Universidad de California, ha desarrollado esta aplicación para abordar el problema grave del mal uso y sobreuso de los antibióticos. Desde el descubrimiento de estos fármacos milagrosos, los médicos han dependido de antibióticos para curar muchas de las enfermedades comunes del público. \n\nSin embargo, el sobreuso común de los antibióticos para curar infecciones virales, lo cual es inefectivo, ha creado una crisis de bacterias muy resistentes las cuales responden limitadamente o no responden a los antibióticos. Esto ha resultado en recetar antibióticos más fuertes y en cantidades más grandes agravando aún más el problema. Además, los antibióticos son mal utilizados con frecuencia. Por ejemplo, cuando pacientes no finalizan el tratamiento completo de antibióticos, la eficacia de la medicina es afectada. Adicionalmente, miembros de comunidades culturales con frecuencia obtienen los antibióticos a través de fuentes no reguladas o clandestinas. Esto contribuye al mal uso de antibióticos que son demasiado fuertes o inapropiados para las enfermedades siendo tratadas. \n\nEs con gran esperanza que esta aplicación espera fomentar entendimiento de la crisis grave de salud sobre la resistencia de los antibióticos y lo que se puede hacer para prevenirlo."
+  },
+  "Title_VI": "Varias leyes y reglamentos federales y estatales requieren competencia lingüística. Sobre todo, la Oficina de los Derechos Civiles del Departamento Federal de Salud y Servicios Humanos requiere que todos los que reciben fondos federales cumplan con el Título VI de la Ley de los Derechos Civiles de 1964. El cumplimiento prohíbe la discriminación basada en la raza u origen nacional, tal como el no ofrecer métodos eficaces de comunicación entre los profesionales que hablan inglés y sus pacientes con conocimiento limitado del inglés (LEP). Llame a Healthy House para un intérprete al (209) 724-0102. Para información sobre el Título VI llame al (800) 242-2752 o a la Oficina de los Derechos Civiles al (415) 437-8310."
+}

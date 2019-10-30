@@ -1,0 +1,992 @@
+{
+	"Text": {
+		"Intro": "Welcome to Healthy Host!",
+		"Description": "Description",
+		"Uses": "Uses",
+		"Symptoms": "Symptoms",
+		"Treatment": "Treatment",
+		"FAQ": "FAQ",
+		"Hours": "Hours",
+		"Insurance": "Insurance",
+		"Languages": "Languages",
+		"Cost_Treatment": "Cost of Treatment",
+		"Causes": "Causes",
+		"Add_Info": "Additional Information",
+		"Now_Loading": "Now Loading...",
+		"Email_Err": "Please install an email app!",
+		"Days": {
+			"0": "Sunday",
+			"1": "Monday",
+			"2": "Tuesday",
+			"3": "Wednesday",
+			"4": "Thursday",
+			"5": "Friday",
+			"6": "Saturday"
+		},
+		"Main_Menu_Choices": {
+			"0": "Oral Health",
+			"1": "General Health",
+			"2": "Background",
+			"3": "Title VI",
+			"4": "News & Events",
+			"5": "Contact Us"
+		},
+		"Antibiotics_Menu_Choices": {
+			"0": "Antibiotic Usage",
+			"1": "Amoxicillin",
+			"2": "Azithromycin",
+			"3": "Ceftriaxone",
+			"4": "Cephalexin",
+			"5": "Doxycycline",
+			"6": "Erythromycin",
+			"7": "Flucloxacillin",
+			"8": "Levaquin",
+			"9": "Metronidazole",
+			"10": "Ofloxacin",
+			"11": "Penecillin G"
+		},
+		"Diseases_Menu_Choices": {
+			"0": "Tooth Decay",
+			"1": "Gingivitis",
+			"2": "Periodontitis",
+			"3": "Tooth Loss",
+			"4": "Oral Cancer"
+		},
+		"Illnesses_Menu_Choices": {
+			"0": "Chlamydia",
+			"1": "Ear Infection",
+			"2": "H. Pylori",
+			"3": "Impetigo",
+			"4": "Lyme Disease",
+			"5": "Mastitis",
+			"6": "Mononucleosis",
+			"7": "Necrotizing Fasciitis",
+			"8": "Respiratory Syncytial Virus (RSV)",
+			"9": "Strep Throat",
+			"10": "Type 2 Herpes",
+			"11": "Urinary Tract Infection",
+			"12": "Valley Fever"
+		},
+		"Oral_Menu_Choices": {
+			"0": "Diseases",
+			"1": "Facts",
+			"2": "Steps for Good Hygiene",
+			"3": "Dentist Locations"
+		},
+		"General_Menu_Choices": {
+			"0": "Antibiotics",
+			"1": "Illnesses",
+			"2": "Questions for your Doctor",
+			"3": "Medical Clinics"
+		},
+		"Facts_Menu_Choices": {
+			"0": "Teeth and Gum Care",
+			"1": "Dentist Visit"
+		}
+	},
+	"Antibiotics": {
+		"0": {
+			"Name": "Antibiotic Usage",
+			"Description": "This page is meant for you to learn how to take care of your medicines. Select one of the two following options to learn more about drug care.",
+			"Usage": {
+				"0": "Improper Usage",
+				"1": "Proper Usage"
+			},
+			"DO": {
+				"0": "DO ask your doctor whether you or your family member's infection will respond to antibiotics.  (If necessary, ask if a lab test is indicated to verify the type of infection.)",
+				"1": "DO ask your doctor about antibiotic-resistant bacteria and what you can do to help prevent its occurrence.",
+				"2": "DO ask your doctor if you are being given only medicine that is needed.",
+				"3": "DO ask your doctor if the strength of the antibiotic being given is only what is necessary to get a clinical result.",
+				"4": "DO take antibiotics for bacterial infections if the infection is properly diagnosed and the antibiotics are prescribed by a doctor.",
+				"5": "DO follow the exact instructions for taking your antibiotic.  Take the exact amount specified at the time that is specified.  Be sure to take the medicine for the entire time period that your doctor has prescribed.  Stopping too soon could allow the bacteria to become resistant by not killing them completely. Even if you feel better, take all of the medicine!"
+			},
+			"DONT": {
+				"0": "DON’T pressure your doctor to prescribe an antibiotic.",
+				"1": "DON’T take antibiotics for the common cold. Colds are caused by viruses, not bacteria. The treatment is generally to rest, drink plenty of fluids, and take medicine for fevers or headaches.",
+				"2": "DON’T take antibiotics for viral infections as they have no effect.",
+				"3": "DON’T take antibiotics unless they have been prescribed by a doctor for a current illness.",
+				"4": "DON’T share antibiotics with other people or get them from unregulated sources. Others’ illnesses are probably different from yours, and the wrong antibiotic may actually hurt rather than help.",
+				"5": "DON’T take antibiotics simply because you were exposed to someone who was sick.  This could increase your chances of picking up a resistant infection."
+			}
+		},
+		"1": {
+			"Name": "Amoxicillin",
+			"Description": "Used to treat bacterial infections found in the ears, nose, skin, and urinary tract, it fights infections such as bronchitis, pneumonia, tonsillitis and gonorrhea.",
+			"Uses": "Stomach, leg or chest pain, diarrhea, mouth or skin sores, cold-like symptoms, and difficulty breathing.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/16.1.html#Js5406e.16.1"
+		},
+		"2": {
+			"Name": "Azithromycin",
+			"Description": "This is used to treat, ear, skin and respiratory bacterial infections.",
+			"Uses": "Diarrhea, itchy and reddening skin, and fever.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/9.4.html#Js2215e.9.4"
+		},
+		"3": {
+			"Name": "Ceftriaxone",
+			"Description": "An antibiotic used to stop the growth of bacteria, it is used to treat gonorrhea, meningitis, as well as ear, lung and skin infections.",
+			"Uses": "Diarrhea, headaches, dizziness and sweating.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/9.7.html#Js2215e.9.7"
+		},
+		"4": {
+			"Name": "Cephalexin",
+			"Description": "This is used to treat bacterial infections of the ear, respiratory system, skin, and urinary tract.",
+			"Uses": "Diarrhea, abdominal pain, chills and fever.",
+			"Add_Info": "https://medlineplus.gov/druginfo/meds/a682733.html"
+		},
+		"5": {
+			"Name": "Doxycycline",
+			"Description": "This treats bacteria that causes acne, intestinal infections, eye infections, urinary tract infections, and bumps.",
+			"Uses": "Coughing, diarrhea, dark urine, joint/muscle pain, headaches and dizziness.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2922e/2.5.8.html"
+		},
+		"6": {
+			"Name": "Erythromycin",
+			"Description": "This antibiotic is used to slow the growth of bacteria or completely exterminate sensitive bacteria.",
+			"Uses": "Fever, skin rashes, severe stomach pain and vomiting.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2918e/23.4.html#Jh2918e.23.4"
+		},
+		"7": {
+			"Name": "Flucloxacillin",
+			"Description": "Used to treat ear, nose and throat infections, it also is used for tonsillitis and respiratory infections such as pneumonia.",
+			"Uses": "Skin rash, muscle/joint pain, liver problems and fever.",
+			"Add_Info": "https://drugs.webmd.boots.com/drugs/drug-200-Flucloxacillin.aspx"
+		},
+		"8": {
+			"Name": "Levaquin",
+			"Description": "Used to treat bacterial infections of the skin, bladder, kidney and prostate, it is also used to fight bacteria that cause pneumonia and bronchitis.",
+			"Uses": "Immense pain, joint stiffness, bruising, swelling, problems that affect movement.",
+			"Add_Info": "https://www.webmd.com/drugs/2/drug-14492-8235/levaquin-oral/levofloxacin-oral/detail"
+		},
+		"9": {
+			"Name": "Metronidazole",
+			"Description": "This antibiotic fights bacterial infections found on the skin, or in the stomach, joints, vagina and respiratory tract.",
+			"Uses": "Blurred vision, confusion, fever, headaches and vomiting.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/16.21.html#Js5406e.16.21"
+		},
+		"10": {
+			"Name": "Ofloxacin",
+			"Description": "This is used to treat bacterial infections that cause bronchitis, chlamydia, gonorrhea, skin and urinary tract infections.",
+			"Uses": "Diarrhea, dizziness, sudden pain, seizures and fever.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Jh2988e/14.4.html#Jh2988e.14.4"
+		},
+		"11": {
+			"Name": "Penicillin G",
+			"Description": "This is used to fight a variety of bacterial infections such as meningitis, gonorrhea, and syphilis.",
+			"Uses": "List of skin rashes, diarrhea, stomach aches, headaches, and fevers.",
+			"Add_Info": "http://www.drugs.com/alpha/a1.html"
+		}
+	},
+	"Illnesses": {
+		"0": {
+			"Name": "Chlamydia",
+			"Description": "Chlamydia is spread by vaginal and anal intercourse. Rarely, it is spread during oral sex or by touching your eye with your hand. It can also spread from a woman to her fetus during birth. Chlamydia is not passed through casual contact and usually has no symptoms. People, mostly women, are not aware if they have the infection.",
+			"Symptoms": "Abdominal pain; abnormal vaginal discharge; bleeding between menstrual periods; low-grade fever; painful intercourse; pain or a burning feeling while urinatin; swelling inside the vagina or around the anus; the urge to urinate more than usual; vaginal bleeding after intercourse; and/or a yellowish discharge from the cervix that may have a strong smell. When men have symptoms, they may experience pain or a burning feeling while urinating, pus or watery or milky discharge from the penis, swollen or tender testicles, and/or swelling around the anus. In both women and men, chlamydia may cause the anus to itch and bleed. It can also result in a discharge and diarrhea. If chlamydia infects the eyes, it may cause redness, itching, and a discharge. If chlamydia infects the throat, it may cause soreness. Chlamydia symptoms may only appear in the morning and may be mild, especially for men. If you or your partner has any of the symptoms listed above, get checked by a health care provider. This is especially important if you are pregnant.",
+			"Treatment": "Chlamydia can be easily cured with antibiotics.",
+			"Add_Info": "https://www.cdc.gov/std/chlamydia/stdfact-chlamydia.htm"
+		},
+		"1": {
+			"Name": "Ear Infection",
+			"Description": "These infections can be caused by bacteria or viruses and start with a cold or flu, causing fluid to build up in the ear.",
+			"Symptoms": "Fever and pain, lasting several days.",
+			"Treatment": "Antibiotics can reduce symptoms, but most heal in a couple of weeks.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/ear-infections/symptoms-causes/syc-20351616"
+		},
+		"2": {
+			"Name": "H. Pylori",
+			"Description": "A bacterium that causes chronic inflammation of the inner lining of the stomach,this infection is treated is by eradicating the bacterium and letting it self-heal.",
+			"Symptoms": "The most common ulcer symptom is gnawing or burning pain in the epigastrium. This pain typically occurs when the stomach is empty, between meals and in the early morning hours, but it can also occur at other times. It may last from minutes to hours and may be relieved by eating or by taking antacids.",
+			"Treatment": "Antacids can also be used to control the bacterium.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/h-pylori/symptoms-causes/syc-20356171"
+		},
+		"3": {
+			"Name": "Impetigo",
+			"Description": "Impetigo is a skin infection which often begins when bacteria, normally present on the skin, enters through a small cut or scratch.",
+			"Symptoms": "Yellow crusty oozing blisters or sores which can appear anywhere on the body. Scratching these may spread impetigo to other parts of the body. It is more common in children than adults.",
+			"Treatment": "Antibiotics can be used to treat this.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/9.2.html#Js5406e.9.2"
+		},
+		"4": {
+			"Name": "Lyme Disease",
+			"Description": "This systemic illness caused by bacteria is typically transmitted by infected deer ticks. When a tick bites a person, the bacteria spreads.",
+			"Symptoms": "Infection can result in malaise, fever, headache, fatigue, muscle pain, as well as something called the bull's eye rash. If untreated, the disease may cause arthritis and affect the heart and central nervous system.",
+			"Treatment": "It is treated with antibiotics.",
+			"Add_Info": "https://www.cdc.gov/lyme/toolkit/index.html"
+		},
+		"5": {
+			"Name": "Mastitis",
+			"Description": "This infection in the breast is typically acquired during the first six weeks of breast feeding. It can be treated by regularly pumping breast milk and using antibiotics.",
+			"Symptoms": "Breast pain, chills, fatigue, fever, malaise, redness, nipple discharge, pus, swelling.",
+			"Treatment": "Antibiotics are required. Mild pain relievers can help with discomfort.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/mastitis/symptoms-causes/syc-20374829"
+		},
+		"6": {
+			"Name": "Mononucleosis",
+			"Description": "Often called mono. or the kissing disease, this viral infection is transmitted through saliva.",
+			"Symptoms": "Fever, swollen tonsils, headache, and strep throat.",
+			"Treatment": "Antibiotics cannot treat mononucleosis, but can treat symptoms such as strep throat.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/mononucleosis/symptoms-causes/syc-20350328"
+		},
+		"7": {
+			"Name": "Necrotizing Fasciitis",
+			"Description": "An infection caused by bacteria that can destroy skin, fat, and tissue covering muscles within a very short time.",
+			"Symptoms": "Fatigue, weakness, fever with chills and sweats, nausea,vomiting, dizziness, infrequent urination.",
+			"Treatment": "Strong antibiotics delivered straight to veins, amputation of limbs may be necessary to prevent spread of the infection.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js5406e/9.2.html#Js5406e.9.2"
+		},
+		"8": {
+			"Name": "Respiratory Syncytial Virus (RSV)",
+			"Description": "This virus infects the lungs and breathing passages.",
+			"Symptoms": "RSV can be like a mild cold in healthy adults, but can lead to serious infections in babies and the elderly.",
+			"Treatment": "There is no specific treatment, but most cases resolve in a week or two.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/respiratory-syncytial-virus/symptoms-causes/syc-20353098"
+		},
+		"9": {
+			"Name": "Strep Throat",
+			"Description": "Strep throat is a bacterial infection affecting the throat and the tonsils.",
+			"Symptoms": "Sore throat, enlarged lymph nodes, pain while swallowing, swollen tonsils, fever, chills, malaise.",
+			"Treatment": "Antibiotics can be used to treat it.",
+			"Add_Info": "https://medlineplus.gov/streptococcalinfections.html#summary"
+		},
+		"10": {
+			"Name": "Type 2 Herpes",
+			"Description": "Genital herpes, is transmitted through sexual contact with someone who has HSV-2.",
+			"Symptoms": "Sores around the genital or anal area.",
+			"Treatment": "Even though there is no cure for this disease, there are treatments which will reduce the pain during outbreaks.",
+			"Add_Info": "https://www.cdc.gov/std/herpes/stdfact-herpes-detailed.htm"
+		},
+		"11": {
+			"Name": "Urinary Tract Infection",
+			"Description": "The urethra the tube that transports urine from the bladder to the outside of the body -- is located close to the anus. Bacteria from the large intestine, such as E. coli, are in the perfect position to escape the anus and invade the urethra. From there, they can travel up to the bladder, and if the infection isn't treated, continue on to infect the kidneys. Women may be especially prone to UTIs because they have shorter urethras, which allow bacteria quick access to the bladder. Having sex can introduce bacteria into the urinary tract, too.",
+			"Symptoms": "To identify a UTI, keep an eye out for the following symptoms: a burning feeling when you urinate; frequent or intense urge to urinate, even though little comes out; pain or pressure in your back or lower abdomen; cloudy, dark, bloody, or strange-smelling urine; feeling tired or shaky; and fever or chills (a sign the infection may have reached your kidneys).",
+			"Treatment": "Antibiotics can be used to treat it.",
+			"Add_Info": "https://www.mayoclinic.org/diseases-conditions/urinary-tract-infection/symptoms-causes/syc-20353447"
+		},
+		"12": {
+			"Name": "Valley Fever",
+			"Description": "An illness caused by the soil-dwelling fungus, Coccidioides immitis. The tiny seeds, or spores, become wind-borne and are inhaled into the lungs, where the infection starts.",
+			"Symptoms": "People may expierence pain area in the chest, chills, fatigue, fever, lumps or rashes, shortness of breath and weight loss.",
+			"Treatment": "Antifungal medication, No antibiotics needed.",
+			"Add_Info": "http://apps.who.int/medicinedocs/en/d/Js2215e/3.3.html#Js2215e.3.3"
+		}
+	},
+	"FAQ": {
+		"0": "What is the difference between bacterial and viral infections?",
+		"1": "How do symptoms of bacterial infections differ from that of viral infections?",
+		"2": "What is the difference between bacterial and viral infection treatments?",
+		"3": "When do I need antibiotics? Are there other safe, alternative treatment plan(s)?",
+		"4": "How will antibiotics affect natural bacteria in the body?",
+		"5": "Does the antibiotic interfere with the effectiveness of other medications such as birth control pills?",
+		"6": "What is antibiotic resistance? Does taking an antibiotic decrease its future effectiveness in treating bacterial infections? How can this be prevented?",
+		"7": "What is the proper dosage when taking the antibiotic? For how long should the antibiotic be continued?",
+		"8": "Does it matter where or from what source I get the antibiotics?  If so, why?",
+		"9": "Are there possible adverse reactions if the antibiotic is taken with food(s) or alcohol?",
+		"10": {
+			"Multi_Part_Question": {
+				"0": "When taking the antibiotic with other medications...",
+				"1": "When taking antibiotics..."
+			},
+			"Parts": {
+				"0": {
+					"A": "What medication(s) do I need to be careful about when taking antibiotics?",
+					"B": "Are there common medication(s) that cannot be taken when on antibiotics?",
+					"C": "Are there any harmful side effects I should look for once the dual/multiple medications process begins?"
+				},
+				"1": {
+					"A": "Do I have to eat before taking the antibiotic?",
+					"B": "How long does the antibiotic process last?",
+					"C": "When will the medication start working? How do I know when it’s working?",
+					"D": "If feel better, do I still need to finish the complete number/dosage prescribed?",
+					"E": "What will happen if I accidentally miss a dose?",
+					"F": "Are there any side effects should I look for once on the antibiotic?"
+				}
+			}
+		}
+	},
+	"Clinics": {
+		"0": {
+			"Name": "Merced Medical Clinic",
+			"Address": "650 W. Olive Ave Site A, Merced, CA 95348",
+			"Phone": "(209) 722-8047",
+			"Hours": {
+				"0": "Closed",
+				"1": "11 AM - 5 PM",
+				"2": "Closed",
+				"3": "11 AM - 5 PM",
+				"4": "11 AM - 5 PM",
+				"5": "Closed",
+				"6": "9 AM - 12 PM"
+			}
+		},
+		"1": {
+			"Name": "Golden Valley Health Center",
+			"Address": "127 W El Portal Drive Site B, Merced, CA 95348",
+			"Phone": "(209) 381-4104",
+			"Hours": {
+				"0": "Closed",
+				"1": "8 AM - 5:30PM",
+				"2": "8 AM - 5:30PM",
+				"3": "8 AM - 5:30PM",
+				"4": "8 AM - 5:30PM",
+				"5": "8 AM - 5:30PM",
+				"6": "Closed"
+			}
+		},
+		"2": {
+			"Name": "V A Castle Medical Clinic",
+			"Address": "340 E Yosemite Ave, Merced, CA 95340",
+			"Phone": "(209) 381-0105",
+			"Hours": {
+				"0": "Closed",
+				"1": "8 AM - 5:30PM",
+				"2": "8 AM - 5:30PM",
+				"3": "8 AM - 5:30PM",
+				"4": "8 AM - 5:30PM",
+				"5": "8 AM - 5:30PM",
+				"6": "8 AM - 5:30PM"
+			}
+		},
+		"3": {
+			"Name": "Planned Parenthood",
+			"Address": "3166 Collins Drive, Merced, CA 95348",
+			"Phone": "(209) 723-7751",
+			"Hours": {
+				"0": "9 AM - 5 PM",
+				"1": "8 AM - 8 PM",
+				"2": "8 AM - 8 PM",
+				"3": "8 AM - 8 PM",
+				"4": "8 AM - 8 PM",
+				"5": "8 AM - 8 PM",
+				"6": "Closed"
+			}
+		},
+		"4": {
+			"Name": "Patients First Medical Center",
+			"Address": "394 E Yosemite Ave, Merced, CA 95340",
+			"Phone": "(209) 383-3990",
+			"Hours": {
+				"0": "9 AM - 5 PM",
+				"1": "9 AM - 5 PM",
+				"2": "9 AM - 5 PM",
+				"3": "9 AM - 5 PM",
+				"4": "9 AM - 5 PM",
+				"5": "9 AM - 5 PM",
+				"6": "9 AM - 5 PM"
+			}
+		},
+		"5": {
+			"Name": "Bloss Medical Clinic",
+			"Address": "1251 Grove Ave Site A, Atwater, CA 95301",
+			"Phone": "(209) 358-8425",
+			"Hours": {
+				"0": "Closed",
+				"1": "8 AM - 6 PM",
+				"2": "8 AM - 6 PM",
+				"3": "8 AM - 6 PM",
+				"4": "8 AM - 6 PM",
+				"5": "8 AM - 6 PM",
+				"6": "Closed"
+			}
+		},
+		"6": {
+			"Name": "A Family's Urgent Care",
+			"Address": "2644 M Street, Merced, CA 95340",
+			"Phone": "(209) 722-5308",
+			"Hours": {
+				"0": "Closed",
+				"1": "10 AM - 5:30 PM",
+				"2": "10 AM - 5:30 PM",
+				"3": "10 AM - 5:30 PM",
+				"4": "10 AM - 5:30 PM",
+				"5": "10 AM - 5:30 PM",
+				"6": "Closed"
+			}
+		},
+		"7": {
+			"Name": "Children and Family Medical Care",
+			"Address": "1190 W Olive Ave, Unit L, Merced, CA 95340",
+			"Phone": "(209) 722-0831",
+			"Hours": {
+				"0": "Closed",
+				"1": "8 AM - 5 PM",
+				"2": "8 AM - 5 PM",
+				"3": "8 AM - 5 PM",
+				"4": "8 AM - 5 PM",
+				"5": "8 AM - 5 PM",
+				"6": "8 AM - 5 PM"
+			}
+		},
+		"8": {
+			"Name": "Fountain View Urgent Care",
+			"Address": "374 W Olive Ave Site A, Merced, CA 95348",
+			"Phone": "(209) 384-5766",
+			"Hours": {
+				"0": "9 AM - 5:30 PM",
+				"1": "8 AM - 8:30 PM",
+				"2": "8 AM - 8:30 PM",
+				"3": "8 AM - 8:30 PM",
+				"4": "8 AM - 8:30 PM",
+				"5": "8 AM - 8:30 PM",
+				"6": "9 AM - 5:30 PM"
+			}
+		}
+	},
+	"Oral_Health": {
+		"Facts": {
+			"0": {
+				"Title": "Brushing",
+				"Info": "Brushing is the major line of defense against an unhealthy mouth.\n\nDirections:\n\t• Brush teeth at least 2 times per day.\n\t• Focus on brushing for at least 2 minutes.\n\t• Move Brush back and forth making sure to get the front, back, and top of teeth.\n\t• Work on sorting teeth by compartments, such as front teeth, left side, and right side to achieve adequate cleaning.\n\t• Brushing your tongue can help eliminate harmful bacteria and improve breath.\n\t• Gently Brushing of the gums is also good for overall mouth hygiene.\n\t• Light bleeding of the gums is normal if the user has not brushed their teeth in a while."
+			},
+			"1": {
+				"Title": "Flossing",
+				"Info": "Recommended to floss teeth once per day.\n\nDirections:\n\t• Break off about 18 inches of floss and wind around a finger on each hand so that the floss is tight.\n\t• Hold the floss tightly between thumb and forefinger.\n\t• Guide the floss between your teeth using a gentle rubbing motion to ease the floss into the in between areas.\n\t• Repeat this motion for all teeth in mouth.\n\t• When starting a flossing routine bleeding of the gums is normal."
+			},
+			"2": {
+				"Title": "Mouth Wash",
+				"Info": "There are two main types of mouthwash:\n\n• Cosmetic:\n\to Has no effect on teeth health\n\to Temporarily fixes bad breath.\n\n• Therapeutic:\n\to Decrease Plaque buildup\n\to Decrease gingivitis\n\to Bad Breath\n\to Tooth Decay\n\to Alveolar Osteitis (Dry Socket)\n\to Topical Pain Relief\n\to Whitening\n\to Xerostomia (dry mouth)\n\to Oral Cancer Concerns"
+			},
+			"3": {
+				"Title": "Diet",
+				"Info": "• Diet is the first line of defense for mouth health, what you eat is just as important as how you maintain your mouth.\n• Consuming vitamins and minerals lead to a healthy diet.\n\nThis may include:\n\t• Calcium-rich foods, such as low-fat or fat-free milk, yogurt and cheese, fortified soy drinks and tofu, canned salmon, almonds and dark green leafy vegetables help promote strong teeth and bones.\n\t• Phosphorus found in eggs, fish, lean meat, dairy, nuts and beans is good for strong teeth.\n\t• Vitamin C promotes gum health, so eat plenty of citrus fruits, tomatoes, peppers, broccoli, potatoes and spinach."
+			},
+			"4": {
+				"Title": "How often should you visit a dentist?",
+				"Info": "Regular dentist visits should typically be about every 6 months to reduce the chances of an infection or any sort of oral complication."
+			},
+			"5": {
+				"Title": "For Kids",
+				"Info": "It is recommended that kids see their dentist as soon as their first tooth comes out, or on their first birthday."
+			},
+			"6": {
+				"Title": "For Adults",
+				"Info": "Your dentist will advise you how often to go to the dentist depending on your oral health. A typical adult with good oral hygiene might have to visit a dentist once or twice a year, while an adult with a lot of dental complications might have to go more often."
+			},
+			"7": {
+				"Title": "You should go more often if you:",
+				"Info": "\t• Smoke (tobacco can cause gum diseases and/or oral cancer)\n\t• Are pregnant (your body releases hormones can cause inflammation)\n\t• Have diabetes (higher risk of gum disease and other problems)\n\t• You’re being treated for cancer (treatment can cause infections)\n\t• Have a heart disease (dental health is linked to heart health)\n\t• HIV positive (higher risk of tooth decay and infections)"
+			},
+			"8": {
+				"Title": "You should see or call a dentist if you:",
+				"Info": "\t• Have tooth or gum pain that gets worse or doesn’t go away.\n\t• Have gums that are red, swollen, or bleed easily.\n\t• Have a sore in your mouth that doesn’t heal.\n\t• Have a tooth sensitive to hot, cold, or pressure.\n\t• Have something wrong with your old dental restoration.\n\t• Lose a filling.\n\t• Have a dry mouth on a daily basis.\n\t• Experience pain or clicking noises in your jaw."
+			}
+		},
+		"Good_Hygiene": {
+			"0": {
+				"Step": "Start children early",
+				"Info": "• One in four young children develop signs of tooth decay before they start school. \n• 50% of all children between ages 12 to 15 develop cavities. \n• 1/7 (13%) adolescents age 12 to 19 years have at least one untreated decay tooth. \n• Beginning oral hygiene routine within the first few days after birth."
+			},
+			"1": {
+				"Step": "Brush and Floss Properly",
+				"Info": "• Twice a day for at least 2 min. \n• Ideally, use a piece of floss up to 18 inches in length, allowing you to use a fresh area of floss every few teeth without reinserting bacteria you just removed."
+			},
+			"2": {
+				"Step": "Fluoride",
+				"Info": "• Fluoride varnish works by increasing the concentration of fluoride in the outer surface of teeth, thereby enhancing fluoride uptake during early stages of de-mineralization. \n• Fluoride products such as toothpaste, mouth rinse, and dental office topicals have been shown to reduce caries (cavities) between 30% and 70% compared with no fluoride therapy."
+			},
+			"3": {
+				"Step": "Know when to Replace the Toothbrush",
+				"Info": "• Change toothbrush three to four times a year - or sooner if the bristles become irregular or frayed. \n• Always rinse your toothbrush with water after brushing and store it in an upright position. \n• Try to keep your toothbrush separate from the other toothbrush in the same holder to prevent cross contamination."
+			},
+			"4": {
+				"Step": "Rinse or Chew Gum After Meal",
+				"Info": "• The physical act of chewing increases salivary flow in the mouth; if chewed after eating, the increased salivary flow can help neutralize and wash away the acids that are produced when food is broken down by the bacteria in plaque on teeth. \n• Gum is an adjunct to brushing and flossing but chewing gum does not replace brushing and flossing. \n• Clinical studies have shown that chewing sugarless gum for 20 minutes following meals can help prevent tooth decay."
+			},
+			"5": {
+				"Step": "Don’t Smoke or Use Tobacco",
+				"Info": "• Losing your teeth before age 65 has also recently been associated with 50% increase in risk of death from all causes. \n• If you smoke or use tobacco, or regularly drink alcohol, you have an increased risk of developing lung or oral cancer as well as gum disease. \n• New tobacco users who use smokeless products are likely to experience bad breath, yellowish-brown stains on their teeth and mouth stores."
+			},
+			"6": {
+				"Step": "Avoid Sugary Foods/Control the Amount of Sugar",
+				"Info": "• Avoid sugary foods that stay in your mouth for a long time, like hard, sticky or chewy varieties of candy. \n• Offer healthy snacks, such as cheese, fruits, yogurt, peanuts butter, chocolate milk and sugarless gum. \n• Save your sugary treats for the end of a meal before a tooth-brushing session, rather that throughout the day. \n• Substitute water for sugar-laden sodas and fruit juices. \n• Bacteria in your mouth digest the food you eat and specifically feed on the sugar, producing acids that can slowly dissolve tooth enamel and cause tooth decay."
+			},
+			"7": {
+				"Step": "See a Dentist",
+				"Info": "• Regular dental visits are important because they can help spot dental health problems early on when treatment is likely to be simpler and more affordable. \n• Even if you don’t have any symptoms, you can still have dental health problems that only a dentist can diagnose. Regularly dental visits will also help prevent problems from developing. \n• Some people need to visit the dentist once or twice a year, others may need more visits. You are a unique individual, with a unique smile and unique needs when it comes to keeping your smile healthy."
+			}
+		},
+		"Diseases": {
+			"0": {
+				"Name": "Tooth Decay (Cavities)",
+				"Symptoms": "A toothache",
+				"Causes": "Dental plaque can lead to tooth decay and cavities. Cavities caused by breakdown of tooth enamel by acids produced by bacteria located in plaque on teeth, along gum-line and in crevices on chewing surface of teeth. Consuming foods high in carbohydrates cause the bacteria to produce acids responsible for causing outer coating of tooth enamel or root surface to decay.",
+				"Treatment": "Daily brushing, flossing teeth, and rinsing with fluoride. Fluoride treatment can help restore tooth’s enamel and potentially reverse cavity in early stages. Fillings common when decay has progressed beyond earliest stages. Crowns are for extensive decay or weakened teeth, intended to replace tooth’s natural crown. Root canals repair and save badly damaged or infected tooth for when decay has reached inner material of tooth. Tooth extractions for teeth that have become so severely decayed they can't be restored or removed.",
+				"Cost_Treatment": "With fillings, the cost is between $50 to $150 depending if you want silver or white fillings."
+			},
+			"1": {
+				"Name": "Gingivitis",
+				"Symptoms": "Red/swollen gums, gums blead easily",
+				"Causes": "It is a mild form of gum disease. The bacteria cause inflammation of the gums. The longer plaque and tartar are on the teeth the more harmful they become. Result of infections and inflammation of the gums and bone that surround the teeth. Specific chronic conditions including, diabetes, weak immune system, and poor oral hygiene increases the individual’s risk of suffering from periodontal disease.",
+				"Treatment": "Daily brushing and flossing, and regular cleaning by a dentist. If treatment is refused, bone that supports teeth can be lost, and gums can be infected. Eventually leading to teeth loss because of the lack of bone support.",
+				"Cost_Treatment": "The cost of a toothbrush, toothpaste, floss and/or possible routine cleaning range from $4-$75."
+			},
+			"2": {
+				"Name": "Periodontitis",
+				"Symptoms": "Swollen gums, bleeding gums, loss of tooth",
+				"Causes": "When gingivitis is not treated, it can advance to periodontitis (which means inflammation around the tooth). Gums pull away from the teeth and form spaces called “pockets” that become infected. These are infections that harm the gum and bone that hold teeth in place. If not treated, the bones, gums, and tissue that support the teeth can be destroyed. The teeth may eventually become loose and have to be removed.",
+				"Treatment": "Must go to and be perform by a professional. They will decide what measures to take, either a nonsurgical treatment or a surgical treatment.",
+				"Cost_Treatment": "The cost to treat Gingivitis varies with the severity of the disease it can start from $75 – $3,600."
+			},
+			"3": {
+				"Name": "Tooth Loss",
+				"Symptoms": "Swollen gums, bleeding gums, loss of tooth",
+				"Causes": "Usually caused by cavities and periodontal diseases which it affects the ages of 65–74.",
+				"Treatment": "Keep brushing your teeth, flossing teeth, and rinse with a fluoride and antiseptic mouthwash daily.",
+				"Cost_Treatment": "The cost of treating tooth loss varies with the complexity of where the tooth starts at $300 - $1,000."
+			},
+			"4": {
+				"Name": "Oral Cancer",
+				"Symptoms": "Painful swallowing, pain in the mouth or ear",
+				"Causes": "High risk behaviors like, tobacco, alcohol use of any kind.",
+				"Treatment": "Early detection, surgery in the mouth and radiation therapy.",
+				"Cost_Treatment": "Depends on what stage the cancer is; it could go for around $60,000 and chemo drugs would be between $15,000–$20,000 dollars per cycle."
+			}
+		},
+		"Dentist_Locations": {
+			"0": {
+				"Name": "ABC Dental Group",
+				"Address": "505 W 20th St. Merced, CA 95340",
+				"Phone": "(209) 725-2980",
+				"Insurance": "Most PPO and Medi-Cal",
+				"Hours": {
+					"0": "Closed",
+					"1": "9 AM - 5 PM",
+					"2": "9 AM - 5 PM",
+					"3": "9 AM - 5 PM",
+					"4": "9 AM - 5 PM",
+					"5": "9 AM - 5 PM",
+					"6": "Closed"
+				},
+				"Languages": "English and Spanish"
+			},
+			"1": {
+				"Name": "Sylvania Dental",
+				"Address": "1132 Olivewood Dr, Merced, CA 93548",
+				"Phone": "(209) 722-2435",
+				"Insurance": "Cigna, Most PPO plans, and Blue Shield",
+				"Hours": {
+					"0": "Closed",
+					"1": "9 AM - 5 PM",
+					"2": "9 AM - 5 PM",
+					"3": "9 AM - 5 PM",
+					"4": "9 AM - 5 PM",
+					"5": "9 AM - 5 PM",
+					"6": "Closed"
+				},
+				"Languages": "Spanish, English, and Chinese"
+			},
+			"2": {
+				"Name": "Dr. Chang Family Dentistry",
+				"Address": "2448 M St. Merced, CA 95340",
+				"Phone": "(209) 383-0811",
+				"Insurance": "Medical, most private insurances, and no insurance",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 6:30 PM",
+					"2": "8 AM - 6:30 PM",
+					"3": "8 AM - 6:30 PM",
+					"4": "8 AM - 6:30 PM",
+					"5": "Closed",
+					"6": "Closed"
+				},
+				"Languages": "Spanish and English"
+			},
+			"3": {
+				"Name": "Joao F. Chang DDS & Thida Mahasucon DDS",
+				"Address": "2534 M St. Merced, CA 95340",
+				"Phone": "(209) 723-3071",
+				"Insurance": "Most PPO plans, Medi-Cal, and no HMO",
+				"Hours": {
+					"0": "Closed",
+					"1": "Closed",
+					"2": "6:30 AM - 6:30 PM",
+					"3": "9 AM - 6:30 PM",
+					"4": "6:30 AM - 6:30 PM",
+					"5": "6:30 AM - 6:30 PM",
+					"6": "Closed"
+				},
+				"Languages": "Spanish and English"
+			},
+			"4": {
+				"Name": "Castaneda Fassioli Dental Corp",
+				"Address": "3385 G St. Site B, Merced, CA 95340",
+				"Phone": "(209) 626-4500",
+				"Insurance": "Most PPO plans, and Medi-Cal",
+				"Hours": {
+					"0": "Closed",
+					"1": "8:30 AM - 5 PM",
+					"2": "8:30 AM - 5 PM",
+					"3": "8:30 AM - 5 PM",
+					"4": "8:30 AM - 5 PM",
+					"5": "8:30 AM - 5 PM",
+					"6": "Closed"
+				},
+				"Languages": "Spanish and English"
+			},
+			"5": {
+				"Name": "Von Goodin, DDS",
+				"Address": "830 W Olive Ave, Merced CA 95348",
+				"Phone": "(209) 384-3434",
+				"Insurance": "Most PPO and Medi-Cal",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5 PM",
+					"2": "8 AM - 5 PM",
+					"3": "8 AM - 5 PM",
+					"4": "8 AM - 5 PM",
+					"5": "Closed",
+					"6": "Closed"
+				},
+				"Languages": "Spanish and English"
+			},
+			"6": {
+				"Name": "Western Dental Inc.",
+				"Address": "1124 W Olive Ave, Site 101 Merced, CA 95348",
+				"Phone": "(209) 383-2186",
+				"Insurance": "Most PPO, private and Medi-Cal",
+				"Hours": {
+					"0": "Closed",
+					"1": "9 AM - 7 PM",
+					"2": "9 AM - 7 PM",
+					"3": "9 AM - 7 PM",
+					"4": "9 AM - 7 PM",
+					"5": "9 AM - 7 PM",
+					"6": "8 AM - 4:30 PM"
+				},
+				"Languages": "English, Spanish, and sign language with appointment"
+			},
+			"7": {
+				"Name": "Megally Ahmed Dental (Apple Dental)",
+				"Address": "3311 M St. Merced, CA 95348",
+				"Phone": "(209) 722-9411",
+				"Insurance": "Mostly only PPO, Medi-Cal only for children or (when instructed for adults)",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 1 PM, 2PM - 5PM",
+					"2": "8 AM - 1 PM, 2PM - 5PM",
+					"3": "8 AM - 1 PM, 2PM - 5PM",
+					"4": "8 AM - 1 PM, 2PM - 5PM",
+					"5": "8 AM - 1 PM, 2PM - 5PM",
+					"6": "Closed"
+				},
+				"Languages": "English and Spanish"
+			},
+			"8": {
+				"Name": "Yosemite Dental Jun Ho Lee DDS",
+				"Address": "360 E Yosemite Ave Suite 400, Merced, CA 95340",
+				"Phone": "(209) 723-5448",
+				"Insurance": "Delta Dental, Guardian, Humana, MetLife, Americas, Cigna Dental, Aetna, Careington, most PPO dental plans",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5 PM",
+					"2": "8 AM - 5 PM",
+					"3": "9 AM - 1 PM",
+					"4": "8 AM - 5 PM",
+					"5": "9 AM - 1 PM",
+					"6": "Closed"
+				},
+				"Languages": "English"
+			},
+			"9": {
+				"Name": "Central California Dental Surgicenter",
+				"Address": "3605 Hospital Ave, Atwater CA 95301",
+				"Phone": "(209) 381-2047",
+				"Insurance": "MediCal, Anthem Blue Cross, Private, DPO; Don't accept HMOs and PPOs",
+				"Hours": {
+					"0": "Closed",
+					"1": "Closed",
+					"2": "6:30 AM - 4 PM",
+					"3": "6:30 AM - 4 PM",
+					"4": "6:30 AM - 4 PM",
+					"5": "6:30 AM - 4 PM",
+					"6": "Closed"
+				},
+				"Languages": "English and Spanish"
+			},
+			"10": {
+				"Name": "Atwater Family Dental",
+				"Address": "596 Bellevue Rd, Atwater CA 95301",
+				"Phone": "(209) 358-0800",
+				"Insurance": "Private(cash), PPO; Don't accept MediCal or HMO",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5 PM",
+					"2": "8 AM - 5 PM",
+					"3": "8 AM - 5 PM",
+					"4": "8 AM - 5 PM",
+					"5": "Closed",
+					"6": "Closed"
+				},
+				"Languages": "English and Spanish"
+			},
+			"11": {
+				"Name": "Myriam Defay DDS Inc.",
+				"Address": "2665 Alabama St, Atwater, CA 95301",
+				"Phone": "(209) 358-1577",
+				"Insurance": "All PPO plans; age 16 and under",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5 PM",
+					"2": "8 AM - 5 PM",
+					"3": "8 AM - 5 PM",
+					"4": "8 AM - 5 PM",
+					"5": "8 AM - 12 PM",
+					"6": "Closed"
+				},
+				"Languages": "English and Spanish"
+			},
+			"12": {
+				"Name": "Hilmar Dental",
+				"Address": "19901 1st St Site 3, Hilmar, CA 95324",
+				"Phone": "(209) 668-0101",
+				"Insurance": "PPO",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5 PM",
+					"2": "8 AM - 5 PM",
+					"3": "8 AM - 5 PM",
+					"4": "8 AM - 5 PM",
+					"5": "8 AM - 3 PM",
+					"6": "Closed"
+				},
+				"Languages": "English, Spanish and Portuguese"
+			},
+			"13": {
+				"Name": "Dino Smiles Children’s Dentistry",
+				"Address": "1128 Commerce Ave, Atwater, CA 95301",
+				"Phone": "(209) 812-4311",
+				"Insurance": "PPO, Dental Cal (MediCal)",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5 PM",
+					"2": "8 AM - 5 PM",
+					"3": "8 AM - 5 PM",
+					"4": "8 AM - 2 PM",
+					"5": "Closed",
+					"6": "Closed"
+				},
+				"Languages": "English and Spanish"
+			},
+			"14": {
+				"Name": "Precision Family Dentistry of Atwater",
+				"Address": "1095 N Winton Way, Atwater, CA 95301",
+				"Phone": "(209) 358-5485",
+				"Insurance": "PPO",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5 PM",
+					"2": "8 AM - 5 PM",
+					"3": "8 AM - 5 PM",
+					"4": "8 AM - 5 PM",
+					"5": "8 AM - 12 PM",
+					"6": "Closed"
+				},
+				"Languages": "English and Spanish"
+			},
+			"15": {
+				"Name": "Donald J. Bekedam Inc.",
+				"Address": "2665 Alabama St, Atwater, CA 95301",
+				"Phone": "(209) 358-1577",
+				"Insurance": "PPO, Dental Cal (MediCal): 16 and under",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5 PM",
+					"2": "8 AM - 5 PM",
+					"3": "8 AM - 5 PM",
+					"4": "8 AM - 5 PM",
+					"5": "8 AM - 1 PM",
+					"6": "Closed"
+				},
+				"Languages": "English and Spanish"
+			},
+			"16": {
+				"Name": "Dr. Emad Huwaidi",
+				"Address": "2671 Alabama St, Atwater, CA 95301",
+				"Phone": "(209) 358-7146",
+				"Insurance": "All plans, except HMO’s",
+				"Hours": {
+					"0": "Closed",
+					"1": "9 AM - 3 PM",
+					"2": "8 AM - 5 PM",
+					"3": "9 AM - 3 PM",
+					"4": "8 AM - 5 PM",
+					"5": "9 AM - 3 PM",
+					"6": "Closed"
+				},
+				"Languages": "English, Spanish & Arabic"
+			},
+			"17": {
+				"Name": "Dr. Loretta Y. Say, DMD",
+				"Address": "325 E Bellevue Rd, Atwater, CA 95301",
+				"Phone": "(209) 358-1501",
+				"Insurance": "All including (Medi-cal)",
+				"Hours": {
+					"0": "Closed",
+					"1": "Closed",
+					"2": "6 AM - 6 PM",
+					"3": "6 AM - 6 PM",
+					"4": "9 AM - 6 PM",
+					"5": "Closed",
+					"6": "Closed"
+				},
+				"Languages": "English, Spanish, & Chinese"
+			},
+			"18": {
+				"Name": "Livingston Dental Group",
+				"Address": "1648 Joseph St. Livingston, CA 95334",
+				"Phone": "(209) 394-8090",
+				"Insurance": "PPO",
+				"Hours": {
+					"0": "Closed",
+					"1": "7:45 AM - 4:45 PM",
+					"2": "6:45 AM - 3:30 PM",
+					"3": "6:45 AM - 3:30 PM",
+					"4": "7:45 AM - 4:45 PM",
+					"5": "6:45 AM - 3:30 PM",
+					"6": "Closed"
+				},
+				"Languages": "Vietnamese, Spanish, English, and Tagalog"
+			},
+			"19": {
+				"Name": "Suave Dental, Momani DDS",
+				"Address": "706 Main St, Livingston, CA 95334",
+				"Phone": "(209) 535-9933",
+				"Insurance": "PPO and MediCal",
+				"Hours": {
+					"0": "Closed",
+					"1": "Closed",
+					"2": "9 AM - 6 PM",
+					"3": "9 AM - 6 PM",
+					"4": "9 AM - 6 PM",
+					"5": "9 AM - 6 PM",
+					"6": "9 AM - 5 PM"
+				},
+				"Languages": "Spanish and English"
+			},
+			"20": {
+				"Name": "Benjamin J. Seaton, DDS",
+				"Address": "816 2nd St, Los Banos, CA 93635",
+				"Phone": "(209) 826-8100",
+				"Insurance": "Delta Dental Premier plan. No PPO plans.",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5:30 PM",
+					"2": "8 AM - 5:30 PM",
+					"3": "8 AM - 5:30 PM",
+					"4": "8 AM - 5:30 PM",
+					"5": "8 AM - 3 PM",
+					"6": "Closed"
+				},
+				"Languages": "English and Spanish"
+			},
+			"21": {
+				"Name": "Sierra Dental Group",
+				"Address": "1989 E Pacheco Blvd Site I, Los Banos, CA 93635",
+				"Phone": "(209) 826-8600",
+				"Insurance": "PPO Plans",
+				"Hours": {
+					"0": "Closed",
+					"1": "10 AM - 7 PM",
+					"2": "10 AM - 7 PM",
+					"3": "10 AM - 7 PM",
+					"4": "8 AM - 5 PM",
+					"5": "10 AM - 7 PM",
+					"6": "9 AM - 1 PM"
+				},
+				"Languages": "English and Spanish"
+			},
+			"22": {
+				"Name": "Ronald A. Carter DDS & Jeffery M. Carter DDS",
+				"Address": "1317 S. 6th St., Los Banos, CA 93635",
+				"Phone": "(209) 826-5732",
+				"Insurance": "Multiple insurance plans including Guardian Dental, Dental Network of America, and Ameritas",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 12 PM, 1 PM - 5 PM",
+					"2": "8 AM - 12 PM, 1 PM - 5 PM",
+					"3": "8 AM - 12 PM, 1 PM - 5 PM",
+					"4": "8 AM - 12 PM, 1 PM - 5 PM",
+					"5": "8 AM - 12 PM",
+					"6": "Closed"
+				},
+				"Languages": "English"
+			},
+			"23": {
+				"Name": "Family Dental Care",
+				"Address": "1112 Main St, Livingston, CA 95334",
+				"Phone": "(209) 394-8383",
+				"Insurance": "Accept private insurance, no MediCal",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5 PM",
+					"2": "8 AM - 5 PM",
+					"3": "8 AM - 5 PM",
+					"4": "8 AM - 5 PM",
+					"5": "8 AM - 5 PM",
+					"6": "Closed"
+				},
+				"Languages": "Spanish"
+			},
+			"24": {
+				"Name": "Main Street Dental",
+				"Address": "1314 S. 6th St, Los Banos, CA 93635",
+				"Phone": "(209) 827-9226",
+				"Insurance": "All except medical",
+				"Hours": {
+					"0": "Closed",
+					"1": "9 AM - 6 PM",
+					"2": "8:30 AM - 5:30 PM",
+					"3": "8:30 AM - 5 PM",
+					"4": "8 AM - 5 PM",
+					"5": "8 AM - 12 PM",
+					"6": "Closed"
+				},
+				"Languages": "English"
+			},
+			"25": {
+				"Name": "Family and Cosmetic Dentistry",
+				"Address": "1402 California Ave, Dos Palos, CA 93620",
+				"Phone": "(209) 392-6166",
+				"Insurance": "Ameritas, Gaurdian, and United Healthcare – Delta Dental Premier",
+				"Hours": {
+					"0": "Closed",
+					"1": "8 AM - 5 PM",
+					"2": "8 AM - 5 PM",
+					"3": "8 AM - 5 PM",
+					"4": "8 AM - 5 PM",
+					"5": "8 AM - 2 PM",
+					"6": "Closed"
+				},
+				"Languages": "English"
+			},
+			"26": {
+				"Name": "Singh Dental Care",
+				"Address": "1472 B St, Livingston, CA 95334",
+				"Phone": "(209) 394-5175",
+				"Insurance": "Contact for more info",
+				"Hours": {
+					"0": "Closed",
+					"1": "8:30 AM - 5:30 PM",
+					"2": "Closed",
+					"3": "8 AM - 2 PM",
+					"4": "Closed",
+					"5": "8:30 AM - 5:30 PM",
+					"6": "8 AM - 4 PM"
+				},
+				"Languages": "English"
+			}
+		}
+	},
+	"Settings": {
+		"Links": {
+			"0": "https://bpac.org.nz/",
+			"1": "https://www.emedicinehealth.com/script/main/hp.asp",
+			"2": "https://health.mo.gov/",
+			"3": "https://www.webmd.com/",
+			"4": "https://www.livestrong.com/",
+			"5": "https://www.nlm.nih.gov/",
+			"6": "https://www.drugs.com/",
+			"7": "https://www.cdc.gov/"
+		},
+		"Background": "Healthy House, a non-profit which trains professional healthcare interpreters, is dedicated to addressing health disparities in the cultural communities of the Central Valley of California, one of the most diverse areas in the country. \n\nIts Healthy Host program, in collaboration with the UC engineering and Project Protect student groups, has developed this application to address the serious issue of the misuse and overuse of antibiotics. Since the discovery of these miracle drugs, doctors have been relying on antibiotics to treat many illnesses common to the public. \n\nHowever, the common overuse of antibiotics to treat viral infections, for which they are ineffective, has created a crisis of very resistant bacteria that exhibit limited or no response to antibiotics. This has led to the prescribing of stronger and larger amounts of antibiotics, further exacerbating the problem. Additionally, antibiotics are frequently misused. For example, when patients don’t complete their full course of treatment with antibiotics, the effectiveness of the medication is compromised. In addition, members of cultural communities often procure antibiotics through underground or unregulated sources. This contributes to the misuse of antibiotics that are too strong or not appropriate for the respective illnesses being targeted. \n\nIt is with high hopes that this ‘app’ helps promote understanding of the serious health crisis of antibiotic resistance and what can be done to prevent it."
+	},
+	"Title_VI": "Several Federal and State laws and regulations mandate linguistic competence. Primarily, the U.S. Department of Health and Human Services Office for Civil Rights (OCR) requires all recipients of federal funds to comply with Title VI of the Civil Rights Act of 1964. Compliance prohibits discrimination based on race or national origin, such as failing to provide effective methods of communication between English speaking providers and patients with Limited English Proficiency (LEP). For an interpreter call Healthy House: (209) 724-0102. For information on Title VI call: (800) 242-2752 or the Office of Civil Rights: (415) 437-8310."
+}

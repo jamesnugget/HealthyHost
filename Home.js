@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform, StyleSheet, View, Text, Image, ScrollView, Dimensions, StatusBar } from 'react-native';
+import { Platform, StyleSheet, View, Text, Image, ScrollView, Dimensions, StatusBar, Linking } from 'react-native';
 import { Button } from 'native-base';
 import AsyncStorage from '@react-native-community/async-storage';
 import SafariView from 'react-native-safari-view';

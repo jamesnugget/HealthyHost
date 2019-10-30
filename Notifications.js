@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text, ScrollView, Dimensions, Button, StatusBar } from 'react-native';
+import { StyleSheet, View, Text, ScrollView, Dimensions, StatusBar, Platform } from 'react-native';
 import PushController from './pushController.js'
 import PushNotification from 'react-native-push-notification';
 import AsyncStorage from '@react-native-community/async-storage';
@@ -55,9 +55,16 @@ export default class NotificationsScreen extends React.PureComponent {
       alert(e);
     }
 
-    this.setState({
-      notificationTime: moment(d)
-    });
+    if (Platform.OS === 'ios') {
+      this.setState({
+        notificationTime: moment(d)
+      });
+    }
+    else {
+      this.setState({
+        notificationTime: d
+      });
+    }
 
     PushNotification.cancelAllLocalNotifications();
 

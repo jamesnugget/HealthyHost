@@ -1,4 +1,0 @@
-#Thu May 16 16:12:22 PDT 2019
-base.0=/Users/1tbhd/Documents/GitHub/HealthyHost/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

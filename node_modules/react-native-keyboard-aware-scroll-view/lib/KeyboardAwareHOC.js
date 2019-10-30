@@ -2,7 +2,7 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import ReactNative, {
+import {
   Keyboard,
   Platform,
   UIManager,
@@ -104,7 +104,11 @@ export type KeyboardAwareHOCOptions = ?{
 }
 
 function getDisplayName(WrappedComponent: React$Component) {
-  return WrappedComponent && (WrappedComponent.displayName || WrappedComponent.name) || 'Component'
+  return (
+    (WrappedComponent &&
+      (WrappedComponent.displayName || WrappedComponent.name)) ||
+    'Component'
+  )
 }
 
 const ScrollIntoViewDefaultOptions: KeyboardAwareHOCOptions = {
@@ -137,7 +141,7 @@ const ScrollIntoViewDefaultOptions: KeyboardAwareHOCOptions = {
 
 function KeyboardAwareHOC(
   ScrollableComponent: React$Component,
-  userOptions: KeyboardAwareHOCOptions
+  userOptions: KeyboardAwareHOCOptions = {}
 ) {
   const hocOptions: KeyboardAwareHOCOptions = {
     ...ScrollIntoViewDefaultOptions,
@@ -237,9 +241,9 @@ function KeyboardAwareHOC(
       })
     }
 
-    componentWillReceiveProps(nextProps: KeyboardAwareHOCProps) {
-      if (nextProps.viewIsInsideTabBar !== this.props.viewIsInsideTabBar) {
-        const keyboardSpace: number = nextProps.viewIsInsideTabBar
+    componentDidUpdate(prevProps: KeyboardAwareHOCProps) {
+      if (this.props.viewIsInsideTabBar !== prevProps.viewIsInsideTabBar) {
+        const keyboardSpace: number = this.props.viewIsInsideTabBar
           ? _KAM_DEFAULT_TAB_BAR_HEIGHT
           : 0
         if (this.state.keyboardSpace !== keyboardSpace) {
@@ -260,6 +264,7 @@ function KeyboardAwareHOC(
     getScrollResponder = () => {
       return (
         this._rnkasv_keyboardView &&
+        this._rnkasv_keyboardView.getScrollResponder &&
         this._rnkasv_keyboardView.getScrollResponder()
       )
     }
@@ -436,7 +441,11 @@ function KeyboardAwareHOC(
         this.defaultResetScrollToCoords = null
         return
       } else if (this.props.resetScrollToCoords) {
-        this.scrollToPosition(this.props.resetScrollToCoords.x, this.props.resetScrollToCoords.y, true)
+        this.scrollToPosition(
+          this.props.resetScrollToCoords.x,
+          this.props.resetScrollToCoords.y,
+          true
+        )
       } else {
         if (this.defaultResetScrollToCoords) {
           this.scrollToPosition(
@@ -459,7 +468,7 @@ function KeyboardAwareHOC(
       if (extraHeight === undefined) {
         extraHeight = this.props.extraHeight
       }
-      const reactNode = ReactNative.findNodeHandle(nodeID)
+      const reactNode = findNodeHandle(nodeID)
       this.scrollToFocusedInput(
         reactNode,
         extraHeight + this.props.extraScrollHeight,
