@@ -1,5 +1,14 @@
 {
+	"Notification": {
+		"Notifications": "Notifications",
+		"Notification_Description": "Alerts you for when you need to brush your teeth",
+		"Brush_Your_Teeth": "Brush Your Teeth",
+		"Time": "Time",
+		"Notification_Title": "Hygiene Reminder!",
+		"Notification_Message": "Don't forget to brush your teeth at least twice for two minutes each time today!"
+	},
 	"Text": {
+		"Select_Language": "Select Language",
 		"Intro": "Welcome to Healthy Host!",
 		"Description": "Description",
 		"Uses": "Uses",

@@ -1,0 +1,4 @@
+#Fri Nov 01 23:42:27 PDT 2019
+base.0=/Users/1tbhd/Documents/GitHub/HealthyHost/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

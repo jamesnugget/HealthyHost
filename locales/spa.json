@@ -1,5 +1,14 @@
 {
+  "Notification": {
+    "Notifications": "Notificaciones",
+    "Notification_Description": "Te avisa cuando necesitas cepillarte los dientes",
+    "Brush_Your_Teeth": "Cepillarse los Dientes",
+    "Time": "Tiempo",
+    "Notification_Title": "¡Recordatorio de higiene!",
+    "Notification_Message": "¡No olvides cepillarte los dientes al menos dos veces durante dos minutos cada vez hoy!"
+  },
   "Text": {
+    "Select_Language": "Seleccione el Idioma",
     "Intro": "¡Bienvenidos a Healthy Host!",
     "Description": "Descripción",
     "Uses": "Usos",

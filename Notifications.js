@@ -29,6 +29,8 @@ export default class NotificationsScreen extends React.PureComponent {
     notificationTime: null,
     isDateTimePickerVisible: false,
     gottenTime: false,
+    notificationTitle: I18n.t('Notification.Notification_Title'),
+    notificationMessage: I18n.t('Notification.Notification_Message')
   };
 
   onContentSizeChange = (contentWidth, contentHeight) => {
@@ -72,11 +74,19 @@ export default class NotificationsScreen extends React.PureComponent {
 
   };
 
-  handleOnPress = () => {
+  handleOnPress = async () => {
     if (this.state.toggleBrushTeeth == true) {
+
+      try {
+        await AsyncStorage.setItem('notificationTitle', this.state.notificationTitle);
+        await AsyncStorage.setItem('notificationMessage', this.state.notificationMessage);
+      } catch (e) {
+        alert(e);
+      }
+
       PushNotification.localNotificationSchedule({
-        title: "Hygiene Reminder!",
-        message: "Don't forget to brush your teeth at least twice today!",
+        title: this.state.notificationTitle,
+        message: this.state.notificationMessage,
         playSound: false,
         repeatType: 'day',
         date: this.state.notificationTime
@@ -187,13 +197,14 @@ export default class NotificationsScreen extends React.PureComponent {
       <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
         <StatusBar barStyle="light-content" />
         <View style={{ flex: 1 }}>
+
           <PushController />
 
-          <ListItem title="Notifications" bottomDivider titleStyle={{ fontSize: 20 }} switch={{ onValueChange: this.toggleSwitch1, value: this.state.toggleNotifications }} />
+          <ListItem title={I18n.t('Notification.Notifications')} bottomDivider titleStyle={{ fontSize: 20 }} switch={{ onValueChange: this.toggleSwitch1, value: this.state.toggleNotifications }} />
 
-          <Text style={{ opacity: 0.7, paddingTop: 30, paddingLeft: 10, paddingRight: 10 }}>Alerts you for when you need to brush your teeth.</Text>
-          <ListItem topDivider bottomDivider title="Brush Your Teeth" titleStyle={{ fontSize: 20 }} switch={{ disabled: !this.state.toggleNotifications, onValueChange: this.toggleSwitch2, value: this.state.toggleBrushTeeth }}></ListItem>
-          <ListItem disabled={!this.state.toggleNotifications} bottomDivider title="Time" titleStyle={{ fontSize: 20 }} onPress={this.showDateTimePicker} rightElement={<Text style={{ opacity: 0.7 }}>{moment(this.state.notificationTime).format('LT')}</Text>} />
+          <Text style={{ opacity: 0.7, paddingTop: 30, paddingLeft: 10, paddingRight: 10 }}>{I18n.t('Notification.Notification_Description')}</Text>
+          <ListItem topDivider bottomDivider title={I18n.t('Notification.Brush_Your_Teeth')} titleStyle={{ fontSize: 20 }} switch={{ disabled: !this.state.toggleNotifications, onValueChange: this.toggleSwitch2, value: this.state.toggleBrushTeeth }}></ListItem>
+          <ListItem disabled={!this.state.toggleNotifications} bottomDivider title={I18n.t('Notification.Time')} titleStyle={{ fontSize: 20 }} onPress={this.showDateTimePicker} rightElement={<Text style={{ opacity: 0.7 }}>{moment(this.state.notificationTime).format('LT')}</Text>} />
 
           <DateTimePicker isVisible={this.state.isDateTimePickerVisible} onConfirm={this.handleDatePicked} onCancel={this.hideDateTimePicker} mode="time" is24Hour={false} date={new Date(this.state.notificationTime)} />
 
