@@ -74,7 +74,6 @@ export default class HomeScreen extends React.PureComponent {
 
     if (state) {
       Output.push(
-
         <ScrollView key={0} contentContainerStyle={{ flexGrow: 1, justifyContent: "center", alignItems: 'center', }} style={{ flex: 1, ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.9)' }} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
 
           <Text style={styles.choose_language}>{I18n.t('Text.Select_Language')}:</Text>
@@ -89,21 +88,16 @@ export default class HomeScreen extends React.PureComponent {
           <Button onPress={() => this.saveLanguage("spa")} style={styles.language_button}><Text style={styles.language_text}>Español</Text></Button>
           <Button onPress={() => this.saveLanguage("hmn")} style={styles.language_button}><Text style={styles.language_text}>Hmong</Text></Button>
 
-          <Icon
-            name="check"
-            size={40}
-            color={'#007aff'}
-            onPress={() => this.setState({ language_settings: false })}
-            style={{
-              position: 'absolute',
-              right: 30,
-              top: 30,
-              backgroundColor: "white",
-              borderRadius: 100,
-            }}
-          />
-        </ScrollView>
+          <View style={{ position: 'absolute', right: 30, top: 30, borderRadius: 100, backgroundColor: 'white' }}>
+            <Icon
+              name="check"
+              size={40}
+              color={'#007aff'}
+              onPress={() => this.setState({ language_settings: false })}
+            />
+          </View>
 
+        </ScrollView>
       );
     }
 
@@ -176,7 +170,7 @@ export default class HomeScreen extends React.PureComponent {
 
         <View style={styles.container}>
 
-          <PushController />
+
 
           <Icon
             name="web"

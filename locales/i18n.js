@@ -1,4 +1,11 @@
-import I18n from 'react-native-i18n';
+import I18n from "i18n-js";
+import * as RNLocalize from "react-native-localize";
+
+const locales = RNLocalize.getLocales();
+
+if (Array.isArray(locales)) {
+  I18n.locale = locales[0].languageTag;
+}
 
 // Should the app fallback to English if user locale doesn't exists
 I18n.fallbacks = true;
