@@ -46,6 +46,7 @@
 		CE4FD30723703DD300C20D58 /* libRNLocalize.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4FD2EA23703DD200C20D58 /* libRNLocalize.a */; };
 		CE4FD30823703DD300C20D58 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4FD2EB23703DD200C20D58 /* libRNVectorIcons.a */; };
 		CE4FD30923703DD300C20D58 /* libYoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4FD2EC23703DD200C20D58 /* libYoga.a */; };
+		CE531C582371FA9A001E056F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +167,7 @@
 			files = (
 				CE4FD30823703DD300C20D58 /* libRNVectorIcons.a in Frameworks */,
 				CE4FD30323703DD200C20D58 /* libReact-RCTVibration.a in Frameworks */,
+				CE531C582371FA9A001E056F /* JavaScriptCore.framework in Frameworks */,
 				CE4FD2ED23703DD200C20D58 /* libDoubleConversion.a in Frameworks */,
 				CE4FD2F623703DD200C20D58 /* libReact-jsi.a in Frameworks */,
 				CE4FD30123703DD200C20D58 /* libReact-RCTSettings.a in Frameworks */,

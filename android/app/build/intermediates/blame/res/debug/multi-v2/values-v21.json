@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/1tbhd/Desktop/Healthy Host/HealthyHost/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/1tbhd/Documents/GitHub/HealthyHost/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/1tbhd/.gradle/caches/transforms-2/files-2.1/85c24ec0da4bea20a59e5b2cf1aa2b24/res/values-v21/values-v21.xml",
