@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "/Users/1tbhd/.gradle/caches/transforms-2/files-2.1/d5c190dd4ecebe4137e1c08539e48d3c/res/values-lt/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "101",
+                        "endOffsets": "308"
+                    },
+                    "to": {
+                        "startLines": "47",
+                        "startColumns": "4",
+                        "startOffsets": "5650",
+                        "endColumns": "105",
+                        "endOffsets": "5751"
+                    }
+                },
+                {
                     "source": "/Users/1tbhd/.gradle/caches/transforms-2/files-2.1/e5630e10a46dbdd96ff0b1135ef07a70/res/values-lt/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -86,23 +103,6 @@
                         "startOffsets": "4059",
                         "endColumns": "217",
                         "endOffsets": "4272"
-                    }
-                },
-                {
-                    "source": "/Users/1tbhd/.gradle/caches/transforms-2/files-2.1/30f938d95f2a2db343bc8aefd6da30c6/res/values-lt/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "101",
-                        "endOffsets": "306"
-                    },
-                    "to": {
-                        "startLines": "47",
-                        "startColumns": "4",
-                        "startOffsets": "5650",
-                        "endColumns": "105",
-                        "endOffsets": "5751"
                     }
                 }
             ]

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 05 08:49:10 PST 2019
+#Tue Nov 12 09:49:23 PST 2019
 60.set=ASSET
 52.set=ASSET
 53.base=/Users/1tbhd/Documents/GitHub/HealthyHost/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

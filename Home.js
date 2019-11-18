@@ -5,7 +5,7 @@ import PushController from './pushController.js'
 import PushNotification from 'react-native-push-notification';
 import AsyncStorage from '@react-native-community/async-storage';
 import SafariView from 'react-native-safari-view';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
+import Icon from 'react-native-vector-icons/Entypo';
 
 /* Imports app information from language files */
 import I18n from './locales/i18n.js';
@@ -170,19 +170,18 @@ export default class HomeScreen extends React.PureComponent {
 
         <View style={styles.container}>
 
-
-
           <Icon
-            name="web"
+            name="language"
             size={40}
             color={'#007aff'}
             onPress={() => this.setState({ language_settings: true })}
             style={{
               position: 'absolute',
-              left: 30,
+              left: 22,
               top: 30,
             }}
           />
+          <Text style={{ textAlign: 'left', fontWeight: 'bold', fontSize: 13, position: 'absolute', left: 20, top: 75 }}>{I18n.t('Text.Languages')}</Text>
 
           <Icon
             name="bell"
@@ -191,10 +190,11 @@ export default class HomeScreen extends React.PureComponent {
             onPress={() => this.props.navigation.navigate("Notifications")}
             style={{
               position: 'absolute',
-              right: 30,
+              right: 15,
               top: 30,
             }}
           />
+          <Text style={{ textAlign: 'right', fontWeight: 'bold', fontSize: 13, position: 'absolute', right: 15, top: 75 }}>{I18n.t('Notification.Notifications')}</Text>
 
           {/* Healthy House Logo */}
           <Image style={{ width: '50%', resizeMode: 'contain' }} source={require('./assets/ic_launcher.png')} />

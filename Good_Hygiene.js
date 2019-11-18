@@ -1,14 +1,25 @@
 import React from 'react';
 import { StyleSheet, View, Text, ScrollView, Dimensions, StatusBar } from 'react-native';
 import { Button } from 'native-base';
+import { Player } from '@react-native-community/audio-toolkit';
+import AsyncStorage from '@react-native-community/async-storage';
 
 import I18n from './locales/i18n.js';
 
 var object = require('./locales/en.json');
 
+var string = "";
+
 const { height } = Dimensions.get('window');
 
 export default class GoodHygieneScreen extends React.PureComponent {
+
+  p: Player | null;
+
+  playbackOptions = {
+    autoDestroy: false,
+    continuesToPlayInBackground: false
+  };
 
   static navigationOptions = () => ({
     title: 'Healthy Host',
@@ -19,19 +30,27 @@ export default class GoodHygieneScreen extends React.PureComponent {
     }
   });
 
-  //This funciton only applies to the "Hmong" language for now
-  makeAudioButtons = () => {
-    //var string = I18n.locale;
+  retrieveLanguage = async () => {
+    try {
+      string = await AsyncStorage.getItem('language');
+    } catch (error) {
+      alert(error);
+    }
+  }
 
-    //var n = string.localeCompare("hmn");
+  //will destroy the player once the user leaves the screen
+  componentWillUnmount() {
+    this.p.destroy();
+  }
+
+  makeAudioButtons = () => {
 
     Output = []
 
-    //if (n == 0) {
-    Output.push(<Button key={0} onPress={() => { alert("Coming Soon!", "Will play audio.") }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Play</Text></Button>);
-    Output.push(<Button key={1} onPress={() => { alert("Coming Soon!", "Audio will pause.") }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Pause</Text></Button>);
-    Output.push(<Button key={2} onPress={() => { alert("Coming Soon!", "Audio will stop.") }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Stop</Text></Button>);
-    //}
+    Output.push(<Button key={0} onPress={() => { this.p.play() }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Play</Text></Button>);
+    Output.push(<Button key={1} onPress={() => { this.p.pause() }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Pause</Text></Button>);
+    Output.push(<Button key={2} onPress={() => { this.p.stop() }} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Stop</Text></Button>);
+
     return Output;
   };
 
@@ -63,6 +82,11 @@ export default class GoodHygieneScreen extends React.PureComponent {
   }
 
   render() {
+    this.retrieveLanguage();
+
+    var audio = string + "_" + "good_hygiene.aac";
+
+    this.p = new Player(audio, this.playbackOptions);
     return (
       <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
         <StatusBar barStyle="light-content" />
