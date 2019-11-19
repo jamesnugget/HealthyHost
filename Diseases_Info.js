@@ -14,8 +14,10 @@ const { height } = Dimensions.get('window');
 
 export default class DiseasesInfoScreen extends React.PureComponent {
 
+  //creates audio player as state for whole component
   p: Player | null;
 
+  //an object that contains the settings necessary for the audio player to function properly
   playbackOptions = {
     autoDestroy: false,
     continuesToPlayInBackground: false
@@ -29,6 +31,7 @@ export default class DiseasesInfoScreen extends React.PureComponent {
     }
   });
 
+  //function will retrieve the saved language preference of the application and set it into the "string" variable
   retrieveLanguage = async () => {
     try {
       string = await AsyncStorage.getItem('language');
@@ -75,7 +78,6 @@ export default class DiseasesInfoScreen extends React.PureComponent {
   }
 
   makeAudioButtons = () => {
-
     Output = []
 
     Output.push(<Button key={0} onPress={() => this.p.play()} style={{ backgroundColor: '#DCDCDC', alignSelf: "center", width: '25%', justifyContent: "center", margin: 10, borderRadius: 15 }}><Text style={{ color: 'black', fontSize: 20 }}>Play</Text></Button>);
@@ -94,14 +96,17 @@ export default class DiseasesInfoScreen extends React.PureComponent {
   };
 
   render() {
+    //calls this function to retrieve the language setting
     this.retrieveLanguage();
 
     const { navigation } = this.props;
 
     const disease = navigation.getParam('disease');
 
+    //creates variable named "audio" and concatinates "string" with temporary modified version of the disease parameter
     var audio = string + "_" + disease.toLowerCase().replace(/ /g, "_").normalize("NFD").replace(/[\u0300-\u036f]/g, "") + ".aac";
 
+    //sets the state as a new audio player with the provided parameters
     this.p = new Player(audio, this.playbackOptions);
 
     return (
