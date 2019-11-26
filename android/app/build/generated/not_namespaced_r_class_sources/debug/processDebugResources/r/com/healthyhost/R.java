@@ -3479,7 +3479,7 @@ public final class R {
     public static final int spa_good_hygiene=0x7f0b0008;
     public static final int spa_la_caries_dental=0x7f0b0009;
     public static final int spa_levaquin=0x7f0b000a;
-    public static final int spa_metronizadol=0x7f0b000b;
+    public static final int spa_metronidazol=0x7f0b000b;
     public static final int spa_ofloxacino=0x7f0b000c;
     public static final int spa_often_dentist=0x7f0b000d;
     public static final int spa_penicilina_g=0x7f0b000e;

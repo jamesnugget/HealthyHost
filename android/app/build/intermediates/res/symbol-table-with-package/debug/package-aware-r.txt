@@ -894,7 +894,7 @@ raw spa_gingivitis
 raw spa_good_hygiene
 raw spa_la_caries_dental
 raw spa_levaquin
-raw spa_metronizadol
+raw spa_metronidazol
 raw spa_ofloxacino
 raw spa_often_dentist
 raw spa_penicilina_g

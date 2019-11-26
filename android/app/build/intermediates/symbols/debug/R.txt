@@ -893,7 +893,7 @@ int raw spa_gingivitis 0x7f0b0007
 int raw spa_good_hygiene 0x7f0b0008
 int raw spa_la_caries_dental 0x7f0b0009
 int raw spa_levaquin 0x7f0b000a
-int raw spa_metronizadol 0x7f0b000b
+int raw spa_metronidazol 0x7f0b000b
 int raw spa_ofloxacino 0x7f0b000c
 int raw spa_often_dentist 0x7f0b000d
 int raw spa_penicilina_g 0x7f0b000e
