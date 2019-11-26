@@ -9,6 +9,8 @@ import I18n from './locales/i18n.js';
 
 var object = require('./locales/en.json');
 
+var string = "";
+
 const { height } = Dimensions.get('window');
 
 export default class IllnessesInfoScreen extends React.PureComponent {
