@@ -36,7 +36,7 @@ export default class TitleVIScreen extends React.PureComponent {
     }
   }
 
-  //will destroy the player once the user leaves the 
+  //will destroy the player once the user leaves the screen
   componentWillUnmount() {
     this.p.destroy();
   }
