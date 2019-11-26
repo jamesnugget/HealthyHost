@@ -3468,13 +3468,28 @@ public final class R {
     public static final int ic_launcher_round=0x7f0a0001;
   }
   public static final class raw {
-    public static final int spa_gingivitis=0x7f0b0000;
-    public static final int spa_good_hygiene=0x7f0b0001;
-    public static final int spa_la_caries_dental=0x7f0b0002;
-    public static final int spa_often_dentist=0x7f0b0003;
-    public static final int spa_perdida_de_dientes=0x7f0b0004;
-    public static final int spa_periodontitis=0x7f0b0005;
-    public static final int spa_teeth_gum=0x7f0b0006;
+    public static final int spa_amoxicilina=0x7f0b0000;
+    public static final int spa_azitromicina=0x7f0b0001;
+    public static final int spa_cefalexina=0x7f0b0002;
+    public static final int spa_ceftriaxona=0x7f0b0003;
+    public static final int spa_doxiciclina=0x7f0b0004;
+    public static final int spa_eritromicina=0x7f0b0005;
+    public static final int spa_flucloxacilina=0x7f0b0006;
+    public static final int spa_gingivitis=0x7f0b0007;
+    public static final int spa_good_hygiene=0x7f0b0008;
+    public static final int spa_la_caries_dental=0x7f0b0009;
+    public static final int spa_levaquin=0x7f0b000a;
+    public static final int spa_metronizadol=0x7f0b000b;
+    public static final int spa_ofloxacino=0x7f0b000c;
+    public static final int spa_often_dentist=0x7f0b000d;
+    public static final int spa_penicilina_g=0x7f0b000e;
+    public static final int spa_perdida_de_dientes=0x7f0b000f;
+    public static final int spa_periodontitis=0x7f0b0010;
+    public static final int spa_preguntas_para_su_doctor=0x7f0b0011;
+    public static final int spa_teeth_gum=0x7f0b0012;
+    public static final int spa_titlevi=0x7f0b0013;
+    public static final int spa_uso_de_antibioticos_correcto=0x7f0b0014;
+    public static final int spa_uso_de_antibioticos_incorrecto=0x7f0b0015;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0c0000;
