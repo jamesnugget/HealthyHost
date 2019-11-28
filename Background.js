@@ -46,38 +46,6 @@ export default class BackgroundScreen extends React.PureComponent {
     this.p.destroy();
   }
 
-  makePage = (disease) => {
-    Output = []
-
-    var curr = 0;
-
-    var objectSize = Object.keys(object.Oral_Health.Diseases).length;
-
-    for (i = 0; i < objectSize; i++) {
-
-      var string = I18n.t('Oral_Health.Diseases.' + i + '.Name');
-
-      var n = string.localeCompare(disease);
-
-      if (n == 0) {
-        curr = i;
-        break;
-      }
-    }
-
-    Output.push(<Text key={0} style={{ textAlign: "center", padding: 10, fontSize: 40, color: "black", fontWeight: "bold" }}>{disease}</Text>);
-    Output.push(<Text key={1} style={{ textAlign: "center", padding: 10, fontSize: 30, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Symptoms')}</Text>);
-    Output.push(<Text key={2} style={{ padding: 10, fontSize: 22, color: "black" }}>{I18n.t('Oral_Health.Diseases.' + curr + '.Symptoms')}</Text>);
-    Output.push(<Text key={3} style={{ textAlign: "center", padding: 10, fontSize: 30, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Causes')}</Text>);
-    Output.push(<Text key={4} style={{ padding: 10, fontSize: 22, color: "black" }}>{I18n.t('Oral_Health.Diseases.' + curr + '.Causes')}</Text>);
-    Output.push(<Text key={5} style={{ textAlign: "center", padding: 10, fontSize: 30, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Treatment')}</Text>);
-    Output.push(<Text key={6} style={{ padding: 10, fontSize: 22, color: "black" }}>{I18n.t('Oral_Health.Diseases.' + curr + '.Treatment')}</Text>);
-    Output.push(<Text key={7} style={{ textAlign: "center", padding: 10, fontSize: 30, color: "black", fontWeight: "bold" }}>{I18n.t('Text.Cost_Treatment')}</Text>);
-    Output.push(<Text key={8} style={{ padding: 10, fontSize: 22, color: "black" }}>{I18n.t('Oral_Health.Diseases.' + curr + '.Cost_Treatment')}</Text>);
-
-    return Output;
-  }
-
   makeAudioButtons = () => {
     Output = []
 
@@ -101,16 +69,11 @@ export default class BackgroundScreen extends React.PureComponent {
     //calls this function to retrieve the language setting
     this.retrieveLanguage();
 
-    const { navigation } = this.props;
-
-    const disease = navigation.getParam('disease');
-
     //creates variable named "audio" and concatinates "string" with temporary modified version of the disease parameter
-    var audio = string + "_" + disease.toLowerCase().replace(/ /g, "_").normalize("NFD").replace(/[\u0300-\u036f]/g, "") + ".aac";
+    var audio = string + "_background.aac";
 
     //sets the state as a new audio player with the provided parameters
     this.p = new Player(audio, this.playbackOptions);
-
 
     return (
       <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
