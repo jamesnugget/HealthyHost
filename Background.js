@@ -56,7 +56,6 @@ export default class BackgroundScreen extends React.PureComponent {
     return Output;
   };
 
-
   state = {
     screenHeight: height,
   };

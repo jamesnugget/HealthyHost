@@ -49,6 +49,7 @@ export default class TitleVIScreen extends React.PureComponent {
   };
 
   onContentSizeChange = (contentWidth, contentHeight) => {
+    console.log("contentHeight: " + contentHeight);
     this.setState({ screenHeight: contentHeight });
   };
 
@@ -69,15 +70,17 @@ export default class TitleVIScreen extends React.PureComponent {
     //creates variable named "audio" and concatinates "string" with temporary modified version of the disease parameter
     var audio = string + "_titlevi.aac";
 
-    console.log(audio);
-
     //sets the state as a new audio player with the provided parameters
     this.p = new Player(audio, this.playbackOptions);
 
+    const scrollEnabled = this.state.screenHeight > height;
+
+    console.log("screenHeight: " + this.state.screenHeight);
+    console.log("height: " + height);
     return (
-      <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={true} onContentSizeChange={this.onContentSizeChange}>
+      <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.scrollview} scrollEnabled={scrollEnabled} onContentSizeChange={this.onContentSizeChange}>
         <StatusBar barStyle="light-content" />
-        <View style={{ flex: 1, alignItems: 'center' }}>
+        <View style={styles.content}>
 
           <View style={{ flexDirection: 'row', justifyContent: "center" }}>
             {this.makeAudioButtons()}
@@ -87,7 +90,7 @@ export default class TitleVIScreen extends React.PureComponent {
           <Text style={{ color: '#000000', fontSize: 20, padding: 10 }}>{I18n.t('Title_VI')}</Text>
 
           {/* Healthy House Logo */}
-          <Image style={{ width: '50%', height: '30%', resizeMode: 'stretch' }} source={require('./assets/HHL.png')} />
+          <Image style={{ width: '80%', resizeMode: 'contain', }} source={require('./assets/HHL.png')} />
 
         </View>
       </ScrollView>
@@ -98,5 +101,9 @@ export default class TitleVIScreen extends React.PureComponent {
 const styles = StyleSheet.create({
   scrollview: {
     flexGrow: 1,
+  },
+  content: {
+    flex: 1,
+    alignItems: "center",
   },
 });

@@ -104,7 +104,7 @@ export default class DiseasesInfoScreen extends React.PureComponent {
     const disease = navigation.getParam('disease');
 
     //creates variable named "audio" and concatinates "string" with temporary modified version of the disease parameter
-    var audio = string + "_" + disease.toLowerCase().replace(/ /g, "_").normalize("NFD").replace(/[\u0300-\u036f]/g, "") + ".aac";
+    var audio = string + "_" + disease.toLowerCase().replace(/ /g, "_").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '') + ".aac";
 
     //sets the state as a new audio player with the provided parameters
     this.p = new Player(audio, this.playbackOptions);
